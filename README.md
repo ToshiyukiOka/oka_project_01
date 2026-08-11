@@ -34,6 +34,7 @@ Palantir 的な Operational Ontology の肝は「**静的な知識グラフで�
 | [`docs/02_architecture.md`](docs/02_architecture.md) | 技術アーキテクチャ（レイヤ構成／データ取り込み／エージェント／メモリ／技術選定） |
 | [`docs/03_ontology_schema.md`](docs/03_ontology_schema.md) | Personal Ontology のスキーマ（Objects / Links / Actions / Functions） |
 | [`docs/04_roadmap.md`](docs/04_roadmap.md) | フェーズ別ロードマップと MVP スコープ |
+| [`docs/05_pm_review.md`](docs/05_pm_review.md) | VC / PM 視点の診断・ブラッシュアップ（killshot・ウェッジ・動機設計） |
 
 ---
 
