@@ -1,0 +1,16 @@
+{
+  "name": "personal-brain-os",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Personal Brain OS (codename Kagami) — walking skeleton. Local-first personal Digital Twin that coaches indie hackers from AsIs to ToBe.",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "start": "node --experimental-strip-types src/cli/main.ts",
+    "demo": "node --experimental-strip-types src/cli/main.ts demo",
+    "brief": "node --experimental-strip-types src/cli/main.ts brief",
+    "reset": "node --experimental-strip-types src/cli/main.ts reset"
+  }
+}

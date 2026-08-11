@@ -4,7 +4,14 @@
 > 自分のデータから **Personal Ontology（個人のデジタルツイン）** を構築し、その上で動く AI エージェントが、
 > **AsIs（今の自分）から ToBe（なりたい自分）** に近づくためのバディ／コーチとして伴走する。
 
-このリポジトリは、そのプロダクトと技術アーキテクチャの**仕様のたたき台**を管理する。
+このリポジトリは、そのプロダクトと技術アーキテクチャの**仕様のたたき台**と、**MVP の歩くスケルトン（実コード）**を管理する。
+
+## 現在の焦点（確定した方向性）
+
+- **ウェッジ（最初の1セグメント）**: **ソロ起業家 / インディーハッカー**。
+  ToBe（例:「v1 をローンチ」「初収益」）が具体・測定可能で、孤独ゆえに伴走価値が高く、データがデジタルに揃い、Founder-Market Fit がオーナー自身に近い。
+- **勝ち筋の核**: 賢い自己モデルではなく、**やる気が切れた木曜の夜に開かれる「動機を内製する仕組み」**（→ [`docs/06`](docs/06_motivation_engine.md)）。
+- **技術方針（確定）**: ローカルファースト / Postgres 中心（必要に応じ pgGraph・AGE）/ 組織版とは共通化しない。
 
 ---
 
@@ -91,11 +98,41 @@ Sense（取り込み） → Model（自己モデル更新・AsIs算出）
 
 ---
 
+## MVP 歩くスケルトン（実際に動く）
+
+`取り込み → 自己モデル → AsIs 算出 → 介入(提案) → 伴走(Brief)` の最小一周を、
+**外部サービス不要・オフラインで**動かせる（Node 22 の型ストリッピングを使用。依存インストールも不要）。
+
+```bash
+npm run demo     # フル一周（Interview → Ontology 構築 → Morning Brief → 動機ステートマシンのデモ）
+npm run brief    # 保存済みの自己モデルからブリーフを再生成
+npm run reset    # データ初期化
+# ANTHROPIC_API_KEY を設定すると、事実抽出・言い換えを Claude(実LLM)が担当（任意）
+```
+
+### コード構成（概念 → 実装の対応）
+
+| パス | 役割 | 対応ドキュメント |
+| --- | --- | --- |
+| `src/ontology/types.ts` | Objects / Links / Actions / Functions / Motivation の型 | docs/03 |
+| `src/core/store.ts` | `OntologyStore` 抽象 + ローカル JSON 永続の `InMemoryStore`（本番は Postgres/AGE に差し替え） | docs/02 |
+| `src/core/functions.ts` | `gapScore` / `momentum` / `driftRisk` / `burnoutSignal` / **`motivationState`** / `nextBestActions` | docs/03・06 |
+| `src/core/loop.ts` | Sense→Model→Plan→Act→Learn の配線 | docs/02 §3.3 |
+| `src/agents/interviewer.ts` | 5問オンボーディング → 事実を confidence+lineage で書き込み | docs/05 §3 |
+| `src/agents/coach.ts` | Motivation State に応じ**姿勢を変えて** Morning Brief を生成 | docs/06 §4 |
+| `src/agents/llm.ts` | LLM ポート（オフライン Stub / Claude アダプタ） | docs/02 §3.2 |
+| `db/schema.sql` | 本番ターゲットの Postgres + pgvector + AGE スキーマ | docs/02 |
+
+> 差別化の核（動機の内製）は `functions.ts` の `motivationState()` と `coach.ts` の姿勢別テンプレに実装。
+> `demo` の【4】で「同じ人・違う状況 → 姿勢が変わる」様子を確認できる。
+
 ## ステータス
 
 - [x] コンセプト定義
 - [x] 仕様のたたき台（本リポジトリ）
-- [ ] MVP スコープ確定
-- [ ] プロトタイプ実装
+- [x] ウェッジ確定（インディーハッカー）／動機エンジン設計
+- [x] MVP 歩くスケルトン（動作確認済み）
+- [ ] Wizard-of-Oz 4週間検証（次の一手）
+- [ ] コネクタ実装（GitHub / カレンダー）と Postgres 移行
 
 > 本ドキュメントは議論のたたき台。ここから壁打ちして精緻化する前提。
