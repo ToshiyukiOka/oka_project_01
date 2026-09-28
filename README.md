@@ -42,6 +42,7 @@ Palantir 的な Operational Ontology の肝は「**静的な知識グラフで�
 | [`docs/03_ontology_schema.md`](docs/03_ontology_schema.md) | Personal Ontology のスキーマ（Objects / Links / Actions / Functions） |
 | [`docs/04_roadmap.md`](docs/04_roadmap.md) | フェーズ別ロードマップと MVP スコープ |
 | [`docs/05_pm_review.md`](docs/05_pm_review.md) | VC / PM 視点の診断・ブラッシュアップ（killshot・ウェッジ・動機設計） |
+| [`docs/07_claude_processing_architecture.md`](docs/07_claude_processing_architecture.md) | Claude 内部処理の解剖図（Memory × 複数 MCP から出力までのハーネス／モデルの役割分解） |
 
 ---
 

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="490" viewBox="0 0 1240 490" role="img" aria-label="取得後から出力までの機能分解。コンテキストを読み、理解、統合、判断を経て、十分なら生成へ進み最終出力と書き戻しに至る。不足ならハーネスに追加の tool_use を出し、tool_result がコンテキストに追記されて最初から読み直す。">
+        <defs>
+<style>
+text {font-family: "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", system-ui, sans-serif; fill: #151A24;}
+.t-zone {font-family: "Zen Kaku Gothic New", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", system-ui, sans-serif; font-size: 15px; font-weight: 700;}
+.t-zsub {font-size: 11px; fill: #737D8F;}
+.t-box {font-size: 12.5px; font-weight: 700;}
+.t-sub {font-size: 11px; fill: #465063;}
+.t-lab {font-size: 11px; fill: #465063;}
+.t-lab-acc {font-size: 11px; fill: #C2410C; font-weight: 500;}
+.t-mono {font-family: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-size: 11px;}
+.t-num {font-family: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-size: 11px; fill: #737D8F;}
+.t-phase {font-family: "Zen Kaku Gothic New", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", system-ui, sans-serif; font-size: 14px; font-weight: 700;}
+.t-model {fill: #3445B8;}
+.z-ext {fill: #ECEEF2;}
+.z-h {fill: #E9EDF4;}
+.z-ctx {fill: #FFFFFF; stroke: #D8DDE5; stroke-width: 1;}
+.z-model {fill: #ECEEFA; stroke: #3445B8; stroke-width: 1.2; stroke-dasharray: 5 4;}
+.bx {fill: #FFFFFF; stroke: #D8DDE5; stroke-width: 1;}
+.bx-2 {fill: #F7F8FA; stroke: #D8DDE5; stroke-width: 1;}
+.bx-m {fill: #F8F9FE; stroke: #3445B8; stroke-width: 1; stroke-opacity: 0.45;}
+.bx-acc {fill: #FBE8DD; stroke: #C2410C; stroke-width: 1;}
+.seg {fill: #F7F8FA; stroke: #D8DDE5; stroke-width: 1;}
+.seg-a {fill: #F8F9FE; stroke: #D8DDE5; stroke-width: 1;}
+.seg-r {fill: #FBE8DD; stroke: #D8DDE5; stroke-width: 1;}
+.row-r {fill: #FFFFFF; stroke: #C2410C; stroke-width: 1; stroke-opacity: 0.6;}
+.ar {stroke: #5A6477; stroke-width: 1.4; fill: none;}
+.ar-acc {stroke: #C2410C; stroke-width: 1.8; fill: none;}
+.ar-dash {stroke: #5A6477; stroke-width: 1.3; fill: none; stroke-dasharray: 4 4;}
+.rule-dash {stroke: #737D8F; stroke-width: 1; stroke-dasharray: 3 3; fill: none;}
+.mk {fill: #5A6477;}
+.mk-acc {fill: #C2410C;}
+.brk {stroke: #5A6477; stroke-width: 1.2; fill: none;}
+.band-x {fill: #F7F8FA; stroke: #737D8F; stroke-width: 1; stroke-dasharray: 4 3;}
+text { font-family: "Noto Sans JP","Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic","Meiryo",sans-serif; }
+.t-zone, .t-phase { font-family: "Zen Kaku Gothic New","Noto Sans JP","Hiragino Sans","Yu Gothic","Meiryo",sans-serif; }
+.t-mono, .t-num { font-family: "IBM Plex Mono",Menlo,Consolas,monospace; }
+</style>
+          <marker id="f3a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="mk" d="M0,0 L10,5 L0,10 z"/></marker>
+          <marker id="f3b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="mk-acc" d="M0,0 L10,5 L0,10 z"/></marker>
+        </defs>
+        <rect x="0" y="0" width="1240" height="490" fill="#FFFFFF"/>
+
+        <!-- cross-cutting band -->
+        <rect class="band-x" x="20" y="16" width="1200" height="36" rx="8"/>
+        <text class="t-sub" x="36" y="39"><tspan style="font-weight:700;fill:#151A24">全段に常に作用</tspan>　指示の主体の階層（system・user ＞ ツール結果）· 安全方針 · プライバシー · ユーザーの嗜好（memory）</text>
+
+        <!-- phase headers -->
+        <text class="t-phase" x="20" y="88">I 理解</text>
+        <text class="t-phase" x="280" y="88">II 統合</text>
+        <text class="t-phase" x="540" y="88">III 判断</text>
+        <text class="t-phase" x="800" y="88">IV 生成</text>
+        <text class="t-phase" x="1060" y="88">出力</text>
+
+        <!-- I -->
+        <rect class="bx" x="20" y="104" width="220" height="60" rx="8"/>
+        <text class="t-num" x="32" y="127">01</text><text class="t-box" x="56" y="127">構造把握</text>
+        <text class="t-sub" x="32" y="150">どのソース・いつ・どの粒度か</text>
+        <rect class="bx" x="20" y="174" width="220" height="60" rx="8"/>
+        <text class="t-num" x="32" y="197">02</text><text class="t-box" x="56" y="197">意図の再アンカー</text>
+        <text class="t-sub" x="32" y="220">依頼・形式・読者・嗜好に戻る</text>
+        <rect class="bx" x="20" y="244" width="220" height="60" rx="8"/>
+        <text class="t-num" x="32" y="267">03</text><text class="t-box" x="56" y="267">信頼境界・出所評価</text>
+        <text class="t-sub" x="32" y="290">結果内の命令文はデータ扱い</text>
+
+        <!-- II -->
+        <rect class="bx" x="280" y="104" width="220" height="60" rx="8"/>
+        <text class="t-num" x="292" y="127">04</text><text class="t-box" x="316" y="127">関連性選別</text>
+        <text class="t-sub" x="292" y="150">attention で関連箇所を参照</text>
+        <rect class="bx" x="280" y="174" width="220" height="60" rx="8"/>
+        <text class="t-num" x="292" y="197">05</text><text class="t-box" x="316" y="197">エンティティ解決・時間整合</text>
+        <text class="t-sub" x="292" y="220">@handle＝担当者＝参加者 · TZ</text>
+        <rect class="bx" x="280" y="244" width="220" height="60" rx="8"/>
+        <text class="t-num" x="292" y="267">06</text><text class="t-box" x="316" y="267">矛盾検出・解消</text>
+        <text class="t-sub" x="292" y="290">鮮度・一次性で優先、不能なら併記</text>
+
+        <!-- III -->
+        <rect class="bx-acc" x="540" y="104" width="220" height="60" rx="8"/>
+        <text class="t-num" x="552" y="127">07</text><text class="t-box" x="576" y="127">充足性判定</text>
+        <text class="t-sub" x="552" y="150">足りるか・曖昧さは残るか</text>
+        <rect class="bx" x="540" y="200" width="104" height="56" rx="8"/>
+        <text class="t-box" x="592" y="223" text-anchor="middle">曖昧</text>
+        <text class="t-sub" x="592" y="243" text-anchor="middle">ユーザーに確認</text>
+        <rect class="bx-acc" x="656" y="200" width="104" height="56" rx="8"/>
+        <text class="t-box" x="708" y="223" text-anchor="middle">不足</text>
+        <text class="t-sub" x="708" y="243" text-anchor="middle">追加で取得</text>
+
+        <!-- IV -->
+        <rect class="bx" x="800" y="104" width="220" height="60" rx="8"/>
+        <text class="t-num" x="812" y="127">08</text><text class="t-box" x="836" y="127">分析</text>
+        <text class="t-sub" x="812" y="150">集計・比較・因果・仮説</text>
+        <rect class="bx" x="800" y="174" width="220" height="60" rx="8"/>
+        <text class="t-num" x="812" y="197">09</text><text class="t-box" x="836" y="197">構成</text>
+        <text class="t-sub" x="812" y="220">結論 → 根拠 → 次アクション</text>
+        <rect class="bx" x="800" y="244" width="220" height="60" rx="8"/>
+        <text class="t-num" x="812" y="267">10</text><text class="t-box" x="836" y="267">表現</text>
+        <text class="t-sub" x="812" y="290">形式・言語・トーン・出典</text>
+        <rect class="bx" x="800" y="314" width="220" height="60" rx="8"/>
+        <text class="t-num" x="812" y="337">11</text><text class="t-box" x="836" y="337">自己検証</text>
+        <text class="t-sub" x="812" y="360">数値・固有名詞・日付を照合</text>
+
+        <!-- Out -->
+        <rect class="bx-2" x="1060" y="244" width="160" height="60" rx="8"/>
+        <text class="t-num" x="1072" y="267">12</text><text class="t-box" x="1096" y="267">書き戻し</text>
+        <text class="t-sub" x="1072" y="290">memory・MCP（要承認）</text>
+        <rect class="bx" x="1060" y="314" width="160" height="60" rx="8"/>
+        <text class="t-box" x="1072" y="337">最終出力</text>
+        <text class="t-mono" x="1072" y="360" style="fill:#465063">text · end_turn</text>
+
+        <!-- context band -->
+        <rect class="seg-r" x="20" y="420" width="740" height="48" rx="8"/>
+        <text class="t-box" x="36" y="449">コンテキストウィンドウ</text>
+        <text class="t-sub" x="196" y="449">依頼 · memory · tool_result ×N · 自分の思考</text>
+
+        <!-- flow arrows -->
+        <line class="ar" x1="130" y1="418" x2="130" y2="306" marker-end="url(#f3a)"/>
+        <text class="t-lab" x="140" y="366">読む（prefill）</text>
+        <line class="ar" x1="130" y1="164" x2="130" y2="172" marker-end="url(#f3a)"/>
+        <line class="ar" x1="130" y1="234" x2="130" y2="242" marker-end="url(#f3a)"/>
+
+        <path class="ar" d="M240,274 L260,274 L260,134 L278,134" marker-end="url(#f3a)"/>
+        <line class="ar" x1="390" y1="164" x2="390" y2="172" marker-end="url(#f3a)"/>
+        <line class="ar" x1="390" y1="234" x2="390" y2="242" marker-end="url(#f3a)"/>
+
+        <path class="ar" d="M500,274 L520,274 L520,134 L538,134" marker-end="url(#f3a)"/>
+
+        <line class="ar" x1="760" y1="134" x2="798" y2="134" marker-end="url(#f3a)"/>
+        <text class="t-lab" x="779" y="126" text-anchor="middle">十分</text>
+
+        <line class="ar" x1="592" y1="164" x2="592" y2="198" marker-end="url(#f3a)"/>
+        <line class="ar-acc" x1="708" y1="164" x2="708" y2="198" marker-end="url(#f3b)"/>
+
+        <line class="ar-acc" x1="708" y1="256" x2="708" y2="418" marker-end="url(#f3b)"/>
+        <text class="t-lab-acc" x="698" y="320" text-anchor="end">追加の tool_use</text>
+        <text class="t-lab-acc" x="698" y="338" text-anchor="end">→ ハーネスが実行</text>
+        <text class="t-lab-acc" x="698" y="356" text-anchor="end">→ tool_result を追記</text>
+
+        <line class="ar" x1="910" y1="164" x2="910" y2="172" marker-end="url(#f3a)"/>
+        <line class="ar" x1="910" y1="234" x2="910" y2="242" marker-end="url(#f3a)"/>
+        <line class="ar" x1="910" y1="304" x2="910" y2="312" marker-end="url(#f3a)"/>
+
+        <line class="ar" x1="1020" y1="344" x2="1058" y2="344" marker-end="url(#f3a)"/>
+        <path class="ar" d="M1036,344 L1036,274 L1058,274" marker-end="url(#f3a)"/>
+      </svg>
