@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="740" viewBox="0 0 1280 740" role="img" aria-label="全体アーキテクチャ。外部の memory と MCP サーバはハーネスが扱い、モデルにはコンテキストウィンドウのトークン列だけが届く。モデルの tool_use をハーネスが実行し、tool_result をコンテキストに追記して再推論するループが回る。">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="900" viewBox="0 0 1280 900" role="img" aria-label="全体アーキテクチャ。外部の memory・Skills・MCP サーバはハーネスが扱い、モデルにはコンテキストウィンドウのトークン列だけが届く。memory と Skills は起動時に小さな索引だけを注入し、本体は tool_use を通じて必要時に読む。モデルの tool_use をハーネスが実行し、tool_result をコンテキストに追記して再推論するループが回る。">
         <defs>
 <style>
 text {font-family: "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", system-ui, sans-serif; fill: #151A24;}
@@ -7,12 +7,16 @@ text {font-family: "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN",
 .t-zsub {font-size: 11px; fill: #737D8F;}
 .t-box {font-size: 12.5px; font-weight: 700;}
 .t-sub {font-size: 11px; fill: #465063;}
+.t-mut {font-size: 11px; fill: #737D8F;}
 .t-lab {font-size: 11px; fill: #465063;}
 .t-lab-acc {font-size: 11px; fill: #C2410C; font-weight: 500;}
 .t-mono {font-family: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-size: 11px;}
+.t-monom {font-family: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-size: 11px; fill: #737D8F;}
 .t-num {font-family: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-size: 11px; fill: #737D8F;}
 .t-phase {font-family: "Zen Kaku Gothic New", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", system-ui, sans-serif; font-size: 14px; font-weight: 700;}
 .t-model {fill: #3445B8;}
+.t-sk {fill: #1F7A55;}
+.t-tag {font-family: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-size: 10.5px; font-weight: 500; fill: #1F7A55;}
 .z-ext {fill: #ECEEF2;}
 .z-h {fill: #E9EDF4;}
 .z-ctx {fill: #FFFFFF; stroke: #D8DDE5; stroke-width: 1;}
@@ -21,32 +25,39 @@ text {font-family: "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN",
 .bx-2 {fill: #F7F8FA; stroke: #D8DDE5; stroke-width: 1;}
 .bx-m {fill: #F8F9FE; stroke: #3445B8; stroke-width: 1; stroke-opacity: 0.45;}
 .bx-acc {fill: #FBE8DD; stroke: #C2410C; stroke-width: 1;}
+.bx-sk {fill: #E3F2EA; stroke: #1F7A55; stroke-width: 1;}
+.bx-dash {fill: #F7F8FA; stroke: #737D8F; stroke-width: 1; stroke-dasharray: 4 3;}
 .seg {fill: #F7F8FA; stroke: #D8DDE5; stroke-width: 1;}
 .seg-a {fill: #F8F9FE; stroke: #D8DDE5; stroke-width: 1;}
 .seg-r {fill: #FBE8DD; stroke: #D8DDE5; stroke-width: 1;}
+.seg-sk {fill: #E3F2EA; stroke: #D8DDE5; stroke-width: 1;}
 .row-r {fill: #FFFFFF; stroke: #C2410C; stroke-width: 1; stroke-opacity: 0.6;}
+.row-sk {fill: #FFFFFF; stroke: #1F7A55; stroke-width: 1.2;}
+.tag-sk {fill: #E3F2EA; stroke: #1F7A55; stroke-width: 1;}
 .ar {stroke: #5A6477; stroke-width: 1.4; fill: none;}
 .ar-acc {stroke: #C2410C; stroke-width: 1.8; fill: none;}
 .ar-dash {stroke: #5A6477; stroke-width: 1.3; fill: none; stroke-dasharray: 4 4;}
 .rule-dash {stroke: #737D8F; stroke-width: 1; stroke-dasharray: 3 3; fill: none;}
+.tree {stroke: #737D8F; stroke-width: 1; fill: none;}
 .mk {fill: #5A6477;}
 .mk-acc {fill: #C2410C;}
 .brk {stroke: #5A6477; stroke-width: 1.2; fill: none;}
 .band-x {fill: #F7F8FA; stroke: #737D8F; stroke-width: 1; stroke-dasharray: 4 3;}
+.band-sk {fill: #E3F2EA; stroke: #1F7A55; stroke-width: 1; stroke-dasharray: 4 3;}
 text { font-family: "Noto Sans JP","Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic","Meiryo",sans-serif; }
 .t-zone, .t-phase { font-family: "Zen Kaku Gothic New","Noto Sans JP","Hiragino Sans","Yu Gothic","Meiryo",sans-serif; }
-.t-mono, .t-num { font-family: "IBM Plex Mono",Menlo,Consolas,monospace; }
+.t-mono, .t-monom, .t-num, .t-tag { font-family: "IBM Plex Mono",Menlo,Consolas,monospace; }
 </style>
           <marker id="f1a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="mk" d="M0,0 L10,5 L0,10 z"/></marker>
           <marker id="f1b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="mk-acc" d="M0,0 L10,5 L0,10 z"/></marker>
         </defs>
-        <rect x="0" y="0" width="1280" height="740" fill="#FFFFFF"/>
+        <rect x="0" y="0" width="1280" height="900" fill="#FFFFFF"/>
 
         <!-- zones -->
-        <rect class="z-ext" x="12" y="48" width="240" height="680" rx="12"/>
-        <rect class="z-h" x="340" y="48" width="240" height="680" rx="12"/>
-        <rect class="z-ctx" x="676" y="48" width="180" height="680" rx="12"/>
-        <rect class="z-model" x="944" y="48" width="324" height="680" rx="12"/>
+        <rect class="z-ext" x="12" y="48" width="240" height="836" rx="12"/>
+        <rect class="z-h" x="340" y="48" width="240" height="836" rx="12"/>
+        <rect class="z-ctx" x="676" y="48" width="180" height="836" rx="12"/>
+        <rect class="z-model" x="944" y="48" width="324" height="836" rx="12"/>
 
         <text class="t-zone" x="28" y="76">外部</text>
         <text class="t-zsub" x="28" y="94">モデルの外にある状態</text>
@@ -62,196 +73,226 @@ text { font-family: "Noto Sans JP","Hiragino Sans","Hiragino Kaku Gothic ProN","
         <text class="t-box" x="42" y="136">ユーザー</text>
         <text class="t-sub" x="42" y="155">依頼・制約・添付</text>
 
-        <rect class="bx-2" x="28" y="184" width="208" height="134" rx="8"/>
-        <text class="t-box" x="42" y="204">Memory（永続ストア）</text>
-        <rect class="bx" x="40" y="214" width="184" height="26" rx="5"/>
-        <text class="t-sub" x="50" y="231">CLAUDE.md・指示ファイル</text>
-        <rect class="bx" x="40" y="246" width="184" height="26" rx="5"/>
-        <text class="t-sub" x="50" y="263">Memory tool（/memories）</text>
-        <rect class="bx" x="40" y="278" width="184" height="26" rx="5"/>
-        <text class="t-sub" x="50" y="295">過去会話の要約・検索</text>
+        <rect class="bx-2" x="28" y="184" width="208" height="364" rx="8"/>
+        <text class="t-box" x="42" y="204">Memory と Skills</text>
+        <text class="t-mut" x="42" y="221">起動時に読む（push）</text>
+        <rect class="bx" x="40" y="228" width="184" height="24" rx="5"/>
+        <text class="t-sub" x="50" y="244">CLAUDE.md・メモリ要約</text>
+        <rect class="row-sk" x="40" y="258" width="184" height="24" rx="5"/>
+        <text class="t-sub" x="50" y="274">Skill の name・description</text>
+        <text class="t-mut" x="42" y="326">小さな索引だけを常駐させ、</text>
+        <text class="t-mut" x="42" y="344">本体は必要なときに読む</text>
+        <text class="t-mut" x="42" y="398">必要時に読む・実行（pull）</text>
+        <rect class="bx" x="40" y="408" width="184" height="24" rx="5"/>
+        <text class="t-sub" x="50" y="424">/memories・過去会話検索</text>
+        <rect class="row-sk" x="40" y="444" width="184" height="24" rx="5"/>
+        <text class="t-sub" x="50" y="460">SKILL.md 本文（L2）</text>
+        <rect class="row-sk" x="40" y="480" width="184" height="24" rx="5"/>
+        <text class="t-sub" x="50" y="496">references/・assets/（L3）</text>
+        <rect class="row-sk" x="40" y="516" width="184" height="24" rx="5"/>
+        <text class="t-sub" x="50" y="532">scripts/（L3・実行のみ）</text>
 
-        <rect class="bx-2" x="28" y="372" width="208" height="218" rx="8"/>
-        <text class="t-box" x="42" y="392">MCP サーバ</text>
-        <rect class="bx" x="40" y="407" width="184" height="26" rx="5"/>
-        <text class="t-sub" x="50" y="424">Slack</text>
-        <rect class="bx" x="40" y="449" width="184" height="26" rx="5"/>
-        <text class="t-sub" x="50" y="466">Notion</text>
-        <rect class="bx" x="40" y="491" width="184" height="26" rx="5"/>
-        <text class="t-sub" x="50" y="508">Google Drive</text>
-        <rect class="bx" x="40" y="533" width="184" height="26" rx="5"/>
-        <text class="t-sub" x="50" y="550">Calendar</text>
-        <text class="t-sub" x="42" y="580">tools · resources · prompts</text>
+        <rect class="bx-2" x="28" y="560" width="208" height="192" rx="8"/>
+        <text class="t-box" x="42" y="580">MCP サーバ</text>
+        <rect class="bx" x="40" y="592" width="184" height="24" rx="5"/>
+        <text class="t-sub" x="50" y="608">Slack</text>
+        <rect class="bx" x="40" y="628" width="184" height="24" rx="5"/>
+        <text class="t-sub" x="50" y="644">Notion</text>
+        <rect class="bx" x="40" y="664" width="184" height="24" rx="5"/>
+        <text class="t-sub" x="50" y="680">Google Drive</text>
+        <rect class="bx" x="40" y="700" width="184" height="24" rx="5"/>
+        <text class="t-sub" x="50" y="716">Calendar</text>
+        <text class="t-mut" x="42" y="742">tools · resources · prompts</text>
 
-        <rect class="bx" x="28" y="604" width="208" height="46" rx="8"/>
-        <text class="t-box" x="42" y="624">ユーザーへの出力</text>
-        <text class="t-sub" x="42" y="641">回答・表・図・ファイル</text>
+        <rect class="bx" x="28" y="768" width="208" height="46" rx="8"/>
+        <text class="t-box" x="42" y="788">ユーザーへの出力</text>
+        <text class="t-sub" x="42" y="805">回答・表・図・ファイル</text>
 
         <!-- ===== column B ===== -->
-        <rect class="bx" x="356" y="112" width="208" height="156" rx="8"/>
+        <rect class="bx" x="356" y="112" width="208" height="170" rx="8"/>
         <text class="t-box" x="370" y="134">コンテキスト組み立て</text>
-        <text class="t-sub" x="370" y="158">tools 定義（tools/list 由来）</text>
-        <text class="t-sub" x="370" y="178">system prompt</text>
+        <text class="t-sub" x="370" y="158">tools 定義（MCP・Skill・bash）</text>
+        <text class="t-sub" x="370" y="178">system + Skill 一覧（L1）</text>
         <text class="t-sub" x="370" y="198">memory（push 分）</text>
         <text class="t-sub" x="370" y="218">履歴 + 今回の依頼</text>
-        <text class="t-mono" x="370" y="252" style="fill:#737D8F">tools → system → messages</text>
+        <text class="t-monom" x="370" y="266">tools → system → messages</text>
 
-        <rect class="bx-acc" x="356" y="280" width="208" height="70" rx="8"/>
-        <text class="t-box" x="370" y="302">ツールルータ・権限ゲート</text>
-        <text class="t-sub" x="370" y="321">検証・許可／承認・並列実行</text>
-        <text class="t-sub" x="370" y="339">書き込み系は承認必須</text>
+        <rect class="bx-acc" x="356" y="294" width="208" height="68" rx="8"/>
+        <text class="t-box" x="370" y="316">ツールルータ・権限ゲート</text>
+        <text class="t-sub" x="370" y="335">検証・許可／承認・並列実行</text>
+        <text class="t-sub" x="370" y="353">allowed-tools・書き込み承認</text>
 
-        <rect class="bx-2" x="356" y="372" width="208" height="218" rx="8"/>
-        <text class="t-box" x="370" y="392">MCP クライアント</text>
-        <rect class="bx" x="368" y="407" width="184" height="26" rx="5"/>
-        <text class="t-sub" x="378" y="424">client ↔ Slack</text>
-        <rect class="bx" x="368" y="449" width="184" height="26" rx="5"/>
-        <text class="t-sub" x="378" y="466">client ↔ Notion</text>
-        <rect class="bx" x="368" y="491" width="184" height="26" rx="5"/>
-        <text class="t-sub" x="378" y="508">client ↔ Google Drive</text>
-        <rect class="bx" x="368" y="533" width="184" height="26" rx="5"/>
-        <text class="t-sub" x="378" y="550">client ↔ Calendar</text>
-        <text class="t-sub" x="370" y="580">1 サーバ 1 接続 · JSON-RPC 2.0</text>
+        <rect class="bx-2" x="356" y="380" width="208" height="372" rx="8"/>
+        <text class="t-box" x="370" y="399">ツール実行</text>
+        <rect class="bx" x="368" y="408" width="184" height="24" rx="5"/>
+        <text class="t-sub" x="378" y="424">memory tool・会話検索</text>
+        <rect class="row-sk" x="368" y="444" width="184" height="24" rx="5"/>
+        <text class="t-sub" x="378" y="460">Skill tool ／ bash cat</text>
+        <rect class="row-sk" x="368" y="480" width="184" height="24" rx="5"/>
+        <text class="t-sub" x="378" y="496">bash cat（参照を読む）</text>
+        <rect class="row-sk" x="368" y="516" width="184" height="24" rx="5"/>
+        <text class="t-sub" x="378" y="532">bash 実行（出力だけ返す）</text>
+        <text class="t-box" x="370" y="581">MCP クライアント</text>
+        <rect class="bx" x="368" y="592" width="184" height="24" rx="5"/>
+        <text class="t-sub" x="378" y="608">client ↔ Slack</text>
+        <rect class="bx" x="368" y="628" width="184" height="24" rx="5"/>
+        <text class="t-sub" x="378" y="644">client ↔ Notion</text>
+        <rect class="bx" x="368" y="664" width="184" height="24" rx="5"/>
+        <text class="t-sub" x="378" y="680">client ↔ Google Drive</text>
+        <rect class="bx" x="368" y="700" width="184" height="24" rx="5"/>
+        <text class="t-sub" x="378" y="716">client ↔ Calendar</text>
+        <text class="t-mut" x="370" y="742">1 サーバ 1 接続 · JSON-RPC 2.0</text>
 
-        <rect class="bx" x="356" y="604" width="208" height="46" rx="8"/>
-        <text class="t-box" x="370" y="624">出力レンダラ</text>
-        <text class="t-sub" x="370" y="641">Markdown・表・図・ファイル</text>
+        <rect class="bx" x="356" y="768" width="208" height="46" rx="8"/>
+        <text class="t-box" x="370" y="788">出力レンダラ</text>
+        <text class="t-sub" x="370" y="805">Markdown・表・図・ファイル</text>
 
-        <rect class="bx-2" x="356" y="664" width="208" height="48" rx="8"/>
-        <text class="t-box" x="370" y="684">コンテキスト管理</text>
-        <text class="t-sub" x="370" y="702">cache・compaction・古い結果の消去</text>
+        <rect class="bx-2" x="356" y="828" width="208" height="46" rx="8"/>
+        <text class="t-box" x="370" y="848">コンテキスト管理</text>
+        <text class="t-sub" x="370" y="865">cache・compaction・古い結果の消去</text>
 
         <!-- ===== context strip ===== -->
         <rect class="seg" x="690" y="112" width="152" height="38"/>
         <text class="t-sub" x="700" y="135">tools 定義</text>
-        <rect class="seg" x="690" y="150" width="152" height="34"/>
-        <text class="t-sub" x="700" y="171">system</text>
-        <rect class="seg" x="690" y="184" width="152" height="34"/>
-        <text class="t-sub" x="700" y="205">memory（注入分）</text>
-        <rect class="seg" x="690" y="218" width="152" height="50"/>
-        <text class="t-mono" x="700" y="238" style="fill:#737D8F">user</text>
-        <text class="t-sub" x="700" y="257">履歴・依頼</text>
-        <rect class="seg-a" x="690" y="268" width="152" height="50"/>
-        <text class="t-mono" x="700" y="288" style="fill:#737D8F">assistant</text>
-        <text class="t-sub" x="700" y="307">thinking · tool_use ×N</text>
-        <rect class="seg-r" x="690" y="318" width="152" height="272"/>
-        <rect class="row-r" x="698" y="324" width="136" height="24" rx="4"/>
-        <text class="t-sub" x="706" y="340">memory の結果</text>
-        <text class="t-sub" x="706" y="382" style="fill:#737D8F">同一ターンに並列で返る</text>
-        <rect class="row-r" x="698" y="407" width="136" height="26" rx="4"/>
-        <text class="t-sub" x="706" y="424">Slack の結果</text>
-        <rect class="row-r" x="698" y="449" width="136" height="26" rx="4"/>
-        <text class="t-sub" x="706" y="466">Notion の結果</text>
-        <rect class="row-r" x="698" y="491" width="136" height="26" rx="4"/>
-        <text class="t-sub" x="706" y="508">Drive の結果</text>
-        <rect class="row-r" x="698" y="533" width="136" height="26" rx="4"/>
-        <text class="t-sub" x="706" y="550">Calendar の結果</text>
-        <text class="t-mono" x="700" y="580" style="fill:#737D8F">user: tool_result</text>
-        <rect class="seg-a" x="690" y="590" width="152" height="60"/>
-        <text class="t-mono" x="700" y="612" style="fill:#737D8F">assistant</text>
-        <text class="t-sub" x="700" y="632">thinking → text</text>
-        <rect class="seg" x="690" y="650" width="152" height="62" style="stroke-dasharray:4 3"/>
-        <text class="t-sub" x="700" y="678" style="fill:#737D8F">ラウンドごとに</text>
-        <text class="t-sub" x="700" y="696" style="fill:#737D8F">下へ伸びる</text>
+        <rect class="seg" x="690" y="150" width="152" height="24"/>
+        <text class="t-sub" x="700" y="167">system</text>
+        <rect class="seg-sk" x="690" y="174" width="152" height="26"/>
+        <text class="t-sub t-sk" x="700" y="192">Skill 一覧（L1）</text>
+        <rect class="seg" x="690" y="200" width="152" height="34"/>
+        <text class="t-sub" x="700" y="221">memory（注入分）</text>
+        <rect class="seg" x="690" y="234" width="152" height="48"/>
+        <text class="t-monom" x="700" y="254">user</text>
+        <text class="t-sub" x="700" y="273">履歴・依頼</text>
+        <rect class="seg-a" x="690" y="282" width="152" height="50"/>
+        <text class="t-monom" x="700" y="302">assistant</text>
+        <text class="t-sub" x="700" y="321">thinking · tool_use ×N</text>
+        <rect class="seg-r" x="690" y="332" width="152" height="420"/>
+        <text class="t-mut" x="706" y="376">結果はここに追記</text>
+        <rect class="row-r" x="698" y="408" width="136" height="24" rx="4"/>
+        <text class="t-sub" x="706" y="424">memory の結果</text>
+        <rect class="row-sk" x="698" y="444" width="136" height="24" rx="4"/>
+        <text class="t-sub" x="706" y="460">SKILL.md 本文（L2）</text>
+        <rect class="row-sk" x="698" y="480" width="136" height="24" rx="4"/>
+        <text class="t-sub" x="706" y="496">参照ファイル（L3）</text>
+        <rect class="row-sk" x="698" y="516" width="136" height="24" rx="4"/>
+        <text class="t-sub" x="706" y="532">スクリプトの出力</text>
+        <rect class="row-r" x="698" y="592" width="136" height="24" rx="4"/>
+        <text class="t-sub" x="706" y="608">Slack の結果</text>
+        <rect class="row-r" x="698" y="628" width="136" height="24" rx="4"/>
+        <text class="t-sub" x="706" y="644">Notion の結果</text>
+        <rect class="row-r" x="698" y="664" width="136" height="24" rx="4"/>
+        <text class="t-sub" x="706" y="680">Drive の結果</text>
+        <rect class="row-r" x="698" y="700" width="136" height="24" rx="4"/>
+        <text class="t-sub" x="706" y="716">Calendar の結果</text>
+        <text class="t-monom" x="700" y="744">user: tool_result</text>
+        <rect class="seg-a" x="690" y="752" width="152" height="60"/>
+        <text class="t-monom" x="700" y="774">assistant</text>
+        <text class="t-sub" x="700" y="796">thinking → text</text>
+        <rect class="seg" x="690" y="812" width="152" height="62" style="stroke-dasharray:4 3"/>
+        <text class="t-mut" x="700" y="838">ラウンドごとに</text>
+        <text class="t-mut" x="700" y="856">下へ伸びる</text>
 
-        <!-- cache boundary -->
-        <line class="rule-dash" x1="690" y1="218" x2="878" y2="218"/>
-        <text class="t-lab" x="882" y="222">cache 境界</text>
-
-        <!-- bracket for assembly -->
-        <path class="brk" d="M688,116 L684,116 L684,264 L688,264"/>
+        <line class="rule-dash" x1="690" y1="234" x2="878" y2="234"/>
+        <text class="t-lab" x="882" y="238">cache 境界</text>
+        <path class="brk" d="M688,116 L684,116 L684,278 L688,278"/>
 
         <!-- ===== column R (model) ===== -->
         <rect class="bx-m" x="960" y="112" width="292" height="64" rx="8"/>
         <text class="t-box" x="974" y="136">Prefill（読む）</text>
         <text class="t-sub" x="974" y="156">追記分のトークンを一括で処理</text>
-        <text class="t-sub" x="974" y="170" style="fill:#737D8F">キャッシュ済みの先頭は再計算しない</text>
+        <text class="t-mut" x="974" y="170">キャッシュ済みの先頭は再計算しない</text>
 
-        <rect class="bx-m" x="960" y="196" width="292" height="324" rx="8"/>
+        <rect class="bx-m" x="960" y="196" width="292" height="404" rx="8"/>
         <text class="t-box" x="974" y="218">Transformer</text>
-        <text class="t-sub" x="1238" y="218" text-anchor="end" style="fill:#737D8F">L 層 · attention + MLP</text>
+        <text class="t-mut" x="1238" y="218" text-anchor="end">L 層 · attention + MLP</text>
         <rect class="bx" x="974" y="232" width="264" height="56" rx="6"/>
-        <text class="t-box" x="986" y="253">理解</text>
-        <text class="t-sub" x="986" y="274">構造把握 · 意図の再アンカー · 信頼境界</text>
-        <rect class="bx" x="974" y="296" width="264" height="56" rx="6"/>
-        <text class="t-box" x="986" y="317">統合</text>
-        <text class="t-sub" x="986" y="338">関連性選別 · エンティティ解決 · 矛盾解消</text>
-        <rect class="bx" x="974" y="360" width="264" height="56" rx="6"/>
-        <text class="t-box" x="986" y="381">判断</text>
-        <text class="t-sub" x="986" y="402">充足性 → 追加取得 ／ 確認 ／ 生成</text>
-        <rect class="bx" x="974" y="424" width="264" height="56" rx="6"/>
-        <text class="t-box" x="986" y="445">生成</text>
-        <text class="t-sub" x="986" y="466">分析 · 構成 · 表現 · 自己検証</text>
-        <text class="t-sub" x="974" y="505" style="fill:#737D8F">独立モジュールではなく機能的な分解（図 3）</text>
+        <text class="t-box" x="986" y="253">選択</text>
+        <text class="t-sub" x="986" y="274">Skill とツールを description で選ぶ</text>
+        <rect class="bx" x="974" y="300" width="264" height="56" rx="6"/>
+        <text class="t-box" x="986" y="321">理解</text>
+        <text class="t-sub" x="986" y="342">構造把握 · 意図の再アンカー · 信頼境界</text>
+        <rect class="bx" x="974" y="368" width="264" height="56" rx="6"/>
+        <text class="t-box" x="986" y="389">統合</text>
+        <text class="t-sub" x="986" y="410">関連性選別 · エンティティ解決 · 矛盾解消</text>
+        <rect class="bx" x="974" y="436" width="264" height="56" rx="6"/>
+        <text class="t-box" x="986" y="457">判断</text>
+        <text class="t-sub" x="986" y="478">充足性 → 追加取得 ／ 確認 ／ 生成</text>
+        <rect class="bx" x="974" y="504" width="264" height="56" rx="6"/>
+        <text class="t-box" x="986" y="525">生成</text>
+        <text class="t-sub" x="986" y="546">分析 · 構成 · 表現 · 自己検証</text>
+        <text class="t-mut" x="974" y="586">独立モジュールではなく機能的な分解（図 4）</text>
 
-        <rect class="bx-m" x="960" y="540" width="292" height="50" rx="8"/>
-        <text class="t-box" x="974" y="561">Decode（書く）</text>
-        <text class="t-sub" x="974" y="580">1 トークンずつ自己回帰で生成</text>
+        <rect class="bx-m" x="960" y="620" width="292" height="56" rx="8"/>
+        <text class="t-box" x="974" y="642">Decode（書く）</text>
+        <text class="t-sub" x="974" y="662">1 トークンずつ自己回帰で生成</text>
 
-        <rect class="bx-m" x="960" y="604" width="292" height="60" rx="8"/>
-        <rect class="bx" x="972" y="614" width="76" height="24" rx="12"/>
-        <text class="t-mono" x="1010" y="630" text-anchor="middle">thinking</text>
-        <rect class="bx-acc" x="1056" y="614" width="76" height="24" rx="12"/>
-        <text class="t-mono" x="1094" y="630" text-anchor="middle">tool_use</text>
-        <rect class="bx" x="1140" y="614" width="76" height="24" rx="12"/>
-        <text class="t-mono" x="1178" y="630" text-anchor="middle">text</text>
-        <text class="t-sub" x="974" y="656" style="fill:#737D8F">stop_reason: tool_use ／ end_turn</text>
+        <rect class="bx-m" x="960" y="696" width="292" height="96" rx="8"/>
+        <rect class="bx" x="972" y="712" width="76" height="24" rx="12"/>
+        <text class="t-mono" x="1010" y="728" text-anchor="middle">thinking</text>
+        <rect class="bx-acc" x="1056" y="712" width="76" height="24" rx="12"/>
+        <text class="t-mono" x="1094" y="728" text-anchor="middle">tool_use</text>
+        <rect class="bx" x="1140" y="712" width="76" height="24" rx="12"/>
+        <text class="t-mono" x="1178" y="728" text-anchor="middle">text</text>
+        <text class="t-mut" x="974" y="760">stop_reason: tool_use ／ end_turn</text>
 
-        <!-- internal model arrows -->
         <line class="ar" x1="1106" y1="176" x2="1106" y2="194" marker-end="url(#f1a)"/>
-        <line class="ar" x1="1106" y1="520" x2="1106" y2="538" marker-end="url(#f1a)"/>
-        <line class="ar" x1="1106" y1="590" x2="1106" y2="602" marker-end="url(#f1a)"/>
+        <line class="ar" x1="1106" y1="600" x2="1106" y2="618" marker-end="url(#f1a)"/>
+        <line class="ar" x1="1106" y1="676" x2="1106" y2="694" marker-end="url(#f1a)"/>
 
         <!-- ===== arrows A <-> B ===== -->
         <line class="ar" x1="236" y1="140" x2="354" y2="140" marker-end="url(#f1a)"/>
         <text class="t-lab" x="296" y="132" text-anchor="middle">依頼</text>
+        <line class="ar" x1="226" y1="240" x2="354" y2="240" marker-end="url(#f1a)"/>
+        <text class="t-lab" x="296" y="232" text-anchor="middle">起動時に注入</text>
+        <line class="ar" x1="226" y1="270" x2="354" y2="270" marker-end="url(#f1a)"/>
 
-        <line class="ar" x1="236" y1="230" x2="354" y2="230" marker-end="url(#f1a)"/>
-        <text class="t-lab" x="296" y="222" text-anchor="middle">注入（push）</text>
-
-        <line class="ar-acc" x1="356" y1="300" x2="238" y2="300" marker-end="url(#f1b)"/>
-        <text class="t-lab-acc" x="296" y="292" text-anchor="middle">参照（pull）</text>
-
-        <text class="t-lab-acc" x="296" y="400" text-anchor="middle">tools/call ⇄ 結果</text>
+        <text class="t-lab-acc" x="296" y="402" text-anchor="middle">読む・実行</text>
         <line class="ar-acc" x1="226" y1="420" x2="366" y2="420" marker-start="url(#f1b)" marker-end="url(#f1b)"/>
-        <line class="ar-acc" x1="226" y1="462" x2="366" y2="462" marker-start="url(#f1b)" marker-end="url(#f1b)"/>
-        <line class="ar-acc" x1="226" y1="504" x2="366" y2="504" marker-start="url(#f1b)" marker-end="url(#f1b)"/>
-        <line class="ar-acc" x1="226" y1="546" x2="366" y2="546" marker-start="url(#f1b)" marker-end="url(#f1b)"/>
+        <line class="ar-acc" x1="226" y1="456" x2="366" y2="456" marker-start="url(#f1b)" marker-end="url(#f1b)"/>
+        <line class="ar-acc" x1="226" y1="492" x2="366" y2="492" marker-start="url(#f1b)" marker-end="url(#f1b)"/>
+        <line class="ar-acc" x1="226" y1="528" x2="366" y2="528" marker-start="url(#f1b)" marker-end="url(#f1b)"/>
 
-        <line class="ar" x1="356" y1="627" x2="238" y2="627" marker-end="url(#f1a)"/>
-        <text class="t-lab" x="296" y="619" text-anchor="middle">表示・保存</text>
+        <text class="t-lab-acc" x="296" y="586" text-anchor="middle">tools/call ⇄ 結果</text>
+        <line class="ar-acc" x1="226" y1="604" x2="366" y2="604" marker-start="url(#f1b)" marker-end="url(#f1b)"/>
+        <line class="ar-acc" x1="226" y1="640" x2="366" y2="640" marker-start="url(#f1b)" marker-end="url(#f1b)"/>
+        <line class="ar-acc" x1="226" y1="676" x2="366" y2="676" marker-start="url(#f1b)" marker-end="url(#f1b)"/>
+        <line class="ar-acc" x1="226" y1="712" x2="366" y2="712" marker-start="url(#f1b)" marker-end="url(#f1b)"/>
 
-        <!-- B internal -->
-        <line class="ar-acc" x1="460" y1="350" x2="460" y2="370" marker-end="url(#f1b)"/>
-        <text class="t-lab-acc" x="470" y="364">tools/call</text>
+        <line class="ar" x1="356" y1="791" x2="238" y2="791" marker-end="url(#f1a)"/>
+        <text class="t-lab" x="296" y="783" text-anchor="middle">表示・保存</text>
+
+        <line class="ar-acc" x1="460" y1="362" x2="460" y2="378" marker-end="url(#f1b)"/>
+        <text class="t-lab-acc" x="470" y="375">振り分け</text>
 
         <!-- ===== arrows B <-> strip ===== -->
         <line class="ar" x1="564" y1="190" x2="682" y2="190" marker-end="url(#f1a)"/>
         <text class="t-lab" x="620" y="182" text-anchor="middle">毎回組み立て</text>
 
-        <line class="ar-acc" x1="690" y1="293" x2="566" y2="293" marker-end="url(#f1b)"/>
-        <text class="t-lab-acc" x="627" y="285" text-anchor="middle">tool_use</text>
+        <line class="ar-acc" x1="690" y1="307" x2="566" y2="307" marker-end="url(#f1b)"/>
+        <text class="t-lab-acc" x="627" y="299" text-anchor="middle">tool_use</text>
 
-        <line class="ar-acc" x1="564" y1="336" x2="696" y2="336" marker-end="url(#f1b)"/>
-        <text class="t-lab-acc" x="627" y="328" text-anchor="middle">tool_result</text>
-
+        <text class="t-lab-acc" x="627" y="402" text-anchor="middle">tool_result</text>
         <line class="ar-acc" x1="552" y1="420" x2="696" y2="420" marker-end="url(#f1b)"/>
-        <line class="ar-acc" x1="552" y1="462" x2="696" y2="462" marker-end="url(#f1b)"/>
-        <line class="ar-acc" x1="552" y1="504" x2="696" y2="504" marker-end="url(#f1b)"/>
-        <line class="ar-acc" x1="552" y1="546" x2="696" y2="546" marker-end="url(#f1b)"/>
-        <text class="t-lab-acc" x="627" y="400" text-anchor="middle">tool_result</text>
-        <text class="t-lab" x="627" y="572" text-anchor="middle">整形・切り詰め</text>
+        <line class="ar-acc" x1="552" y1="456" x2="696" y2="456" marker-end="url(#f1b)"/>
+        <line class="ar-acc" x1="552" y1="492" x2="696" y2="492" marker-end="url(#f1b)"/>
+        <line class="ar-acc" x1="552" y1="528" x2="696" y2="528" marker-end="url(#f1b)"/>
 
-        <line class="ar" x1="690" y1="627" x2="566" y2="627" marker-end="url(#f1a)"/>
-        <text class="t-lab" x="627" y="619" text-anchor="middle">text（end_turn）</text>
+        <text class="t-lab-acc" x="627" y="586" text-anchor="middle">tool_result</text>
+        <line class="ar-acc" x1="552" y1="604" x2="696" y2="604" marker-end="url(#f1b)"/>
+        <line class="ar-acc" x1="552" y1="640" x2="696" y2="640" marker-end="url(#f1b)"/>
+        <line class="ar-acc" x1="552" y1="676" x2="696" y2="676" marker-end="url(#f1b)"/>
+        <line class="ar-acc" x1="552" y1="712" x2="696" y2="712" marker-end="url(#f1b)"/>
+        <text class="t-lab" x="627" y="738" text-anchor="middle">整形・切り詰め</text>
 
-        <line class="ar-dash" x1="564" y1="688" x2="688" y2="688" marker-end="url(#f1a)"/>
-        <text class="t-lab" x="627" y="680" text-anchor="middle">圧縮・消去</text>
+        <line class="ar" x1="690" y1="791" x2="566" y2="791" marker-end="url(#f1a)"/>
+        <text class="t-lab" x="627" y="783" text-anchor="middle">text（end_turn）</text>
+
+        <line class="ar-dash" x1="564" y1="851" x2="688" y2="851" marker-end="url(#f1a)"/>
+        <text class="t-lab" x="627" y="843" text-anchor="middle">圧縮・消去</text>
 
         <!-- ===== arrows strip <-> model ===== -->
         <line class="ar" x1="842" y1="144" x2="958" y2="144" marker-end="url(#f1a)"/>
         <text class="t-lab" x="900" y="136" text-anchor="middle">全文を読む</text>
-
-        <line class="ar" x1="960" y1="627" x2="844" y2="627" marker-end="url(#f1a)"/>
-        <text class="t-lab" x="900" y="619" text-anchor="middle">生成を追記</text>
+        <line class="ar" x1="960" y1="770" x2="844" y2="770" marker-end="url(#f1a)"/>
+        <text class="t-lab" x="900" y="762" text-anchor="middle">生成を追記</text>
       </svg>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="400" viewBox="0 0 1240 400" role="img" aria-label="Skill の段階的な読み込み。起動時には name と description だけがコンテキストに載る。依頼と一致すると SKILL.md 本文が読まれ、本文が指した参照ファイルだけが読まれる。スクリプトは実行され、出力だけがコンテキストに入る。使われないファイルは 0 トークン。">
+        <defs>
+<style>
+text {font-family: "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", system-ui, sans-serif; fill: #151A24;}
+.t-zone {font-family: "Zen Kaku Gothic New", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", system-ui, sans-serif; font-size: 15px; font-weight: 700;}
+.t-zsub {font-size: 11px; fill: #737D8F;}
+.t-box {font-size: 12.5px; font-weight: 700;}
+.t-sub {font-size: 11px; fill: #465063;}
+.t-mut {font-size: 11px; fill: #737D8F;}
+.t-lab {font-size: 11px; fill: #465063;}
+.t-lab-acc {font-size: 11px; fill: #C2410C; font-weight: 500;}
+.t-mono {font-family: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-size: 11px;}
+.t-monom {font-family: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-size: 11px; fill: #737D8F;}
+.t-num {font-family: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-size: 11px; fill: #737D8F;}
+.t-phase {font-family: "Zen Kaku Gothic New", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", system-ui, sans-serif; font-size: 14px; font-weight: 700;}
+.t-model {fill: #3445B8;}
+.t-sk {fill: #1F7A55;}
+.t-tag {font-family: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-size: 10.5px; font-weight: 500; fill: #1F7A55;}
+.z-ext {fill: #ECEEF2;}
+.z-h {fill: #E9EDF4;}
+.z-ctx {fill: #FFFFFF; stroke: #D8DDE5; stroke-width: 1;}
+.z-model {fill: #ECEEFA; stroke: #3445B8; stroke-width: 1.2; stroke-dasharray: 5 4;}
+.bx {fill: #FFFFFF; stroke: #D8DDE5; stroke-width: 1;}
+.bx-2 {fill: #F7F8FA; stroke: #D8DDE5; stroke-width: 1;}
+.bx-m {fill: #F8F9FE; stroke: #3445B8; stroke-width: 1; stroke-opacity: 0.45;}
+.bx-acc {fill: #FBE8DD; stroke: #C2410C; stroke-width: 1;}
+.bx-sk {fill: #E3F2EA; stroke: #1F7A55; stroke-width: 1;}
+.bx-dash {fill: #F7F8FA; stroke: #737D8F; stroke-width: 1; stroke-dasharray: 4 3;}
+.seg {fill: #F7F8FA; stroke: #D8DDE5; stroke-width: 1;}
+.seg-a {fill: #F8F9FE; stroke: #D8DDE5; stroke-width: 1;}
+.seg-r {fill: #FBE8DD; stroke: #D8DDE5; stroke-width: 1;}
+.seg-sk {fill: #E3F2EA; stroke: #D8DDE5; stroke-width: 1;}
+.row-r {fill: #FFFFFF; stroke: #C2410C; stroke-width: 1; stroke-opacity: 0.6;}
+.row-sk {fill: #FFFFFF; stroke: #1F7A55; stroke-width: 1.2;}
+.tag-sk {fill: #E3F2EA; stroke: #1F7A55; stroke-width: 1;}
+.ar {stroke: #5A6477; stroke-width: 1.4; fill: none;}
+.ar-acc {stroke: #C2410C; stroke-width: 1.8; fill: none;}
+.ar-dash {stroke: #5A6477; stroke-width: 1.3; fill: none; stroke-dasharray: 4 4;}
+.rule-dash {stroke: #737D8F; stroke-width: 1; stroke-dasharray: 3 3; fill: none;}
+.tree {stroke: #737D8F; stroke-width: 1; fill: none;}
+.mk {fill: #5A6477;}
+.mk-acc {fill: #C2410C;}
+.brk {stroke: #5A6477; stroke-width: 1.2; fill: none;}
+.band-x {fill: #F7F8FA; stroke: #737D8F; stroke-width: 1; stroke-dasharray: 4 3;}
+.band-sk {fill: #E3F2EA; stroke: #1F7A55; stroke-width: 1; stroke-dasharray: 4 3;}
+text { font-family: "Noto Sans JP","Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic","Meiryo",sans-serif; }
+.t-zone, .t-phase { font-family: "Zen Kaku Gothic New","Noto Sans JP","Hiragino Sans","Yu Gothic","Meiryo",sans-serif; }
+.t-mono, .t-monom, .t-num, .t-tag { font-family: "IBM Plex Mono",Menlo,Consolas,monospace; }
+</style>
+          <marker id="f2a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="mk" d="M0,0 L10,5 L0,10 z"/></marker>
+          <marker id="f2b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="mk-acc" d="M0,0 L10,5 L0,10 z"/></marker>
+        </defs>
+        <rect x="0" y="0" width="1240" height="400" fill="#FFFFFF"/>
+
+        <text class="t-phase" x="20" y="30">Skill ディレクトリ</text>
+        <text class="t-zsub" x="20" y="48">ファイルシステム（コンテナ・VM・ローカル）</text>
+        <text class="t-phase" x="470" y="30">読み方</text>
+        <text class="t-zsub" x="470" y="48">ハーネス・コード実行環境</text>
+        <text class="t-phase" x="770" y="30">コンテキスト</text>
+        <text class="t-zsub" x="770" y="48">モデルに届くもの</text>
+        <text class="t-phase" x="990" y="30">コストと時点</text>
+        <text class="t-zsub" x="990" y="48">目安は公式ドキュメントによる</text>
+
+        <text class="t-mono" x="20" y="78" style="font-weight:500">board-prep/</text>
+        <path class="tree" d="M30,84 L30,354 M30,114 L44,114 M30,174 L44,174 M30,234 L44,234 M30,294 L44,294 M30,354 L44,354"/>
+
+        <rect class="bx-sk" x="44" y="92" width="356" height="44" rx="6"/>
+        <text class="t-box" x="58" y="110">SKILL.md の frontmatter</text>
+        <text class="t-sub" x="58" y="128">name · description（何を・いつ使うか）</text>
+        <rect class="tag-sk" x="352" y="104" width="36" height="20" rx="10"/>
+        <text class="t-tag" x="370" y="118" text-anchor="middle">L1</text>
+
+        <rect class="bx-sk" x="44" y="152" width="356" height="44" rx="6"/>
+        <text class="t-box" x="58" y="170">SKILL.md の本文</text>
+        <text class="t-sub" x="58" y="188">手順 · 出力形式 · チェックリスト</text>
+        <rect class="tag-sk" x="352" y="164" width="36" height="20" rx="10"/>
+        <text class="t-tag" x="370" y="178" text-anchor="middle">L2</text>
+
+        <rect class="row-sk" x="44" y="212" width="356" height="44" rx="6"/>
+        <text class="t-box" x="58" y="230">reference/template.md</text>
+        <text class="t-sub" x="58" y="248">参照資料</text>
+        <rect class="tag-sk" x="352" y="224" width="36" height="20" rx="10"/>
+        <text class="t-tag" x="370" y="238" text-anchor="middle">L3</text>
+
+        <rect class="row-sk" x="44" y="272" width="356" height="44" rx="6"/>
+        <text class="t-box" x="58" y="290">scripts/check_numbers.py</text>
+        <text class="t-sub" x="58" y="308">決定的な処理（数値の検算）</text>
+        <rect class="tag-sk" x="352" y="284" width="36" height="20" rx="10"/>
+        <text class="t-tag" x="370" y="298" text-anchor="middle">L3</text>
+
+        <rect class="bx-dash" x="44" y="332" width="356" height="44" rx="6"/>
+        <text class="t-box" x="58" y="350" style="fill:#737D8F">reference/kpi-defs.md · assets/</text>
+        <text class="t-mut" x="58" y="368">今回のタスクでは使わない</text>
+        <rect class="tag-sk" x="352" y="344" width="36" height="20" rx="10"/>
+        <text class="t-tag" x="370" y="358" text-anchor="middle">L3</text>
+
+        <rect class="bx" x="470" y="92" width="230" height="44" rx="6"/>
+        <text class="t-box" x="484" y="110">起動時にスキャン</text>
+        <text class="t-sub" x="484" y="128">ハーネスが system prompt に載せる</text>
+        <rect class="bx-acc" x="470" y="152" width="230" height="44" rx="6"/>
+        <text class="t-box" x="484" y="170">Skill tool ／ bash cat</text>
+        <text class="t-sub" x="484" y="188">description と依頼が合致したら</text>
+        <rect class="bx-acc" x="470" y="212" width="230" height="44" rx="6"/>
+        <text class="t-box" x="484" y="230">bash cat</text>
+        <text class="t-sub" x="484" y="248">本文が参照を指示したら</text>
+        <rect class="bx-acc" x="470" y="272" width="230" height="44" rx="6"/>
+        <text class="t-box" x="484" y="290">bash で実行</text>
+        <text class="t-sub" x="484" y="308">コードは実行環境に留まる</text>
+        <rect class="bx-dash" x="470" y="332" width="230" height="44" rx="6"/>
+        <text class="t-box" x="484" y="350" style="fill:#737D8F">読まない</text>
+        <text class="t-mut" x="484" y="368">ファイルのまま置かれる</text>
+
+        <rect class="seg" x="770" y="66" width="190" height="26"/>
+        <text class="t-mut" x="780" y="83">system・memory・依頼 …</text>
+        <rect class="seg-sk" x="770" y="92" width="190" height="52"/>
+        <text class="t-sub" x="780" y="122">Skill 一覧（L1 × N）</text>
+        <rect class="seg-sk" x="770" y="144" width="190" height="60"/>
+        <text class="t-sub" x="780" y="178">SKILL.md 本文（L2）</text>
+        <rect class="seg-sk" x="770" y="204" width="190" height="60"/>
+        <text class="t-sub" x="780" y="238">template.md（L3）</text>
+        <rect class="seg-sk" x="770" y="264" width="190" height="60"/>
+        <text class="t-sub" x="780" y="298">check_numbers.py の出力</text>
+        <rect class="seg" x="770" y="324" width="190" height="60" style="stroke-dasharray:4 3"/>
+        <text class="t-mut" x="780" y="358">未読のファイルは入らない</text>
+
+        <text class="t-box" x="990" y="110">約 100 トークン／Skill</text>
+        <text class="t-sub" x="990" y="128">t0 · 起動時から常に載る</text>
+        <text class="t-box" x="990" y="170">5k トークン未満を推奨</text>
+        <text class="t-sub" x="990" y="188">t1 · 起動を判断したあと</text>
+        <text class="t-box" x="990" y="230">読んだ分だけ</text>
+        <text class="t-sub" x="990" y="248">t2 · 手順の途中</text>
+        <text class="t-box" x="990" y="290">出力の分だけ</text>
+        <text class="t-sub" x="990" y="308">t2 · スクリプトのコードは入らない</text>
+        <text class="t-box" x="990" y="350" style="fill:#737D8F">0 トークン</text>
+        <text class="t-mut" x="990" y="368">読まれない限り</text>
+
+        <line class="ar" x1="400" y1="114" x2="468" y2="114" marker-end="url(#f2a)"/>
+        <line class="ar" x1="700" y1="114" x2="768" y2="114" marker-end="url(#f2a)"/>
+        <line class="ar-acc" x1="400" y1="174" x2="468" y2="174" marker-end="url(#f2b)"/>
+        <line class="ar-acc" x1="700" y1="174" x2="768" y2="174" marker-end="url(#f2b)"/>
+        <line class="ar-acc" x1="400" y1="234" x2="468" y2="234" marker-end="url(#f2b)"/>
+        <line class="ar-acc" x1="700" y1="234" x2="768" y2="234" marker-end="url(#f2b)"/>
+        <line class="ar-acc" x1="400" y1="294" x2="468" y2="294" marker-end="url(#f2b)"/>
+        <text class="t-lab-acc" x="434" y="286" text-anchor="middle">実行</text>
+        <line class="ar-acc" x1="700" y1="294" x2="768" y2="294" marker-end="url(#f2b)"/>
+        <text class="t-lab-acc" x="734" y="286" text-anchor="middle">出力のみ</text>
+        <line class="ar-dash" x1="400" y1="354" x2="468" y2="354" marker-end="url(#f2a)"/>
+      </svg>
