@@ -1,0 +1,3588 @@
+[
+ {
+  "id": "w001",
+  "title": "赤とんぼ",
+  "original": [],
+  "lyricist": [
+   "三木露風"
+  ],
+  "composer": [
+   "山田耕筰"
+  ],
+  "year": 1927,
+  "genre": "doyo",
+  "intl": false
+ },
+ {
+  "id": "w002",
+  "title": "酒は涙か溜息か",
+  "original": [
+   "藤山一郎"
+  ],
+  "lyricist": [
+   "高橋掬太郎"
+  ],
+  "composer": [
+   "古賀政男"
+  ],
+  "year": 1931,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w003",
+  "title": "東京ラプソディ",
+  "original": [
+   "藤山一郎"
+  ],
+  "lyricist": [
+   "門田ゆたか"
+  ],
+  "composer": [
+   "古賀政男"
+  ],
+  "year": 1936,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w004",
+  "title": "別れのブルース",
+  "original": [
+   "淡谷のり子"
+  ],
+  "lyricist": [
+   "藤浦洸"
+  ],
+  "composer": [
+   "服部良一"
+  ],
+  "year": 1937,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w005",
+  "title": "蘇州夜曲",
+  "original": [
+   "渡辺はま子",
+   "霧島昇"
+  ],
+  "lyricist": [
+   "西條八十"
+  ],
+  "composer": [
+   "服部良一"
+  ],
+  "year": 1940,
+  "genre": "kayo",
+  "intl": true
+ },
+ {
+  "id": "w006",
+  "title": "鈴懸の径",
+  "original": [
+   "灰田勝彦"
+  ],
+  "lyricist": [
+   "佐伯孝夫"
+  ],
+  "composer": [
+   "灰田有紀彦"
+  ],
+  "year": 1942,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w007",
+  "title": "リンゴの唄",
+  "original": [
+   "並木路子",
+   "霧島昇"
+  ],
+  "lyricist": [
+   "サトウハチロー"
+  ],
+  "composer": [
+   "万城目正"
+  ],
+  "year": 1945,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w008",
+  "title": "東京ブギウギ",
+  "original": [
+   "笠置シヅ子"
+  ],
+  "lyricist": [
+   "鈴木勝"
+  ],
+  "composer": [
+   "服部良一"
+  ],
+  "year": 1947,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w009",
+  "title": "港が見える丘",
+  "original": [
+   "平野愛子"
+  ],
+  "lyricist": [
+   "東辰三"
+  ],
+  "composer": [
+   "東辰三"
+  ],
+  "year": 1947,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w010",
+  "title": "星の流れに",
+  "original": [
+   "菊池章子"
+  ],
+  "lyricist": [
+   "清水みのる"
+  ],
+  "composer": [
+   "利根一郎"
+  ],
+  "year": 1947,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w011",
+  "title": "青い山脈",
+  "original": [
+   "藤山一郎",
+   "奈良光枝"
+  ],
+  "lyricist": [
+   "西條八十"
+  ],
+  "composer": [
+   "服部良一"
+  ],
+  "year": 1949,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w012",
+  "title": "銀座カンカン娘",
+  "original": [
+   "高峰秀子"
+  ],
+  "lyricist": [
+   "佐伯孝夫"
+  ],
+  "composer": [
+   "服部良一"
+  ],
+  "year": 1949,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w013",
+  "title": "長崎の鐘",
+  "original": [
+   "藤山一郎"
+  ],
+  "lyricist": [
+   "サトウハチロー"
+  ],
+  "composer": [
+   "古関裕而"
+  ],
+  "year": 1949,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w014",
+  "title": "夏の思い出",
+  "original": [],
+  "lyricist": [
+   "江間章子"
+  ],
+  "composer": [
+   "中田喜直"
+  ],
+  "year": 1949,
+  "genre": "doyo",
+  "intl": false
+ },
+ {
+  "id": "w015",
+  "title": "お富さん",
+  "original": [
+   "春日八郎"
+  ],
+  "lyricist": [
+   "山崎正"
+  ],
+  "composer": [
+   "渡久地政信"
+  ],
+  "year": 1954,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w016",
+  "title": "月がとっても青いから",
+  "original": [
+   "菅原都々子"
+  ],
+  "lyricist": [
+   "清水みのる"
+  ],
+  "composer": [
+   "陸奥明"
+  ],
+  "year": 1955,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w017",
+  "title": "別れの一本杉",
+  "original": [
+   "春日八郎"
+  ],
+  "lyricist": [
+   "高野公男"
+  ],
+  "composer": [
+   "船村徹"
+  ],
+  "year": 1955,
+  "genre": "enka",
+  "intl": false
+ },
+ {
+  "id": "w018",
+  "title": "有楽町で逢いましょう",
+  "original": [
+   "フランク永井"
+  ],
+  "lyricist": [
+   "佐伯孝夫"
+  ],
+  "composer": [
+   "吉田正"
+  ],
+  "year": 1957,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w019",
+  "title": "東京だョおっ母さん",
+  "original": [
+   "島倉千代子"
+  ],
+  "lyricist": [
+   "野村俊夫"
+  ],
+  "composer": [
+   "船村徹"
+  ],
+  "year": 1957,
+  "genre": "enka",
+  "intl": false
+ },
+ {
+  "id": "w020",
+  "title": "無法松の一生",
+  "original": [
+   "村田英雄"
+  ],
+  "lyricist": [
+   "吉野夫二郎"
+  ],
+  "composer": [
+   "古賀政男"
+  ],
+  "year": 1958,
+  "genre": "enka",
+  "intl": false
+ },
+ {
+  "id": "w021",
+  "title": "黒い花びら",
+  "original": [
+   "水原弘"
+  ],
+  "lyricist": [
+   "永六輔"
+  ],
+  "composer": [
+   "中村八大"
+  ],
+  "year": 1959,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w022",
+  "title": "黄昏のビギン",
+  "original": [
+   "水原弘"
+  ],
+  "lyricist": [
+   "永六輔"
+  ],
+  "composer": [
+   "中村八大"
+  ],
+  "year": 1959,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w023",
+  "title": "南国土佐を後にして",
+  "original": [
+   "ペギー葉山"
+  ],
+  "lyricist": [
+   "武政英策"
+  ],
+  "composer": [
+   "武政英策"
+  ],
+  "year": 1959,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w024",
+  "title": "知床旅情",
+  "original": [
+   "森繁久彌"
+  ],
+  "lyricist": [
+   "森繁久彌"
+  ],
+  "composer": [
+   "森繁久彌"
+  ],
+  "year": 1960,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w025",
+  "title": "王将",
+  "original": [
+   "村田英雄"
+  ],
+  "lyricist": [
+   "西條八十"
+  ],
+  "composer": [
+   "船村徹"
+  ],
+  "year": 1961,
+  "genre": "enka",
+  "intl": false
+ },
+ {
+  "id": "w026",
+  "title": "上を向いて歩こう",
+  "original": [
+   "坂本九"
+  ],
+  "lyricist": [
+   "永六輔"
+  ],
+  "composer": [
+   "中村八大"
+  ],
+  "year": 1961,
+  "genre": "kayo",
+  "intl": true
+ },
+ {
+  "id": "w027",
+  "title": "銀座の恋の物語",
+  "original": [
+   "石原裕次郎",
+   "牧村旬子"
+  ],
+  "lyricist": [
+   "大高ひさを"
+  ],
+  "composer": [
+   "鏑木創"
+  ],
+  "year": 1961,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w028",
+  "title": "遠くへ行きたい",
+  "original": [
+   "ジェリー藤尾"
+  ],
+  "lyricist": [
+   "永六輔"
+  ],
+  "composer": [
+   "中村八大"
+  ],
+  "year": 1962,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w029",
+  "title": "いつでも夢を",
+  "original": [
+   "橋幸夫",
+   "吉永小百合"
+  ],
+  "lyricist": [
+   "佐伯孝夫"
+  ],
+  "composer": [
+   "吉田正"
+  ],
+  "year": 1962,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w030",
+  "title": "見上げてごらん夜の星を",
+  "original": [
+   "坂本九"
+  ],
+  "lyricist": [
+   "永六輔"
+  ],
+  "composer": [
+   "いずみたく"
+  ],
+  "year": 1963,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w031",
+  "title": "こんにちは赤ちゃん",
+  "original": [
+   "梓みちよ"
+  ],
+  "lyricist": [
+   "永六輔"
+  ],
+  "composer": [
+   "中村八大"
+  ],
+  "year": 1963,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w032",
+  "title": "高校三年生",
+  "original": [
+   "舟木一夫"
+  ],
+  "lyricist": [
+   "丘灯至夫"
+  ],
+  "composer": [
+   "遠藤実"
+  ],
+  "year": 1963,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w033",
+  "title": "恋のバカンス",
+  "original": [
+   "ザ・ピーナッツ"
+  ],
+  "lyricist": [
+   "岩谷時子"
+  ],
+  "composer": [
+   "宮川泰"
+  ],
+  "year": 1963,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w034",
+  "title": "学生時代",
+  "original": [
+   "ペギー葉山"
+  ],
+  "lyricist": [
+   "平岡精二"
+  ],
+  "composer": [
+   "平岡精二"
+  ],
+  "year": 1964,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w035",
+  "title": "ウナ・セラ・ディ東京",
+  "original": [
+   "ザ・ピーナッツ"
+  ],
+  "lyricist": [
+   "岩谷時子"
+  ],
+  "composer": [
+   "宮川泰"
+  ],
+  "year": 1964,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w036",
+  "title": "柔",
+  "original": [
+   "美空ひばり"
+  ],
+  "lyricist": [
+   "関沢新一"
+  ],
+  "composer": [
+   "古賀政男"
+  ],
+  "year": 1964,
+  "genre": "enka",
+  "intl": false
+ },
+ {
+  "id": "w037",
+  "title": "君といつまでも",
+  "original": [
+   "加山雄三"
+  ],
+  "lyricist": [
+   "岩谷時子"
+  ],
+  "composer": [
+   "弾厚作"
+  ],
+  "year": 1965,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w038",
+  "title": "函館の女",
+  "original": [
+   "北島三郎"
+  ],
+  "lyricist": [
+   "星野哲郎"
+  ],
+  "composer": [
+   "島津伸男"
+  ],
+  "year": 1965,
+  "genre": "enka",
+  "intl": false
+ },
+ {
+  "id": "w039",
+  "title": "星影のワルツ",
+  "original": [
+   "千昌夫"
+  ],
+  "lyricist": [
+   "白鳥園枝"
+  ],
+  "composer": [
+   "遠藤実"
+  ],
+  "year": 1966,
+  "genre": "enka",
+  "intl": false
+ },
+ {
+  "id": "w040",
+  "title": "悲しい酒",
+  "original": [
+   "美空ひばり"
+  ],
+  "lyricist": [
+   "石本美由起"
+  ],
+  "composer": [
+   "古賀政男"
+  ],
+  "year": 1966,
+  "genre": "enka",
+  "intl": false
+ },
+ {
+  "id": "w041",
+  "title": "夜霧よ今夜も有難う",
+  "original": [
+   "石原裕次郎"
+  ],
+  "lyricist": [
+   "浜口庫之助"
+  ],
+  "composer": [
+   "浜口庫之助"
+  ],
+  "year": 1967,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w042",
+  "title": "真っ赤な太陽",
+  "original": [
+   "美空ひばり"
+  ],
+  "lyricist": [
+   "吉岡治"
+  ],
+  "composer": [
+   "原信夫"
+  ],
+  "year": 1967,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w043",
+  "title": "ブルー・ライト・ヨコハマ",
+  "original": [
+   "いしだあゆみ"
+  ],
+  "lyricist": [
+   "橋本淳"
+  ],
+  "composer": [
+   "筒美京平"
+  ],
+  "year": 1968,
+  "genre": "kayo",
+  "intl": true
+ },
+ {
+  "id": "w044",
+  "title": "恋の季節",
+  "original": [
+   "ピンキーとキラーズ"
+  ],
+  "lyricist": [
+   "岩谷時子"
+  ],
+  "composer": [
+   "いずみたく"
+  ],
+  "year": 1968,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w045",
+  "title": "悲しくてやりきれない",
+  "original": [
+   "ザ・フォーク・クルセダーズ"
+  ],
+  "lyricist": [
+   "サトウハチロー"
+  ],
+  "composer": [
+   "加藤和彦"
+  ],
+  "year": 1968,
+  "genre": "folk",
+  "intl": false
+ },
+ {
+  "id": "w046",
+  "title": "長崎は今日も雨だった",
+  "original": [
+   "内山田洋とクール・ファイブ"
+  ],
+  "lyricist": [
+   "永田貴子"
+  ],
+  "composer": [
+   "彩木雅夫"
+  ],
+  "year": 1969,
+  "genre": "enka",
+  "intl": false
+ },
+ {
+  "id": "w047",
+  "title": "港町ブルース",
+  "original": [
+   "森進一"
+  ],
+  "lyricist": [
+   "深津武志",
+   "なかにし礼"
+  ],
+  "composer": [
+   "猪俣公章"
+  ],
+  "year": 1969,
+  "genre": "enka",
+  "intl": false
+ },
+ {
+  "id": "w048",
+  "title": "夜明けのスキャット",
+  "original": [
+   "由紀さおり"
+  ],
+  "lyricist": [
+   "山上路夫"
+  ],
+  "composer": [
+   "いずみたく"
+  ],
+  "year": 1969,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w049",
+  "title": "時には母のない子のように",
+  "original": [
+   "カルメン・マキ"
+  ],
+  "lyricist": [
+   "寺山修司"
+  ],
+  "composer": [
+   "田中未知"
+  ],
+  "year": 1969,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w050",
+  "title": "白い色は恋人の色",
+  "original": [
+   "ベッツィ&クリス"
+  ],
+  "lyricist": [
+   "北山修"
+  ],
+  "composer": [
+   "加藤和彦"
+  ],
+  "year": 1969,
+  "genre": "folk",
+  "intl": false
+ },
+ {
+  "id": "w051",
+  "title": "圭子の夢は夜ひらく",
+  "original": [
+   "藤圭子"
+  ],
+  "lyricist": [
+   "石坂まさを"
+  ],
+  "composer": [
+   "曽根幸明"
+  ],
+  "year": 1970,
+  "genre": "enka",
+  "intl": false
+ },
+ {
+  "id": "w052",
+  "title": "京都慕情",
+  "original": [
+   "渚ゆう子"
+  ],
+  "lyricist": [
+   "林春生"
+  ],
+  "composer": [
+   "The Ventures"
+  ],
+  "year": 1970,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w053",
+  "title": "また逢う日まで",
+  "original": [
+   "尾崎紀世彦"
+  ],
+  "lyricist": [
+   "阿久悠"
+  ],
+  "composer": [
+   "筒美京平"
+  ],
+  "year": 1971,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w054",
+  "title": "翼をください",
+  "original": [
+   "赤い鳥"
+  ],
+  "lyricist": [
+   "山上路夫"
+  ],
+  "composer": [
+   "村井邦彦"
+  ],
+  "year": 1971,
+  "genre": "folk",
+  "intl": false
+ },
+ {
+  "id": "w055",
+  "title": "あの素晴しい愛をもう一度",
+  "original": [
+   "加藤和彦",
+   "北山修"
+  ],
+  "lyricist": [
+   "北山修"
+  ],
+  "composer": [
+   "加藤和彦"
+  ],
+  "year": 1971,
+  "genre": "folk",
+  "intl": false
+ },
+ {
+  "id": "w056",
+  "title": "風をあつめて",
+  "original": [
+   "はっぴいえんど"
+  ],
+  "lyricist": [
+   "松本隆"
+  ],
+  "composer": [
+   "細野晴臣"
+  ],
+  "year": 1971,
+  "genre": "rock",
+  "intl": false
+ },
+ {
+  "id": "w057",
+  "title": "よこはま・たそがれ",
+  "original": [
+   "五木ひろし"
+  ],
+  "lyricist": [
+   "山口洋子"
+  ],
+  "composer": [
+   "平尾昌晃"
+  ],
+  "year": 1971,
+  "genre": "enka",
+  "intl": false
+ },
+ {
+  "id": "w058",
+  "title": "おふくろさん",
+  "original": [
+   "森進一"
+  ],
+  "lyricist": [
+   "川内康範"
+  ],
+  "composer": [
+   "猪俣公章"
+  ],
+  "year": 1971,
+  "genre": "enka",
+  "intl": false
+ },
+ {
+  "id": "w059",
+  "title": "17才",
+  "original": [
+   "南沙織"
+  ],
+  "lyricist": [
+   "有馬三恵子"
+  ],
+  "composer": [
+   "筒美京平"
+  ],
+  "year": 1971,
+  "genre": "idol",
+  "intl": false
+ },
+ {
+  "id": "w060",
+  "title": "わたしの城下町",
+  "original": [
+   "小柳ルミ子"
+  ],
+  "lyricist": [
+   "安井かずみ"
+  ],
+  "composer": [
+   "平尾昌晃"
+  ],
+  "year": 1971,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w061",
+  "title": "花嫁",
+  "original": [
+   "はしだのりひことクライマックス"
+  ],
+  "lyricist": [
+   "北山修"
+  ],
+  "composer": [
+   "端田宣彦",
+   "坂庭省悟"
+  ],
+  "year": 1971,
+  "genre": "folk",
+  "intl": false
+ },
+ {
+  "id": "w062",
+  "title": "瀬戸の花嫁",
+  "original": [
+   "小柳ルミ子"
+  ],
+  "lyricist": [
+   "山上路夫"
+  ],
+  "composer": [
+   "平尾昌晃"
+  ],
+  "year": 1972,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w063",
+  "title": "喝采",
+  "original": [
+   "ちあきなおみ"
+  ],
+  "lyricist": [
+   "吉田旺"
+  ],
+  "composer": [
+   "中村泰士"
+  ],
+  "year": 1972,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w064",
+  "title": "結婚しようよ",
+  "original": [
+   "吉田拓郎"
+  ],
+  "lyricist": [
+   "吉田拓郎"
+  ],
+  "composer": [
+   "吉田拓郎"
+  ],
+  "year": 1972,
+  "genre": "folk",
+  "intl": false
+ },
+ {
+  "id": "w065",
+  "title": "傘がない",
+  "original": [
+   "井上陽水"
+  ],
+  "lyricist": [
+   "井上陽水"
+  ],
+  "composer": [
+   "井上陽水"
+  ],
+  "year": 1972,
+  "genre": "folk",
+  "intl": false
+ },
+ {
+  "id": "w066",
+  "title": "学生街の喫茶店",
+  "original": [
+   "ガロ"
+  ],
+  "lyricist": [
+   "山上路夫"
+  ],
+  "composer": [
+   "すぎやまこういち"
+  ],
+  "year": 1972,
+  "genre": "folk",
+  "intl": false
+ },
+ {
+  "id": "w067",
+  "title": "神田川",
+  "original": [
+   "南こうせつとかぐや姫"
+  ],
+  "lyricist": [
+   "喜多條忠"
+  ],
+  "composer": [
+   "南こうせつ"
+  ],
+  "year": 1973,
+  "genre": "folk",
+  "intl": false
+ },
+ {
+  "id": "w068",
+  "title": "夢の中へ",
+  "original": [
+   "井上陽水"
+  ],
+  "lyricist": [
+   "井上陽水"
+  ],
+  "composer": [
+   "井上陽水"
+  ],
+  "year": 1973,
+  "genre": "folk",
+  "intl": false
+ },
+ {
+  "id": "w069",
+  "title": "心の旅",
+  "original": [
+   "チューリップ"
+  ],
+  "lyricist": [
+   "財津和夫"
+  ],
+  "composer": [
+   "財津和夫"
+  ],
+  "year": 1973,
+  "genre": "newmusic",
+  "intl": false
+ },
+ {
+  "id": "w070",
+  "title": "ひこうき雲",
+  "original": [
+   "荒井由実"
+  ],
+  "lyricist": [
+   "荒井由実"
+  ],
+  "composer": [
+   "荒井由実"
+  ],
+  "year": 1973,
+  "genre": "newmusic",
+  "intl": false
+ },
+ {
+  "id": "w071",
+  "title": "なごり雪",
+  "original": [
+   "かぐや姫"
+  ],
+  "lyricist": [
+   "伊勢正三"
+  ],
+  "composer": [
+   "伊勢正三"
+  ],
+  "year": 1974,
+  "genre": "folk",
+  "intl": false
+ },
+ {
+  "id": "w072",
+  "title": "襟裳岬",
+  "original": [
+   "森進一"
+  ],
+  "lyricist": [
+   "岡本おさみ"
+  ],
+  "composer": [
+   "吉田拓郎"
+  ],
+  "year": 1974,
+  "genre": "enka",
+  "intl": false
+ },
+ {
+  "id": "w073",
+  "title": "精霊流し",
+  "original": [
+   "グレープ"
+  ],
+  "lyricist": [
+   "さだまさし"
+  ],
+  "composer": [
+   "さだまさし"
+  ],
+  "year": 1974,
+  "genre": "folk",
+  "intl": false
+ },
+ {
+  "id": "w074",
+  "title": "やさしさに包まれたなら",
+  "original": [
+   "荒井由実"
+  ],
+  "lyricist": [
+   "荒井由実"
+  ],
+  "composer": [
+   "荒井由実"
+  ],
+  "year": 1974,
+  "genre": "newmusic",
+  "intl": false
+ },
+ {
+  "id": "w075",
+  "title": "青春の影",
+  "original": [
+   "チューリップ"
+  ],
+  "lyricist": [
+   "財津和夫"
+  ],
+  "composer": [
+   "財津和夫"
+  ],
+  "year": 1974,
+  "genre": "newmusic",
+  "intl": false
+ },
+ {
+  "id": "w076",
+  "title": "学園天国",
+  "original": [
+   "フィンガー5"
+  ],
+  "lyricist": [
+   "阿久悠"
+  ],
+  "composer": [
+   "井上忠夫"
+  ],
+  "year": 1974,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w077",
+  "title": "22才の別れ",
+  "original": [
+   "かぐや姫"
+  ],
+  "lyricist": [
+   "伊勢正三"
+  ],
+  "composer": [
+   "伊勢正三"
+  ],
+  "year": 1974,
+  "genre": "folk",
+  "intl": false
+ },
+ {
+  "id": "w078",
+  "title": "木綿のハンカチーフ",
+  "original": [
+   "太田裕美"
+  ],
+  "lyricist": [
+   "松本隆"
+  ],
+  "composer": [
+   "筒美京平"
+  ],
+  "year": 1975,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w079",
+  "title": "時の過ぎゆくままに",
+  "original": [
+   "沢田研二"
+  ],
+  "lyricist": [
+   "阿久悠"
+  ],
+  "composer": [
+   "大野克夫"
+  ],
+  "year": 1975,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w080",
+  "title": "卒業写真",
+  "original": [
+   "荒井由実"
+  ],
+  "lyricist": [
+   "荒井由実"
+  ],
+  "composer": [
+   "荒井由実"
+  ],
+  "year": 1975,
+  "genre": "newmusic",
+  "intl": false
+ },
+ {
+  "id": "w081",
+  "title": "「いちご白書」をもう一度",
+  "original": [
+   "バンバン"
+  ],
+  "lyricist": [
+   "荒井由実"
+  ],
+  "composer": [
+   "荒井由実"
+  ],
+  "year": 1975,
+  "genre": "folk",
+  "intl": false
+ },
+ {
+  "id": "w082",
+  "title": "シクラメンのかほり",
+  "original": [
+   "布施明"
+  ],
+  "lyricist": [
+   "小椋佳"
+  ],
+  "composer": [
+   "小椋佳"
+  ],
+  "year": 1975,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w083",
+  "title": "時代",
+  "original": [
+   "中島みゆき"
+  ],
+  "lyricist": [
+   "中島みゆき"
+  ],
+  "composer": [
+   "中島みゆき"
+  ],
+  "year": 1975,
+  "genre": "newmusic",
+  "intl": false
+ },
+ {
+  "id": "w084",
+  "title": "北の宿から",
+  "original": [
+   "都はるみ"
+  ],
+  "lyricist": [
+   "阿久悠"
+  ],
+  "composer": [
+   "小林亜星"
+  ],
+  "year": 1975,
+  "genre": "enka",
+  "intl": false
+ },
+ {
+  "id": "w085",
+  "title": "酒と泪と男と女",
+  "original": [
+   "河島英五"
+  ],
+  "lyricist": [
+   "河島英五"
+  ],
+  "composer": [
+   "河島英五"
+  ],
+  "year": 1976,
+  "genre": "folk",
+  "intl": false
+ },
+ {
+  "id": "w086",
+  "title": "夢で逢えたら",
+  "original": [
+   "吉田美奈子"
+  ],
+  "lyricist": [
+   "大瀧詠一"
+  ],
+  "composer": [
+   "大瀧詠一"
+  ],
+  "year": 1976,
+  "genre": "newmusic",
+  "intl": false
+ },
+ {
+  "id": "w087",
+  "title": "スローバラード",
+  "original": [
+   "RCサクセション"
+  ],
+  "lyricist": [
+   "忌野清志郎",
+   "みかん"
+  ],
+  "composer": [
+   "忌野清志郎",
+   "みかん"
+  ],
+  "year": 1976,
+  "genre": "rock",
+  "intl": false
+ },
+ {
+  "id": "w088",
+  "title": "矢切の渡し",
+  "original": [
+   "ちあきなおみ"
+  ],
+  "lyricist": [
+   "石本美由起"
+  ],
+  "composer": [
+   "船村徹"
+  ],
+  "year": 1976,
+  "genre": "enka",
+  "intl": false
+ },
+ {
+  "id": "w089",
+  "title": "津軽海峡・冬景色",
+  "original": [
+   "石川さゆり"
+  ],
+  "lyricist": [
+   "阿久悠"
+  ],
+  "composer": [
+   "三木たかし"
+  ],
+  "year": 1977,
+  "genre": "enka",
+  "intl": false
+ },
+ {
+  "id": "w090",
+  "title": "北国の春",
+  "original": [
+   "千昌夫"
+  ],
+  "lyricist": [
+   "いではく"
+  ],
+  "composer": [
+   "遠藤実"
+  ],
+  "year": 1977,
+  "genre": "enka",
+  "intl": true
+ },
+ {
+  "id": "w091",
+  "title": "秋桜",
+  "original": [
+   "山口百恵"
+  ],
+  "lyricist": [
+   "さだまさし"
+  ],
+  "composer": [
+   "さだまさし"
+  ],
+  "year": 1977,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w092",
+  "title": "勝手にしやがれ",
+  "original": [
+   "沢田研二"
+  ],
+  "lyricist": [
+   "阿久悠"
+  ],
+  "composer": [
+   "大野克夫"
+  ],
+  "year": 1977,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w093",
+  "title": "迷い道",
+  "original": [
+   "渡辺真知子"
+  ],
+  "lyricist": [
+   "渡辺真知子"
+  ],
+  "composer": [
+   "渡辺真知子"
+  ],
+  "year": 1977,
+  "genre": "newmusic",
+  "intl": false
+ },
+ {
+  "id": "w094",
+  "title": "大空と大地の中で",
+  "original": [
+   "松山千春"
+  ],
+  "lyricist": [
+   "松山千春"
+  ],
+  "composer": [
+   "松山千春"
+  ],
+  "year": 1977,
+  "genre": "folk",
+  "intl": false
+ },
+ {
+  "id": "w095",
+  "title": "氷雨",
+  "original": [
+   "佳山明生"
+  ],
+  "lyricist": [
+   "とまりれん"
+  ],
+  "composer": [
+   "とまりれん"
+  ],
+  "year": 1977,
+  "genre": "enka",
+  "intl": false
+ },
+ {
+  "id": "w096",
+  "title": "時間よ止まれ",
+  "original": [
+   "矢沢永吉"
+  ],
+  "lyricist": [
+   "山川啓介"
+  ],
+  "composer": [
+   "矢沢永吉"
+  ],
+  "year": 1978,
+  "genre": "rock",
+  "intl": false
+ },
+ {
+  "id": "w097",
+  "title": "いい日旅立ち",
+  "original": [
+   "山口百恵"
+  ],
+  "lyricist": [
+   "谷村新司"
+  ],
+  "composer": [
+   "谷村新司"
+  ],
+  "year": 1978,
+  "genre": "kayo",
+  "intl": true
+ },
+ {
+  "id": "w098",
+  "title": "夢追い酒",
+  "original": [
+   "渥美二郎"
+  ],
+  "lyricist": [
+   "星野栄一"
+  ],
+  "composer": [
+   "遠藤実"
+  ],
+  "year": 1978,
+  "genre": "enka",
+  "intl": false
+ },
+ {
+  "id": "w099",
+  "title": "異邦人",
+  "original": [
+   "久保田早紀"
+  ],
+  "lyricist": [
+   "久保田早紀"
+  ],
+  "composer": [
+   "久保田早紀"
+  ],
+  "year": 1979,
+  "genre": "newmusic",
+  "intl": false
+ },
+ {
+  "id": "w100",
+  "title": "いとしのエリー",
+  "original": [
+   "サザンオールスターズ"
+  ],
+  "lyricist": [
+   "桑田佳祐"
+  ],
+  "composer": [
+   "桑田佳祐"
+  ],
+  "year": 1979,
+  "genre": "rock",
+  "intl": true
+ },
+ {
+  "id": "w101",
+  "title": "大阪で生まれた女",
+  "original": [
+   "BORO"
+  ],
+  "lyricist": [
+   "BORO"
+  ],
+  "composer": [
+   "BORO"
+  ],
+  "year": 1979,
+  "genre": "folk",
+  "intl": false
+ },
+ {
+  "id": "w102",
+  "title": "舟唄",
+  "original": [
+   "八代亜紀"
+  ],
+  "lyricist": [
+   "阿久悠"
+  ],
+  "composer": [
+   "浜圭介"
+  ],
+  "year": 1979,
+  "genre": "enka",
+  "intl": false
+ },
+ {
+  "id": "w103",
+  "title": "贈る言葉",
+  "original": [
+   "海援隊"
+  ],
+  "lyricist": [
+   "武田鉄矢"
+  ],
+  "composer": [
+   "千葉和臣"
+  ],
+  "year": 1979,
+  "genre": "folk",
+  "intl": false
+ },
+ {
+  "id": "w104",
+  "title": "真夜中のドア〜stay with me",
+  "original": [
+   "松原みき"
+  ],
+  "lyricist": [
+   "三浦徳子"
+  ],
+  "composer": [
+   "林哲司"
+  ],
+  "year": 1979,
+  "genre": "citypop",
+  "intl": true
+ },
+ {
+  "id": "w105",
+  "title": "昴",
+  "original": [
+   "谷村新司"
+  ],
+  "lyricist": [
+   "谷村新司"
+  ],
+  "composer": [
+   "谷村新司"
+  ],
+  "year": 1980,
+  "genre": "newmusic",
+  "intl": true
+ },
+ {
+  "id": "w106",
+  "title": "乾杯",
+  "original": [
+   "長渕剛"
+  ],
+  "lyricist": [
+   "長渕剛"
+  ],
+  "composer": [
+   "長渕剛"
+  ],
+  "year": 1980,
+  "genre": "folk",
+  "intl": false
+ },
+ {
+  "id": "w107",
+  "title": "雨上がりの夜空に",
+  "original": [
+   "RCサクセション"
+  ],
+  "lyricist": [
+   "忌野清志郎",
+   "仲井戸麗市"
+  ],
+  "composer": [
+   "忌野清志郎",
+   "仲井戸麗市"
+  ],
+  "year": 1980,
+  "genre": "rock",
+  "intl": false
+ },
+ {
+  "id": "w108",
+  "title": "恋人がサンタクロース",
+  "original": [
+   "松任谷由実"
+  ],
+  "lyricist": [
+   "松任谷由実"
+  ],
+  "composer": [
+   "松任谷由実"
+  ],
+  "year": 1980,
+  "genre": "newmusic",
+  "intl": false
+ },
+ {
+  "id": "w109",
+  "title": "花〜すべての人の心に花を〜",
+  "original": [
+   "喜納昌吉&チャンプルーズ"
+  ],
+  "lyricist": [
+   "喜納昌吉"
+  ],
+  "composer": [
+   "喜納昌吉"
+  ],
+  "year": 1980,
+  "genre": "okinawa",
+  "intl": true
+ },
+ {
+  "id": "w110",
+  "title": "雨の慕情",
+  "original": [
+   "八代亜紀"
+  ],
+  "lyricist": [
+   "阿久悠"
+  ],
+  "composer": [
+   "浜圭介"
+  ],
+  "year": 1980,
+  "genre": "enka",
+  "intl": false
+ },
+ {
+  "id": "w111",
+  "title": "守ってあげたい",
+  "original": [
+   "松任谷由実"
+  ],
+  "lyricist": [
+   "松任谷由実"
+  ],
+  "composer": [
+   "松任谷由実"
+  ],
+  "year": 1981,
+  "genre": "newmusic",
+  "intl": false
+ },
+ {
+  "id": "w112",
+  "title": "君は天然色",
+  "original": [
+   "大滝詠一"
+  ],
+  "lyricist": [
+   "松本隆"
+  ],
+  "composer": [
+   "大瀧詠一"
+  ],
+  "year": 1981,
+  "genre": "citypop",
+  "intl": false
+ },
+ {
+  "id": "w113",
+  "title": "悪女",
+  "original": [
+   "中島みゆき"
+  ],
+  "lyricist": [
+   "中島みゆき"
+  ],
+  "composer": [
+   "中島みゆき"
+  ],
+  "year": 1981,
+  "genre": "newmusic",
+  "intl": false
+ },
+ {
+  "id": "w114",
+  "title": "セーラー服と機関銃",
+  "original": [
+   "薬師丸ひろ子"
+  ],
+  "lyricist": [
+   "来生えつこ"
+  ],
+  "composer": [
+   "来生たかお"
+  ],
+  "year": 1981,
+  "genre": "idol",
+  "intl": false
+ },
+ {
+  "id": "w115",
+  "title": "赤いスイートピー",
+  "original": [
+   "松田聖子"
+  ],
+  "lyricist": [
+   "松本隆"
+  ],
+  "composer": [
+   "呉田軽穂"
+  ],
+  "year": 1982,
+  "genre": "idol",
+  "intl": false
+ },
+ {
+  "id": "w116",
+  "title": "冬のリヴィエラ",
+  "original": [
+   "森進一"
+  ],
+  "lyricist": [
+   "松本隆"
+  ],
+  "composer": [
+   "大瀧詠一"
+  ],
+  "year": 1982,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w117",
+  "title": "北酒場",
+  "original": [
+   "細川たかし"
+  ],
+  "lyricist": [
+   "なかにし礼"
+  ],
+  "composer": [
+   "中村泰士"
+  ],
+  "year": 1982,
+  "genre": "enka",
+  "intl": false
+ },
+ {
+  "id": "w118",
+  "title": "待つわ",
+  "original": [
+   "あみん"
+  ],
+  "lyricist": [
+   "岡村孝子"
+  ],
+  "composer": [
+   "岡村孝子"
+  ],
+  "year": 1982,
+  "genre": "newmusic",
+  "intl": false
+ },
+ {
+  "id": "w119",
+  "title": "兄弟船",
+  "original": [
+   "鳥羽一郎"
+  ],
+  "lyricist": [
+   "星野哲郎"
+  ],
+  "composer": [
+   "船村徹"
+  ],
+  "year": 1982,
+  "genre": "enka",
+  "intl": false
+ },
+ {
+  "id": "w120",
+  "title": "夏をあきらめて",
+  "original": [
+   "研ナオコ"
+  ],
+  "lyricist": [
+   "桑田佳祐"
+  ],
+  "composer": [
+   "桑田佳祐"
+  ],
+  "year": 1982,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w121",
+  "title": "言葉にできない",
+  "original": [
+   "オフコース"
+  ],
+  "lyricist": [
+   "小田和正"
+  ],
+  "composer": [
+   "小田和正"
+  ],
+  "year": 1982,
+  "genre": "newmusic",
+  "intl": false
+ },
+ {
+  "id": "w122",
+  "title": "ワインレッドの心",
+  "original": [
+   "安全地帯"
+  ],
+  "lyricist": [
+   "井上陽水"
+  ],
+  "composer": [
+   "玉置浩二"
+  ],
+  "year": 1983,
+  "genre": "rock",
+  "intl": false
+ },
+ {
+  "id": "w123",
+  "title": "SWEET MEMORIES",
+  "original": [
+   "松田聖子"
+  ],
+  "lyricist": [
+   "松本隆"
+  ],
+  "composer": [
+   "大村雅朗"
+  ],
+  "year": 1983,
+  "genre": "idol",
+  "intl": false
+ },
+ {
+  "id": "w124",
+  "title": "ファイト!",
+  "original": [
+   "中島みゆき"
+  ],
+  "lyricist": [
+   "中島みゆき"
+  ],
+  "composer": [
+   "中島みゆき"
+  ],
+  "year": 1983,
+  "genre": "newmusic",
+  "intl": false
+ },
+ {
+  "id": "w125",
+  "title": "クリスマス・イブ",
+  "original": [
+   "山下達郎"
+  ],
+  "lyricist": [
+   "山下達郎"
+  ],
+  "composer": [
+   "山下達郎"
+  ],
+  "year": 1983,
+  "genre": "citypop",
+  "intl": false
+ },
+ {
+  "id": "w126",
+  "title": "想い出がいっぱい",
+  "original": [
+   "H2O"
+  ],
+  "lyricist": [
+   "阿木燿子"
+  ],
+  "composer": [
+   "鈴木キサブロー"
+  ],
+  "year": 1983,
+  "genre": "newmusic",
+  "intl": false
+ },
+ {
+  "id": "w127",
+  "title": "越冬つばめ",
+  "original": [
+   "森昌子"
+  ],
+  "lyricist": [
+   "石原信一"
+  ],
+  "composer": [
+   "篠原義彦"
+  ],
+  "year": 1983,
+  "genre": "enka",
+  "intl": false
+ },
+ {
+  "id": "w128",
+  "title": "I LOVE YOU",
+  "original": [
+   "尾崎豊"
+  ],
+  "lyricist": [
+   "尾崎豊"
+  ],
+  "composer": [
+   "尾崎豊"
+  ],
+  "year": 1983,
+  "genre": "rock",
+  "intl": true
+ },
+ {
+  "id": "w129",
+  "title": "飾りじゃないのよ涙は",
+  "original": [
+   "中森明菜"
+  ],
+  "lyricist": [
+   "井上陽水"
+  ],
+  "composer": [
+   "井上陽水"
+  ],
+  "year": 1984,
+  "genre": "idol",
+  "intl": false
+ },
+ {
+  "id": "w130",
+  "title": "つぐない",
+  "original": [
+   "テレサ・テン"
+  ],
+  "lyricist": [
+   "荒木とよひさ"
+  ],
+  "composer": [
+   "三木たかし"
+  ],
+  "year": 1984,
+  "genre": "kayo",
+  "intl": true
+ },
+ {
+  "id": "w131",
+  "title": "プラスティック・ラブ",
+  "original": [
+   "竹内まりや"
+  ],
+  "lyricist": [
+   "竹内まりや"
+  ],
+  "composer": [
+   "竹内まりや"
+  ],
+  "year": 1984,
+  "genre": "citypop",
+  "intl": true
+ },
+ {
+  "id": "w132",
+  "title": "恋の予感",
+  "original": [
+   "安全地帯"
+  ],
+  "lyricist": [
+   "井上陽水"
+  ],
+  "composer": [
+   "玉置浩二"
+  ],
+  "year": 1984,
+  "genre": "rock",
+  "intl": false
+ },
+ {
+  "id": "w133",
+  "title": "Woman \"Wの悲劇\"より",
+  "original": [
+   "薬師丸ひろ子"
+  ],
+  "lyricist": [
+   "松本隆"
+  ],
+  "composer": [
+   "呉田軽穂"
+  ],
+  "year": 1984,
+  "genre": "idol",
+  "intl": false
+ },
+ {
+  "id": "w134",
+  "title": "恋におちて -Fall in love-",
+  "original": [
+   "小林明子"
+  ],
+  "lyricist": [
+   "湯川れい子"
+  ],
+  "composer": [
+   "小林明子"
+  ],
+  "year": 1985,
+  "genre": "newmusic",
+  "intl": false
+ },
+ {
+  "id": "w135",
+  "title": "心の瞳",
+  "original": [
+   "坂本九"
+  ],
+  "lyricist": [
+   "荒木とよひさ"
+  ],
+  "composer": [
+   "三木たかし"
+  ],
+  "year": 1985,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w136",
+  "title": "時の流れに身をまかせ",
+  "original": [
+   "テレサ・テン"
+  ],
+  "lyricist": [
+   "荒木とよひさ"
+  ],
+  "composer": [
+   "三木たかし"
+  ],
+  "year": 1986,
+  "genre": "kayo",
+  "intl": true
+ },
+ {
+  "id": "w137",
+  "title": "天城越え",
+  "original": [
+   "石川さゆり"
+  ],
+  "lyricist": [
+   "吉岡治"
+  ],
+  "composer": [
+   "弦哲也"
+  ],
+  "year": 1986,
+  "genre": "enka",
+  "intl": false
+ },
+ {
+  "id": "w138",
+  "title": "愛燦燦",
+  "original": [
+   "美空ひばり"
+  ],
+  "lyricist": [
+   "小椋佳"
+  ],
+  "composer": [
+   "小椋佳"
+  ],
+  "year": 1986,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w139",
+  "title": "駅",
+  "original": [
+   "中森明菜"
+  ],
+  "lyricist": [
+   "竹内まりや"
+  ],
+  "composer": [
+   "竹内まりや"
+  ],
+  "year": 1986,
+  "genre": "idol",
+  "intl": false
+ },
+ {
+  "id": "w140",
+  "title": "瑠璃色の地球",
+  "original": [
+   "松田聖子"
+  ],
+  "lyricist": [
+   "松本隆"
+  ],
+  "composer": [
+   "平井夏美"
+  ],
+  "year": 1986,
+  "genre": "idol",
+  "intl": false
+ },
+ {
+  "id": "w141",
+  "title": "雪國",
+  "original": [
+   "吉幾三"
+  ],
+  "lyricist": [
+   "吉幾三"
+  ],
+  "composer": [
+   "吉幾三"
+  ],
+  "year": 1986,
+  "genre": "enka",
+  "intl": false
+ },
+ {
+  "id": "w142",
+  "title": "夏の終わりのハーモニー",
+  "original": [
+   "井上陽水",
+   "安全地帯"
+  ],
+  "lyricist": [
+   "井上陽水"
+  ],
+  "composer": [
+   "玉置浩二"
+  ],
+  "year": 1986,
+  "genre": "newmusic",
+  "intl": false
+ },
+ {
+  "id": "w143",
+  "title": "My Revolution",
+  "original": [
+   "渡辺美里"
+  ],
+  "lyricist": [
+   "川村真澄"
+  ],
+  "composer": [
+   "小室哲哉"
+  ],
+  "year": 1986,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w144",
+  "title": "時代おくれ",
+  "original": [
+   "河島英五"
+  ],
+  "lyricist": [
+   "阿久悠"
+  ],
+  "composer": [
+   "森田公一"
+  ],
+  "year": 1986,
+  "genre": "folk",
+  "intl": false
+ },
+ {
+  "id": "w145",
+  "title": "夢をあきらめないで",
+  "original": [
+   "岡村孝子"
+  ],
+  "lyricist": [
+   "岡村孝子"
+  ],
+  "composer": [
+   "岡村孝子"
+  ],
+  "year": 1987,
+  "genre": "newmusic",
+  "intl": false
+ },
+ {
+  "id": "w146",
+  "title": "人生いろいろ",
+  "original": [
+   "島倉千代子"
+  ],
+  "lyricist": [
+   "中山大三郎"
+  ],
+  "composer": [
+   "浜口庫之助"
+  ],
+  "year": 1987,
+  "genre": "enka",
+  "intl": false
+ },
+ {
+  "id": "w147",
+  "title": "リンダリンダ",
+  "original": [
+   "THE BLUE HEARTS"
+  ],
+  "lyricist": [
+   "甲本ヒロト"
+  ],
+  "composer": [
+   "甲本ヒロト"
+  ],
+  "year": 1987,
+  "genre": "rock",
+  "intl": true
+ },
+ {
+  "id": "w148",
+  "title": "酒よ",
+  "original": [
+   "吉幾三"
+  ],
+  "lyricist": [
+   "吉幾三"
+  ],
+  "composer": [
+   "吉幾三"
+  ],
+  "year": 1988,
+  "genre": "enka",
+  "intl": false
+ },
+ {
+  "id": "w149",
+  "title": "TRAIN-TRAIN",
+  "original": [
+   "THE BLUE HEARTS"
+  ],
+  "lyricist": [
+   "真島昌利"
+  ],
+  "composer": [
+   "真島昌利"
+  ],
+  "year": 1988,
+  "genre": "rock",
+  "intl": false
+ },
+ {
+  "id": "w150",
+  "title": "とんぼ",
+  "original": [
+   "長渕剛"
+  ],
+  "lyricist": [
+   "長渕剛"
+  ],
+  "composer": [
+   "長渕剛"
+  ],
+  "year": 1988,
+  "genre": "folk",
+  "intl": false
+ },
+ {
+  "id": "w151",
+  "title": "川の流れのように",
+  "original": [
+   "美空ひばり"
+  ],
+  "lyricist": [
+   "秋元康"
+  ],
+  "composer": [
+   "見岳章"
+  ],
+  "year": 1989,
+  "genre": "kayo",
+  "intl": true
+ },
+ {
+  "id": "w152",
+  "title": "未来予想図II",
+  "original": [
+   "DREAMS COME TRUE"
+  ],
+  "lyricist": [
+   "吉田美和"
+  ],
+  "composer": [
+   "吉田美和"
+  ],
+  "year": 1989,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w153",
+  "title": "紅",
+  "original": [
+   "X JAPAN"
+  ],
+  "lyricist": [
+   "YOSHIKI"
+  ],
+  "composer": [
+   "YOSHIKI"
+  ],
+  "year": 1989,
+  "genre": "rock",
+  "intl": false
+ },
+ {
+  "id": "w154",
+  "title": "少年時代",
+  "original": [
+   "井上陽水"
+  ],
+  "lyricist": [
+   "井上陽水"
+  ],
+  "composer": [
+   "井上陽水",
+   "平井夏美"
+  ],
+  "year": 1990,
+  "genre": "newmusic",
+  "intl": false
+ },
+ {
+  "id": "w155",
+  "title": "愛は勝つ",
+  "original": [
+   "KAN"
+  ],
+  "lyricist": [
+   "KAN"
+  ],
+  "composer": [
+   "KAN"
+  ],
+  "year": 1990,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w156",
+  "title": "情熱の薔薇",
+  "original": [
+   "THE BLUE HEARTS"
+  ],
+  "lyricist": [
+   "甲本ヒロト"
+  ],
+  "composer": [
+   "甲本ヒロト"
+  ],
+  "year": 1990,
+  "genre": "rock",
+  "intl": false
+ },
+ {
+  "id": "w157",
+  "title": "真夏の果実",
+  "original": [
+   "サザンオールスターズ"
+  ],
+  "lyricist": [
+   "桑田佳祐"
+  ],
+  "composer": [
+   "桑田佳祐"
+  ],
+  "year": 1990,
+  "genre": "rock",
+  "intl": false
+ },
+ {
+  "id": "w158",
+  "title": "夏祭り",
+  "original": [
+   "JITTERIN'JINN"
+  ],
+  "lyricist": [
+   "破矢ジンタ"
+  ],
+  "composer": [
+   "破矢ジンタ"
+  ],
+  "year": 1990,
+  "genre": "rock",
+  "intl": false
+ },
+ {
+  "id": "w159",
+  "title": "SAY YES",
+  "original": [
+   "CHAGE and ASKA"
+  ],
+  "lyricist": [
+   "飛鳥涼"
+  ],
+  "composer": [
+   "飛鳥涼"
+  ],
+  "year": 1991,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w160",
+  "title": "ラブ・ストーリーは突然に",
+  "original": [
+   "小田和正"
+  ],
+  "lyricist": [
+   "小田和正"
+  ],
+  "composer": [
+   "小田和正"
+  ],
+  "year": 1991,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w161",
+  "title": "どんなときも。",
+  "original": [
+   "槇原敬之"
+  ],
+  "lyricist": [
+   "槇原敬之"
+  ],
+  "composer": [
+   "槇原敬之"
+  ],
+  "year": 1991,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w162",
+  "title": "君がいるだけで",
+  "original": [
+   "米米CLUB"
+  ],
+  "lyricist": [
+   "米米CLUB"
+  ],
+  "composer": [
+   "米米CLUB"
+  ],
+  "year": 1992,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w163",
+  "title": "もう恋なんてしない",
+  "original": [
+   "槇原敬之"
+  ],
+  "lyricist": [
+   "槇原敬之"
+  ],
+  "composer": [
+   "槇原敬之"
+  ],
+  "year": 1992,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w164",
+  "title": "糸",
+  "original": [
+   "中島みゆき"
+  ],
+  "lyricist": [
+   "中島みゆき"
+  ],
+  "composer": [
+   "中島みゆき"
+  ],
+  "year": 1992,
+  "genre": "newmusic",
+  "intl": true
+ },
+ {
+  "id": "w165",
+  "title": "島唄",
+  "original": [
+   "THE BOOM"
+  ],
+  "lyricist": [
+   "宮沢和史"
+  ],
+  "composer": [
+   "宮沢和史"
+  ],
+  "year": 1992,
+  "genre": "okinawa",
+  "intl": true
+ },
+ {
+  "id": "w166",
+  "title": "渡良瀬橋",
+  "original": [
+   "森高千里"
+  ],
+  "lyricist": [
+   "森高千里"
+  ],
+  "composer": [
+   "斉藤英夫"
+  ],
+  "year": 1993,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w167",
+  "title": "負けないで",
+  "original": [
+   "ZARD"
+  ],
+  "lyricist": [
+   "坂井泉水"
+  ],
+  "composer": [
+   "織田哲郎"
+  ],
+  "year": 1993,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w168",
+  "title": "木蘭の涙",
+  "original": [
+   "スターダスト☆レビュー"
+  ],
+  "lyricist": [
+   "山田ひろし"
+  ],
+  "composer": [
+   "柿沼清史"
+  ],
+  "year": 1993,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w169",
+  "title": "Tomorrow never knows",
+  "original": [
+   "Mr.Children"
+  ],
+  "lyricist": [
+   "桜井和寿"
+  ],
+  "composer": [
+   "桜井和寿"
+  ],
+  "year": 1994,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w170",
+  "title": "空も飛べるはず",
+  "original": [
+   "スピッツ"
+  ],
+  "lyricist": [
+   "草野正宗"
+  ],
+  "composer": [
+   "草野正宗"
+  ],
+  "year": 1994,
+  "genre": "rock",
+  "intl": false
+ },
+ {
+  "id": "w171",
+  "title": "春よ、来い",
+  "original": [
+   "松任谷由実"
+  ],
+  "lyricist": [
+   "松任谷由実"
+  ],
+  "composer": [
+   "松任谷由実"
+  ],
+  "year": 1994,
+  "genre": "newmusic",
+  "intl": false
+ },
+ {
+  "id": "w172",
+  "title": "夜桜お七",
+  "original": [
+   "坂本冬美"
+  ],
+  "lyricist": [
+   "林あまり"
+  ],
+  "composer": [
+   "三木たかし"
+  ],
+  "year": 1994,
+  "genre": "enka",
+  "intl": false
+ },
+ {
+  "id": "w173",
+  "title": "ロビンソン",
+  "original": [
+   "スピッツ"
+  ],
+  "lyricist": [
+   "草野正宗"
+  ],
+  "composer": [
+   "草野正宗"
+  ],
+  "year": 1995,
+  "genre": "rock",
+  "intl": false
+ },
+ {
+  "id": "w174",
+  "title": "残酷な天使のテーゼ",
+  "original": [
+   "高橋洋子"
+  ],
+  "lyricist": [
+   "及川眠子"
+  ],
+  "composer": [
+   "佐藤英敏"
+  ],
+  "year": 1995,
+  "genre": "anime",
+  "intl": true
+ },
+ {
+  "id": "w175",
+  "title": "LOVE LOVE LOVE",
+  "original": [
+   "DREAMS COME TRUE"
+  ],
+  "lyricist": [
+   "吉田美和"
+  ],
+  "composer": [
+   "吉田美和",
+   "中村正人"
+  ],
+  "year": 1995,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w176",
+  "title": "チェリー",
+  "original": [
+   "スピッツ"
+  ],
+  "lyricist": [
+   "草野正宗"
+  ],
+  "composer": [
+   "草野正宗"
+  ],
+  "year": 1996,
+  "genre": "rock",
+  "intl": false
+ },
+ {
+  "id": "w177",
+  "title": "Forever Love",
+  "original": [
+   "X JAPAN"
+  ],
+  "lyricist": [
+   "YOSHIKI"
+  ],
+  "composer": [
+   "YOSHIKI"
+  ],
+  "year": 1996,
+  "genre": "rock",
+  "intl": false
+ },
+ {
+  "id": "w178",
+  "title": "歌うたいのバラッド",
+  "original": [
+   "斉藤和義"
+  ],
+  "lyricist": [
+   "斉藤和義"
+  ],
+  "composer": [
+   "斉藤和義"
+  ],
+  "year": 1997,
+  "genre": "rock",
+  "intl": false
+ },
+ {
+  "id": "w179",
+  "title": "涙そうそう",
+  "original": [
+   "森山良子"
+  ],
+  "lyricist": [
+   "森山良子"
+  ],
+  "composer": [
+   "BEGIN"
+  ],
+  "year": 1998,
+  "genre": "okinawa",
+  "intl": true
+ },
+ {
+  "id": "w180",
+  "title": "夜空ノムコウ",
+  "original": [
+   "SMAP"
+  ],
+  "lyricist": [
+   "スガシカオ"
+  ],
+  "composer": [
+   "川村結花"
+  ],
+  "year": 1998,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w181",
+  "title": "長い間",
+  "original": [
+   "Kiroro"
+  ],
+  "lyricist": [
+   "玉城千春"
+  ],
+  "composer": [
+   "玉城千春"
+  ],
+  "year": 1998,
+  "genre": "jpop",
+  "intl": true
+ },
+ {
+  "id": "w182",
+  "title": "未来へ",
+  "original": [
+   "Kiroro"
+  ],
+  "lyricist": [
+   "玉城千春"
+  ],
+  "composer": [
+   "玉城千春"
+  ],
+  "year": 1998,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w183",
+  "title": "夏色",
+  "original": [
+   "ゆず"
+  ],
+  "lyricist": [
+   "北川悠仁"
+  ],
+  "composer": [
+   "北川悠仁"
+  ],
+  "year": 1998,
+  "genre": "folk",
+  "intl": false
+ },
+ {
+  "id": "w184",
+  "title": "First Love",
+  "original": [
+   "宇多田ヒカル"
+  ],
+  "lyricist": [
+   "宇多田ヒカル"
+  ],
+  "composer": [
+   "宇多田ヒカル"
+  ],
+  "year": 1999,
+  "genre": "jpop",
+  "intl": true
+ },
+ {
+  "id": "w185",
+  "title": "丸の内サディスティック",
+  "original": [
+   "椎名林檎"
+  ],
+  "lyricist": [
+   "椎名林檎"
+  ],
+  "composer": [
+   "椎名林檎"
+  ],
+  "year": 1999,
+  "genre": "rock",
+  "intl": false
+ },
+ {
+  "id": "w186",
+  "title": "桜坂",
+  "original": [
+   "福山雅治"
+  ],
+  "lyricist": [
+   "福山雅治"
+  ],
+  "composer": [
+   "福山雅治"
+  ],
+  "year": 2000,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w187",
+  "title": "TSUNAMI",
+  "original": [
+   "サザンオールスターズ"
+  ],
+  "lyricist": [
+   "桑田佳祐"
+  ],
+  "composer": [
+   "桑田佳祐"
+  ],
+  "year": 2000,
+  "genre": "rock",
+  "intl": false
+ },
+ {
+  "id": "w188",
+  "title": "地上の星",
+  "original": [
+   "中島みゆき"
+  ],
+  "lyricist": [
+   "中島みゆき"
+  ],
+  "composer": [
+   "中島みゆき"
+  ],
+  "year": 2000,
+  "genre": "newmusic",
+  "intl": false
+ },
+ {
+  "id": "w189",
+  "title": "Everything",
+  "original": [
+   "MISIA"
+  ],
+  "lyricist": [
+   "MISIA"
+  ],
+  "composer": [
+   "松本俊明"
+  ],
+  "year": 2000,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w190",
+  "title": "天体観測",
+  "original": [
+   "BUMP OF CHICKEN"
+  ],
+  "lyricist": [
+   "藤原基央"
+  ],
+  "composer": [
+   "藤原基央"
+  ],
+  "year": 2001,
+  "genre": "rock",
+  "intl": false
+ },
+ {
+  "id": "w191",
+  "title": "小さな恋のうた",
+  "original": [
+   "MONGOL800"
+  ],
+  "lyricist": [
+   "上江洌清作"
+  ],
+  "composer": [
+   "MONGOL800"
+  ],
+  "year": 2001,
+  "genre": "rock",
+  "intl": true
+ },
+ {
+  "id": "w192",
+  "title": "secret base 〜君がくれたもの〜",
+  "original": [
+   "ZONE"
+  ],
+  "lyricist": [
+   "町田紀彦"
+  ],
+  "composer": [
+   "町田紀彦"
+  ],
+  "year": 2001,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w193",
+  "title": "千の風になって",
+  "original": [
+   "新井満"
+  ],
+  "lyricist": [
+   "新井満"
+  ],
+  "composer": [
+   "新井満"
+  ],
+  "year": 2001,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w194",
+  "title": "島人ぬ宝",
+  "original": [
+   "BEGIN"
+  ],
+  "lyricist": [
+   "比嘉栄昇"
+  ],
+  "composer": [
+   "BEGIN"
+  ],
+  "year": 2002,
+  "genre": "okinawa",
+  "intl": false
+ },
+ {
+  "id": "w195",
+  "title": "世界に一つだけの花",
+  "original": [
+   "SMAP"
+  ],
+  "lyricist": [
+   "槇原敬之"
+  ],
+  "composer": [
+   "槇原敬之"
+  ],
+  "year": 2002,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w196",
+  "title": "雪の華",
+  "original": [
+   "中島美嘉"
+  ],
+  "lyricist": [
+   "Satomi"
+  ],
+  "composer": [
+   "松本良喜"
+  ],
+  "year": 2003,
+  "genre": "jpop",
+  "intl": true
+ },
+ {
+  "id": "w197",
+  "title": "さくら(独唱)",
+  "original": [
+   "森山直太朗"
+  ],
+  "lyricist": [
+   "森山直太朗",
+   "御徒町凧"
+  ],
+  "composer": [
+   "森山直太朗"
+  ],
+  "year": 2003,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w198",
+  "title": "ハナミズキ",
+  "original": [
+   "一青窈"
+  ],
+  "lyricist": [
+   "一青窈"
+  ],
+  "composer": [
+   "マシコタツロウ"
+  ],
+  "year": 2004,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w199",
+  "title": "3月9日",
+  "original": [
+   "レミオロメン"
+  ],
+  "lyricist": [
+   "藤巻亮太"
+  ],
+  "composer": [
+   "藤巻亮太"
+  ],
+  "year": 2004,
+  "genre": "rock",
+  "intl": false
+ },
+ {
+  "id": "w200",
+  "title": "栄光の架橋",
+  "original": [
+   "ゆず"
+  ],
+  "lyricist": [
+   "北川悠仁"
+  ],
+  "composer": [
+   "北川悠仁"
+  ],
+  "year": 2004,
+  "genre": "folk",
+  "intl": false
+ },
+ {
+  "id": "w201",
+  "title": "奏(かなで)",
+  "original": [
+   "スキマスイッチ"
+  ],
+  "lyricist": [
+   "大橋卓弥",
+   "常田真太郎"
+  ],
+  "composer": [
+   "大橋卓弥",
+   "常田真太郎"
+  ],
+  "year": 2004,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w202",
+  "title": "粉雪",
+  "original": [
+   "レミオロメン"
+  ],
+  "lyricist": [
+   "藤巻亮太"
+  ],
+  "composer": [
+   "藤巻亮太"
+  ],
+  "year": 2005,
+  "genre": "rock",
+  "intl": false
+ },
+ {
+  "id": "w203",
+  "title": "三日月",
+  "original": [
+   "絢香"
+  ],
+  "lyricist": [
+   "絢香"
+  ],
+  "composer": [
+   "絢香",
+   "西尾芳彦"
+  ],
+  "year": 2006,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w204",
+  "title": "蕾",
+  "original": [
+   "コブクロ"
+  ],
+  "lyricist": [
+   "小渕健太郎"
+  ],
+  "composer": [
+   "小渕健太郎"
+  ],
+  "year": 2007,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w205",
+  "title": "若者のすべて",
+  "original": [
+   "フジファブリック"
+  ],
+  "lyricist": [
+   "志村正彦"
+  ],
+  "composer": [
+   "志村正彦"
+  ],
+  "year": 2007,
+  "genre": "rock",
+  "intl": false
+ },
+ {
+  "id": "w206",
+  "title": "また君に恋してる",
+  "original": [
+   "ビリー・バンバン"
+  ],
+  "lyricist": [
+   "松井五郎"
+  ],
+  "composer": [
+   "森正明"
+  ],
+  "year": 2007,
+  "genre": "kayo",
+  "intl": false
+ },
+ {
+  "id": "w207",
+  "title": "愛をこめて花束を",
+  "original": [
+   "Superfly"
+  ],
+  "lyricist": [
+   "越智志帆",
+   "多保孝一",
+   "いしわたり淳治"
+  ],
+  "composer": [
+   "越智志帆",
+   "多保孝一"
+  ],
+  "year": 2008,
+  "genre": "rock",
+  "intl": false
+ },
+ {
+  "id": "w208",
+  "title": "366日",
+  "original": [
+   "HY"
+  ],
+  "lyricist": [
+   "仲宗根泉"
+  ],
+  "composer": [
+   "仲宗根泉"
+  ],
+  "year": 2008,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w209",
+  "title": "手紙 〜拝啓 十五の君へ〜",
+  "original": [
+   "アンジェラ・アキ"
+  ],
+  "lyricist": [
+   "アンジェラ・アキ"
+  ],
+  "composer": [
+   "アンジェラ・アキ"
+  ],
+  "year": 2008,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w210",
+  "title": "ありがとう",
+  "original": [
+   "いきものがかり"
+  ],
+  "lyricist": [
+   "水野良樹"
+  ],
+  "composer": [
+   "水野良樹"
+  ],
+  "year": 2010,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w211",
+  "title": "千本桜",
+  "original": [
+   "黒うさP feat. 初音ミク"
+  ],
+  "lyricist": [
+   "黒うさP"
+  ],
+  "composer": [
+   "黒うさP"
+  ],
+  "year": 2011,
+  "genre": "vocaloid",
+  "intl": true
+ },
+ {
+  "id": "w212",
+  "title": "ひまわりの約束",
+  "original": [
+   "秦基博"
+  ],
+  "lyricist": [
+   "秦基博"
+  ],
+  "composer": [
+   "秦基博"
+  ],
+  "year": 2014,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w213",
+  "title": "打上花火",
+  "original": [
+   "DAOKO×米津玄師"
+  ],
+  "lyricist": [
+   "米津玄師"
+  ],
+  "composer": [
+   "米津玄師"
+  ],
+  "year": 2017,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w214",
+  "title": "猫",
+  "original": [
+   "DISH//"
+  ],
+  "lyricist": [
+   "あいみょん"
+  ],
+  "composer": [
+   "あいみょん"
+  ],
+  "year": 2017,
+  "genre": "rock",
+  "intl": false
+ },
+ {
+  "id": "w215",
+  "title": "Lemon",
+  "original": [
+   "米津玄師"
+  ],
+  "lyricist": [
+   "米津玄師"
+  ],
+  "composer": [
+   "米津玄師"
+  ],
+  "year": 2018,
+  "genre": "jpop",
+  "intl": true
+ },
+ {
+  "id": "w216",
+  "title": "マリーゴールド",
+  "original": [
+   "あいみょん"
+  ],
+  "lyricist": [
+   "あいみょん"
+  ],
+  "composer": [
+   "あいみょん"
+  ],
+  "year": 2018,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w217",
+  "title": "Pretender",
+  "original": [
+   "Official髭男dism"
+  ],
+  "lyricist": [
+   "藤原聡"
+  ],
+  "composer": [
+   "藤原聡"
+  ],
+  "year": 2019,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w218",
+  "title": "白日",
+  "original": [
+   "King Gnu"
+  ],
+  "lyricist": [
+   "常田大希"
+  ],
+  "composer": [
+   "常田大希"
+  ],
+  "year": 2019,
+  "genre": "rock",
+  "intl": false
+ },
+ {
+  "id": "w219",
+  "title": "香水",
+  "original": [
+   "瑛人"
+  ],
+  "lyricist": [
+   "瑛人"
+  ],
+  "composer": [
+   "瑛人"
+  ],
+  "year": 2019,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w220",
+  "title": "夜に駆ける",
+  "original": [
+   "YOASOBI"
+  ],
+  "lyricist": [
+   "Ayase"
+  ],
+  "composer": [
+   "Ayase"
+  ],
+  "year": 2019,
+  "genre": "jpop",
+  "intl": true
+ },
+ {
+  "id": "w221",
+  "title": "紅蓮華",
+  "original": [
+   "LiSA"
+  ],
+  "lyricist": [
+   "LiSA"
+  ],
+  "composer": [
+   "草野華余子"
+  ],
+  "year": 2019,
+  "genre": "anime",
+  "intl": true
+ },
+ {
+  "id": "w222",
+  "title": "ドライフラワー",
+  "original": [
+   "優里"
+  ],
+  "lyricist": [
+   "優里"
+  ],
+  "composer": [
+   "優里"
+  ],
+  "year": 2020,
+  "genre": "jpop",
+  "intl": false
+ },
+ {
+  "id": "w223",
+  "title": "アイドル",
+  "original": [
+   "YOASOBI"
+  ],
+  "lyricist": [
+   "Ayase"
+  ],
+  "composer": [
+   "Ayase"
+  ],
+  "year": 2023,
+  "genre": "jpop",
+  "intl": true
+ }
+]

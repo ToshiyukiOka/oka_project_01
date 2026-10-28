@@ -1,0 +1,1117 @@
+{
+ "w001": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "Omitted: 臼澤みさき 'Amazing Grace~赤とんぼ' (medley, not verified as this song alone); シュガーシスターズ (title only, no credit check); 西方裕之 version is a different song (different lyricist/composer). Several artists evidenced via uta-net composer list summary only."
+ },
+ "w002": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": ""
+ },
+ "w003": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": ""
+ },
+ "w004": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "No cover evidence found in any of 3 searches (results only about 淡谷のり子 original)."
+ },
+ "w005": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "Omitted: 山口淑子/李香蘭 (film-version singer per summary, not a clear cover; src uncertain); 'Biho Ko' 1977 EP (kanji unknown). 中西保志 & 藤田恵美 duet is a 2026 album track."
+ },
+ "w006": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "No usable results; search engine returned only AKB48 '鈴懸の木の道で…' (different song). Zero evidence, not necessarily zero covers."
+ },
+ "w007": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "Masumi Ormandy entry is an English-lyric adaptation 'Apple Song' (lyrics Jonathan Katz). Omitted: Takashima Hiroyuki (kanji unknown), ディック・ミネ/おおたか静流 (related to 林檎の樹の下で, a different song)."
+ },
+ "w008": {
+  "searches": 2,
+  "method": "websearch",
+  "flags": "Q3 not run: WebSearch per-turn budget exhausted. Q1/Q2 returned no cover evidence."
+ },
+ "w009": {
+  "searches": 2,
+  "method": "websearch",
+  "flags": "Omitted: 西田あい (uta-net composer list row lacked song title in summary)."
+ },
+ "w010": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200) exhausted before this song."
+ },
+ "w011": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200) exhausted before this song."
+ },
+ "w012": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200) exhausted before this song."
+ },
+ "w013": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200) exhausted before this song."
+ },
+ "w014": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200) exhausted before this song."
+ },
+ "w015": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200) exhausted before this song."
+ },
+ "w016": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200) exhausted before this song."
+ },
+ "w017": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200) exhausted before this song."
+ },
+ "w018": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200) exhausted before this song."
+ },
+ "w019": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200) exhausted before this song."
+ },
+ "w020": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200) exhausted before this song."
+ },
+ "w021": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200) exhausted before this song."
+ },
+ "w022": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200) exhausted before this song."
+ },
+ "w023": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200) exhausted before this song."
+ },
+ "w024": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200) exhausted before this song."
+ },
+ "w025": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200) exhausted before this song."
+ },
+ "w026": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200) exhausted before this song."
+ },
+ "w027": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200) exhausted before this song."
+ },
+ "w028": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200) exhausted before this song."
+ },
+ "w029": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": ""
+ },
+ "w030": {
+  "searches": 2,
+  "method": "websearch",
+  "flags": "ゆず entry is titled '見上げてごらん夜の星を ~ぼくらのうた~' (subtitled version). 大島花子 is from the search summary; src is approximate (one of the Q2 result URLs, exact page not identifiable)."
+ },
+ "w031": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "No cover artist found. 幾田りら sang it in character as 梓みちよ in the 2026 film 'SUKIYAKI 上を向いて歩こう' (moviewalker article) - an in-film portrayal, not a cover recording, so excluded."
+ },
+ "w032": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "Title collision: 森山直太朗 '高校3年生' is a different song (excluded)."
+ },
+ "w033": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "FUNK THE PEANUTS = 吉田美和 + 浦嶋りんこ (tribute album unit). 甲斐よしひろ is lower confidence: from search summary (NHK The Covers, 1978 Nashville cover album); src approximate. 2024 anime 'スナックバス江' ED version mentioned but artist not named - skipped."
+ },
+ "w034": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "Title collision: 安倍なつみ '学生時代' (作詞つんく) is a different song and was excluded; all included artists were stated to carry the 平岡精二 credit."
+ },
+ "w035": {
+  "searches": 2,
+  "method": "websearch",
+  "flags": "Left out as uncertain: 井上陽水 (summary says a second j-lyric page lists a version, but the quoted title only names ザ・ピーナッツ), and 西田佐知子 / Milva (only from a self-described unreliable fan site)."
+ },
+ "w036": {
+  "searches": 2,
+  "method": "websearch",
+  "flags": "Q3 NOT RUN: WebSearch per-turn budget exhausted. Q1/Q2 found no j-lyric page or cover artist for '柔' (title is short/generic)."
+ },
+ "w037": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+ },
+ "w038": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+ },
+ "w039": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+ },
+ "w040": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+ },
+ "w041": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+ },
+ "w042": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+ },
+ "w043": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+ },
+ "w044": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+ },
+ "w045": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+ },
+ "w046": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+ },
+ "w047": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+ },
+ "w048": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+ },
+ "w049": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+ },
+ "w050": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+ },
+ "w051": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+ },
+ "w052": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+ },
+ "w053": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+ },
+ "w054": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+ },
+ "w055": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+ },
+ "w056": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+ },
+ "w057": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": ""
+ },
+ "w058": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": ""
+ },
+ "w059": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "title collision: many unrelated songs named 17才 (YUKI, Base Ball Bear, etc.) deliberately excluded"
+ },
+ "w060": {
+  "searches": 4,
+  "method": "websearch",
+  "flags": "Uta-Net summary also named a third cover singer only in romanization (Abe Shizue); omitted because the Japanese spelling was not confirmed"
+ },
+ "w061": {
+  "searches": 4,
+  "method": "websearch",
+  "flags": "title collision (generic title 花嫁). Search summary mentioned 小柳ルミ子, 菅原洋一, 美空ひばり as having a 花嫁 page on UtaTen/J-Lyric, but same lyricist/composer credit (北山修/端田宣彦) was NOT shown, so all omitted. はしだのりひことシューベルツ is the original performer's earlier group and was excluded."
+ },
+ "w062": {
+  "searches": 4,
+  "method": "websearch",
+  "flags": ""
+ },
+ "w063": {
+  "searches": 4,
+  "method": "websearch",
+  "flags": "title collision (generic title 喝采); accepted only where the 吉田旺/中村泰士 credit was stated or the summary tied it to the Chiaki Naomi song. 一青窈/郷ひろみ/鈴木雅之 on The Covers (NHK) were mentioned for other Chiaki songs and are not counted separately (一青窈 is counted via the credit-matched j-lyric list)."
+ },
+ "w064": {
+  "searches": 4,
+  "method": "websearch",
+  "flags": "j-lyric index page was said to list 結婚 versions by 辻彩乃(?), 青い三角定規, 島倉千代子, 森山直太朗, MAY'S but titles/credits were not shown, so omitted"
+ },
+ "w065": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": ""
+ },
+ "w066": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "マーク (GARO member) excluded as self-cover of the original group"
+ },
+ "w067": {
+  "searches": 2,
+  "method": "websearch",
+  "flags": "INCOMPLETE: only Q1+Q2 run (WebSearch budget exhausted). 島倉千代子/クミコ/石川ひとみ come from a summary saying a j-lyric index page 'lists versions by' them (credits not shown) - lower confidence"
+ },
+ "w068": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200/turn, shared across agents) was exhausted before this song; needs re-run"
+ },
+ "w069": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200/turn, shared across agents) was exhausted before this song; needs re-run"
+ },
+ "w070": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200/turn, shared across agents) was exhausted before this song; needs re-run"
+ },
+ "w071": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200/turn, shared across agents) was exhausted before this song; needs re-run"
+ },
+ "w072": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200/turn, shared across agents) was exhausted before this song; needs re-run"
+ },
+ "w073": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200/turn, shared across agents) was exhausted before this song; needs re-run"
+ },
+ "w074": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200/turn, shared across agents) was exhausted before this song; needs re-run"
+ },
+ "w075": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200/turn, shared across agents) was exhausted before this song; needs re-run"
+ },
+ "w076": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200/turn, shared across agents) was exhausted before this song; needs re-run"
+ },
+ "w077": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200/turn, shared across agents) was exhausted before this song; needs re-run"
+ },
+ "w078": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200/turn, shared across agents) was exhausted before this song; needs re-run"
+ },
+ "w079": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200/turn, shared across agents) was exhausted before this song; needs re-run"
+ },
+ "w080": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200/turn, shared across agents) was exhausted before this song; needs re-run"
+ },
+ "w081": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200/turn, shared across agents) was exhausted before this song; needs re-run"
+ },
+ "w082": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200/turn, shared across agents) was exhausted before this song; needs re-run"
+ },
+ "w083": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200/turn, shared across agents) was exhausted before this song; needs re-run"
+ },
+ "w084": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200/turn, shared across agents) was exhausted before this song; needs re-run"
+ },
+ "w085": {
+  "searches": 2,
+  "method": "websearch",
+  "flags": "BORO entry is the collaboration 'with 河島英五'. 吉幾三&石川さゆり comes from a TV-program title (36-year-old footage, performance not a recording); evidence found incidentally during the w089 search. 島爺 kind not evident (left pro)."
+ },
+ "w086": {
+  "searches": 2,
+  "method": "websearch",
+  "flags": "Title-collision: 銀杏BOYZ/クボタカイ/never young beach/kim taehoon/175R/CLIFF EDGE pages share the title but are different songs or unverified, so skipped. j-lyric entries for 岩崎宏美/薬師丸ひろ子/桃井かおり were confirmed as the 大瀧詠一 song via the search summary credit statement. For the 4 summary-derived artists the search summary did not name a specific URL; src is a best guess among the Q2 result set. 大滝詠一 self-cover excluded."
+ },
+ "w087": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "All 10 are summary-only (no per-artist title in result list); 世良公則/鈴木雅之/槇原敬之/島田歌穂/T字路s/Bank Band come from one Q3 summary sentence about uta-net composer list (忌野清志郎・みかん). Billboard src URL contains a literal space as returned by the tool."
+ },
+ "w088": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "Only 2 covers evidenced; many more exist (1983 competitive releases) but result lists named no others."
+ },
+ "w089": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "Only 2 covers evidenced by searches."
+ },
+ "w090": {
+  "searches": 4,
+  "method": "websearch",
+  "flags": "最上川司 and みちのく娘! are artist-lyric-list pages (song title not visible in result title), attributed by the search summary only. テレサ・テン is Teresa Teng (normalized to Japanese katakana; Wikipedia writes 'Teresa Teng')."
+ },
+ "w091": {
+  "searches": 2,
+  "method": "websearch",
+  "flags": "Title-collision caution: titles are 秋桜 (福山雅治/ケイコ・リー are '秋桜(コスモス)'). The search summary said these j-lyric pages credit さだまさし but hedged ('Most share the Sada Masashi text'); 'レインブック 秋桜~届かない手紙~' was excluded as a different song. Lower confidence for 奥井雅美, 河村隆一, 福山雅治, ケイコ・リー, 大西ユカリ."
+ },
+ "w092": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+ },
+ "w093": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+ },
+ "w094": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+ },
+ "w095": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+ },
+ "w096": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+ },
+ "w097": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+ },
+ "w098": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+ },
+ "w099": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+ },
+ "w100": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+ },
+ "w101": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+ },
+ "w102": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+ },
+ "w103": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+ },
+ "w104": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+ },
+ "w105": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+ },
+ "w106": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+ },
+ "w107": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+ },
+ "w108": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+ },
+ "w109": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+ },
+ "w110": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+ },
+ "w111": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+ },
+ "w112": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+ },
+ "w113": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "Generic title; accepted only where J-Lyric/summary shows 中島みゆき作詞作曲 credit. 小木曽雪菜(米澤円) is an anime-character singer page (credit said to be 中島みゆき) - lower confidence."
+ },
+ "w114": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": ""
+ },
+ "w115": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "Src for 綾瀬はるか is eiga.com news (exact page of the summary sentence not fully certain; it could be the jprime.jp/articles/-/25413 page)."
+ },
+ "w116": {
+  "searches": 4,
+  "method": "websearch",
+  "flags": "Cover list taken from search-tool summary of an introduction article (renote.net/articles/5413 most likely; king.mineo.jp/reports/256534 also possible). 森昌子/中西圭三/関ジャニ∞ were stated in the same summary as 'also covered' (source page not pinned)."
+ },
+ "w117": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "No third-party cover evidence found in Q1-Q3 (utaten 北の酒場 is a different song)."
+ },
+ "w118": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": ""
+ },
+ "w119": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "Only 細川たかし found (J-Lyric page credits 星野哲郎/船村徹). 宇宙兄弟船 (Macross F) is a different song."
+ },
+ "w120": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "Input lists original=研ナオコ; sources say a Southern All Stars (composer 桑田佳祐's band) version exists (self-cover, excluded). Src for 坂本冬美 is a KeyTube lyric page identified by the summary."
+ },
+ "w121": {
+  "searches": 2,
+  "method": "websearch",
+  "flags": "Title collision: excluded 坂本真綾 and 七瀬美雪(中川亜紀子) (different songs by own composers). Angela Aki feat. 海宝直人 page not verified as Oda's song - left out."
+ },
+ "w122": {
+  "searches": 2,
+  "method": "websearch",
+  "flags": "Excluded 玉置浩二 (composer / 安全地帯 member). Summary mislabeled 庄野真代 as 'original'; input original 安全地帯 is correct."
+ },
+ "w123": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+ },
+ "w124": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+ },
+ "w125": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+ },
+ "w126": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+ },
+ "w127": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+ },
+ "w128": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+ },
+ "w129": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+ },
+ "w130": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+ },
+ "w131": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+ },
+ "w132": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+ },
+ "w133": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+ },
+ "w134": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+ },
+ "w135": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+ },
+ "w136": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+ },
+ "w137": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+ },
+ "w138": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+ },
+ "w139": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+ },
+ "w140": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+ },
+ "w141": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "KU is the original performer's daughter; English-language cover on her 2017 debut album (per news summary)."
+ },
+ "w142": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "玉置浩二 solo page on j-lyric excluded (composer). NHK The Covers (2024-04-14) performed it but performer not identified in results."
+ },
+ "w143": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "Not recorded as insufficient: hitomi (TV special listing, thetvdb The Covers, credit unreliable); Diana Garnet (tracklist only, no credit shown)."
+ },
+ "w144": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "Input title 時代遅れ; actual title is 時代おくれ (searched both spellings). Artists other than 堀内孝雄 come from the search summary of the j-lyric 'じ' list page (same 阿久悠/森田公一 credit), not individually verified. 河島亜奈睦 is the original performer's daughter."
+ },
+ "w145": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "Credited on j-lyric as '稲垣潤一 duet with 小比類巻かほる' (guest stripped)."
+ },
+ "w146": {
+  "searches": 2,
+  "method": "websearch",
+  "flags": "Last 3 artists from search summary of list pages (j-lyric index / uta-net 中山大三郎 lyricist list), credit 中山大三郎/浜口庫之助 matched."
+ },
+ "w147": {
+  "searches": 4,
+  "method": "websearch",
+  "flags": "The last 3 are anime/game characters with voice actor in parentheses (from uta-net 甲本ヒロト composer list); consider dropping if character-song credits are unwanted. Skipped vague mentions (The Outliers, Kossan)."
+ },
+ "w148": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "Generic title; both j-lyric pages credit 吉幾三 as lyricist/composer."
+ },
+ "w149": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "j-lyric credits for 平川地一丁目/青木隆治 pages not shown in results; assumed same song (Japanese artists, hyphenated title). 10-FEET version is a remix-album track keeping part of original vocals."
+ },
+ "w150": {
+  "searches": 2,
+  "method": "websearch",
+  "flags": "PARTIAL: Q3 not run because the shared WebSearch budget ran out. Q1/Q2 found no cover artists. Generic title (とんぼ)."
+ },
+ "w151": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
+ },
+ "w152": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
+ },
+ "w153": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
+ },
+ "w154": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
+ },
+ "w155": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
+ },
+ "w156": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
+ },
+ "w157": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
+ },
+ "w158": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
+ },
+ "w159": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
+ },
+ "w160": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
+ },
+ "w161": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
+ },
+ "w162": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
+ },
+ "w163": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
+ },
+ "w164": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
+ },
+ "w165": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
+ },
+ "w166": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
+ },
+ "w167": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
+ },
+ "w168": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
+ },
+ "w169": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "Title collision with Beatles 'Tomorrow Never Knows' (excluded). BACK-ON 'Tomorrow never knows -album ver.-' excluded (summary says different lyrics/credits TEEDA & KENJI03). NOKKO/Acid Black Cherry/HAN-KUN taken from search summary of j-lyric index + KeyTube pages (not title-verified)."
+ },
+ "w170": {
+  "searches": 2,
+  "method": "websearch",
+  "flags": "広瀬香美/中島美嘉/布施明/さよならポニーテール come from the search summary only; the exact supporting result URL is a best guess among the returned results. ダイスケ kind unknown (set pro)."
+ },
+ "w171": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "Possible title-collision with the children's song 春よ来い (白鳥英美子, 森山良子 j-lyric pages not credit-verified; the search summary presented them as covers of Yuming's song). Excluded: 春よ、こい/吉田拓郎 (different title), Nina Kraviz remix (not a cover), unnamed Chinese-language CM cover."
+ },
+ "w172": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "Summary states these pages carry the same lyricist/composer credit as the original. Excluded 島津亜矢 'お七' (different title)."
+ },
+ "w173": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "Biko's Manna: only named in a blog cover-roundup per summary; no further detail confirmed (kept, lower confidence)."
+ },
+ "w174": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "Q4 (English) results gave Japanese names only in romanized form (Megumi Hayashibara, Masami Okui, Shoko Nakagawa, Kotono Mitsuishi, Yuko Miyamura); converted to standard Japanese spelling. Doloris is a BanG Dream! band-character unit. Takahashi Yoko's own self-remakes excluded."
+ },
+ "w175": {
+  "searches": 2,
+  "method": "websearch",
+  "flags": "Generic title. Accepted only pages with Yoshida Miwa / Nakamura Masato credit. Excluded 加藤登紀子, 織田裕二, 平井堅, 絢香 (cover of Hirai), chihiro (all different songs). Q3 was blocked (search budget exhausted)."
+ },
+ "w176": {
+  "searches": 2,
+  "method": "websearch",
+  "flags": "Generic title. j-lyric also lists チェリー pages for 世良公則, 福山雅治, つじあやの, クリス・ハート, グッバイフジヤマ, ANCHANG, PUFFY (search summary calls them covers) but credit not verifiable from results, so EXCLUDED; verification search was blocked (budget exhausted) - candidates for re-check."
+ },
+ "w177": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
+ },
+ "w178": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
+ },
+ "w179": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
+ },
+ "w180": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
+ },
+ "w181": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
+ },
+ "w182": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
+ },
+ "w183": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
+ },
+ "w184": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
+ },
+ "w185": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
+ },
+ "w186": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
+ },
+ "w187": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
+ },
+ "w188": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
+ },
+ "w189": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
+ },
+ "w190": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
+ },
+ "w191": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
+ },
+ "w192": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
+ },
+ "w193": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
+ },
+ "w194": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
+ },
+ "w195": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
+ },
+ "w196": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
+ },
+ "w197": {
+  "searches": 4,
+  "method": "websearch",
+  "flags": "j-lyric 'さくら' by 森山良子 and 'さくら ~日本語 Ver.~' by 熊猫xiongmao are different songs, excluded. 夏川りみ/中西保志/白鳥英美子/彩輝なお/TOKYO VOICES were mentioned in summaries but a verification search did not confirm them, so omitted. クリス・ハート tagged foreign (US-born, Japan-based)."
+ },
+ "w198": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "Search summary confirmed these j-lyric cover pages carry the same credits (作詞 一青窈 / 作曲 マシコタツロウ). Albert Connor 'ハナミズキ (feat. 一青窈) [Cover] [remix]' on AWA skipped as an official remix. マシコタツロウ excluded as composer."
+ },
+ "w199": {
+  "searches": 4,
+  "method": "websearch",
+  "flags": "Summary-based src URLs for Little Glee Monster, Crystal Kay, 高城れい are best-guess among the returned results (the summary did not link a specific URL). Naomile / 山崎育三郎 / 小野大輔 appeared in a j-lyric list summary but were not confirmed (山崎育三郎 explicitly not found), so omitted."
+ },
+ "w200": {
+  "searches": 3,
+  "method": "websearch",
+  "flags": "No cover artist evidenced by Q1-Q3 (results were only about the Yuzu original). A 4th verification search was blocked: web search budget exhausted. Likely under-collected; this song is widely covered."
+ },
+ "w201": {
+  "searches": 2,
+  "method": "websearch",
+  "flags": "Q3 not run (web search budget exhausted). 奏 is a generic title; JUJU/高橋真梨子/JOY/LOVERS ROCREW/丸本莉子 appeared only in a j-lyric letter-index summary with no credit confirmation, so omitted. Uru and 高橋李依 srcs are best-guess among returned results (tribute album 'みんなのスキマスイッチ'; Takagi-san S2 ED)."
+ },
+ "w202": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+ },
+ "w203": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+ },
+ "w204": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+ },
+ "w205": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+ },
+ "w206": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+ },
+ "w207": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+ },
+ "w208": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+ },
+ "w209": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+ },
+ "w210": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+ },
+ "w211": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+ },
+ "w212": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+ },
+ "w213": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+ },
+ "w214": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+ },
+ "w215": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+ },
+ "w216": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+ },
+ "w217": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+ },
+ "w218": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+ },
+ "w219": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+ },
+ "w220": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+ },
+ "w221": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+ },
+ "w222": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+ },
+ "w223": {
+  "searches": 0,
+  "method": "websearch",
+  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+ }
+}

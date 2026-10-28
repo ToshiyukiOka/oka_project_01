@@ -1,0 +1,2053 @@
+[
+ {
+  "workId": "w001",
+  "artist": "緑黄色社会",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a05d107/l066386.html"
+ },
+ {
+  "workId": "w001",
+  "artist": "舟木一夫",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.uta-net.com/composer/31309/"
+ },
+ {
+  "workId": "w001",
+  "artist": "ボニージャックス",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.uta-net.com/composer/31309/"
+ },
+ {
+  "workId": "w001",
+  "artist": "三山ひろし",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.uta-net.com/composer/31309/"
+ },
+ {
+  "workId": "w001",
+  "artist": "木山裕策",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.uta-net.com/composer/31309/"
+ },
+ {
+  "workId": "w001",
+  "artist": "林部智史",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.uta-net.com/composer/31309/"
+ },
+ {
+  "workId": "w002",
+  "artist": "石原裕次郎",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i16p60.html"
+ },
+ {
+  "workId": "w002",
+  "artist": "ディック・ミネ",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i16p60.html"
+ },
+ {
+  "workId": "w002",
+  "artist": "秋元順子",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i16p60.html"
+ },
+ {
+  "workId": "w003",
+  "artist": "東京大衆歌謡楽団",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.uta-net.com/lyricist/39136/5/"
+ },
+ {
+  "workId": "w003",
+  "artist": "新沼謙治",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.uta-net.com/lyricist/39136/5/"
+ },
+ {
+  "workId": "w003",
+  "artist": "氷川きよし",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://keytube.net/song/detail/94159"
+ },
+ {
+  "workId": "w005",
+  "artist": "平原綾香",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i20p17.html"
+ },
+ {
+  "workId": "w005",
+  "artist": "小田和正",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i20p17.html"
+ },
+ {
+  "workId": "w005",
+  "artist": "夏川りみ",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i20p17.html"
+ },
+ {
+  "workId": "w005",
+  "artist": "KOKIA",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i20p17.html"
+ },
+ {
+  "workId": "w005",
+  "artist": "水森かおり",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i20p17.html"
+ },
+ {
+  "workId": "w005",
+  "artist": "ASKA",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i20p17.html"
+ },
+ {
+  "workId": "w005",
+  "artist": "美空ひばり",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i20p17.html"
+ },
+ {
+  "workId": "w005",
+  "artist": "島倉千代子",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i20p17.html"
+ },
+ {
+  "workId": "w005",
+  "artist": "倍賞千恵子",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i20p17.html"
+ },
+ {
+  "workId": "w005",
+  "artist": "純名里沙",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i20p17.html"
+ },
+ {
+  "workId": "w005",
+  "artist": "中西保志",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://realsound.jp/2026/10/post-2556274.html"
+ },
+ {
+  "workId": "w005",
+  "artist": "藤田恵美",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://realsound.jp/2026/10/post-2556274.html"
+ },
+ {
+  "workId": "w007",
+  "artist": "美空ひばり",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000977/l022038.html"
+ },
+ {
+  "workId": "w007",
+  "artist": "Masumi Ormandy",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a0649ce/l05b0a6.html"
+ },
+ {
+  "workId": "w009",
+  "artist": "水森かおり",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000084/l0107a8.html"
+ },
+ {
+  "workId": "w009",
+  "artist": "氷川きよし",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a0005f8/l026f18.html"
+ },
+ {
+  "workId": "w009",
+  "artist": "倍賞千恵子",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a0009a7/l02acb1.html"
+ },
+ {
+  "workId": "w009",
+  "artist": "石原裕次郎",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i57p45.html"
+ },
+ {
+  "workId": "w009",
+  "artist": "美空ひばり",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i57p45.html"
+ },
+ {
+  "workId": "w009",
+  "artist": "青江三奈",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i57p45.html"
+ },
+ {
+  "workId": "w009",
+  "artist": "ちあきなおみ",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i57p45.html"
+ },
+ {
+  "workId": "w029",
+  "artist": "手嶌葵",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a04c5be/l03a638.html"
+ },
+ {
+  "workId": "w030",
+  "artist": "岩崎宏美",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000487/l01089c.html"
+ },
+ {
+  "workId": "w030",
+  "artist": "五木ひろし",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000605/l01dee0.html"
+ },
+ {
+  "workId": "w030",
+  "artist": "加山雄三",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a0000a7/l02d823.html"
+ },
+ {
+  "workId": "w030",
+  "artist": "小野リサ",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a001d1c/l02699e.html"
+ },
+ {
+  "workId": "w030",
+  "artist": "ゆず",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000614/l03b784.html"
+ },
+ {
+  "workId": "w030",
+  "artist": "KinKi Kids",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a0015e5/l00148c.html"
+ },
+ {
+  "workId": "w030",
+  "artist": "大島花子",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.oricon.co.jp/special/48171/"
+ },
+ {
+  "workId": "w032",
+  "artist": "山崎育三郎",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a053f90/l04c913.html"
+ },
+ {
+  "workId": "w033",
+  "artist": "渡辺美里",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000440/l008057.html"
+ },
+ {
+  "workId": "w033",
+  "artist": "小野リサ",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a001d1c/l032de1.html"
+ },
+ {
+  "workId": "w033",
+  "artist": "FUNK THE PEANUTS",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.oricon.co.jp/news/2076648/full/"
+ },
+ {
+  "workId": "w033",
+  "artist": "甲斐よしひろ",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.thefirsttimes.jp/?p=135501"
+ },
+ {
+  "workId": "w034",
+  "artist": "井上あずみ",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000727/l03a462.html"
+ },
+ {
+  "workId": "w034",
+  "artist": "みなみあい",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a055e61/l034bb3.html"
+ },
+ {
+  "workId": "w034",
+  "artist": "ベイビー・ブー",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a05d940/l0501fe.html"
+ },
+ {
+  "workId": "w034",
+  "artist": "菅原洋一",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i11p4.html"
+ },
+ {
+  "workId": "w034",
+  "artist": "岩佐美咲",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i11p4.html"
+ },
+ {
+  "workId": "w034",
+  "artist": "原由子",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://utaten.com/songWriter/13791/"
+ },
+ {
+  "workId": "w034",
+  "artist": "芹洋子",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://utaten.com/songWriter/13791/"
+ },
+ {
+  "workId": "w035",
+  "artist": "石原裕次郎",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i3p45.html"
+ },
+ {
+  "workId": "w035",
+  "artist": "矢野顕子",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i3p45.html"
+ },
+ {
+  "workId": "w035",
+  "artist": "木の実ナナ",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i3p45.html"
+ },
+ {
+  "workId": "w035",
+  "artist": "川上大輔",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i3p45.html"
+ },
+ {
+  "workId": "w035",
+  "artist": "マルシア",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i3p45.html"
+ },
+ {
+  "workId": "w035",
+  "artist": "フランク永井",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i3p45.html"
+ },
+ {
+  "workId": "w035",
+  "artist": "由紀さおり",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i3p45.html"
+ },
+ {
+  "workId": "w035",
+  "artist": "水森かおり",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i3p45.html"
+ },
+ {
+  "workId": "w057",
+  "artist": "クレイジーケンバンド",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000037/l055dac.html"
+ },
+ {
+  "workId": "w057",
+  "artist": "ジェロ",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://encycloreader.org/r/wikipedia_ja.php?q=COVERS6"
+ },
+ {
+  "workId": "w058",
+  "artist": "天童よしみ",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000033/l017fe1.html"
+ },
+ {
+  "workId": "w059",
+  "artist": "森高千里",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://dbpedia.org/page/17-sai"
+ },
+ {
+  "workId": "w059",
+  "artist": "銀杏BOYZ",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://dbpedia.org/page/17-sai"
+ },
+ {
+  "workId": "w060",
+  "artist": "野路由紀子",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.uta-net.com/artist/5645/2/"
+ },
+ {
+  "workId": "w060",
+  "artist": "羽山みずき",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.uta-net.com/composer/32005/4/2/"
+ },
+ {
+  "workId": "w062",
+  "artist": "水森かおり",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.uta-net.com/composer/32005/4/1/"
+ },
+ {
+  "workId": "w062",
+  "artist": "BOSS★岡",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.uta-net.com/lyricist/29222/"
+ },
+ {
+  "workId": "w063",
+  "artist": "宮本浩次",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.oricon.co.jp/news/2338300/full/"
+ },
+ {
+  "workId": "w063",
+  "artist": "丘みどり",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.uta-net.com/composer/26497/4/1/"
+ },
+ {
+  "workId": "w063",
+  "artist": "一青窈",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i6p92.html"
+ },
+ {
+  "workId": "w063",
+  "artist": "坂本冬美",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i6p92.html"
+ },
+ {
+  "workId": "w063",
+  "artist": "石原裕次郎",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i6p92.html"
+ },
+ {
+  "workId": "w063",
+  "artist": "島津亜矢",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i6p92.html"
+ },
+ {
+  "workId": "w063",
+  "artist": "カレン",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i6p92.html"
+ },
+ {
+  "workId": "w063",
+  "artist": "つるの剛士",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i6p92.html"
+ },
+ {
+  "workId": "w063",
+  "artist": "小川みすず",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i6p92.html"
+ },
+ {
+  "workId": "w063",
+  "artist": "米倉利紀",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i6p92.html"
+ },
+ {
+  "workId": "w063",
+  "artist": "稼木美優",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i6p92.html"
+ },
+ {
+  "workId": "w063",
+  "artist": "The JADE",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i6p92.html"
+ },
+ {
+  "workId": "w063",
+  "artist": "カサリンチュ",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i6p92.html"
+ },
+ {
+  "workId": "w063",
+  "artist": "藤あや子",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://realsound.jp/2023/12/post-1522543_2.html"
+ },
+ {
+  "workId": "w064",
+  "artist": "ラヴァーフェニックス",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a0114eb/l0021d8.html"
+ },
+ {
+  "workId": "w065",
+  "artist": "斉藤和義",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000db4/l0133ac.html"
+ },
+ {
+  "workId": "w065",
+  "artist": "UA",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a001fe9/l010fab.html"
+ },
+ {
+  "workId": "w065",
+  "artist": "さだまさし",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a0004ab/l056687.html"
+ },
+ {
+  "workId": "w065",
+  "artist": "中森明菜",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000575/l00fbb0.html"
+ },
+ {
+  "workId": "w065",
+  "artist": "ACIDMAN",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://realsound.jp/2019/10/post-436958.html/amp"
+ },
+ {
+  "workId": "w066",
+  "artist": "さだまさし",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a0004ab/l056684.html"
+ },
+ {
+  "workId": "w066",
+  "artist": "中森明菜",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000575/l01a31b.html"
+ },
+ {
+  "workId": "w066",
+  "artist": "国仲涼子",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i11p4.html"
+ },
+ {
+  "workId": "w066",
+  "artist": "桜田淳子",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i11p4.html"
+ },
+ {
+  "workId": "w066",
+  "artist": "ちィ子先生(井上喜久子)",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i11p4.html"
+ },
+ {
+  "workId": "w067",
+  "artist": "五木ひろし",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000605/l01a496.html"
+ },
+ {
+  "workId": "w067",
+  "artist": "坂本冬美",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000070/l023912.html"
+ },
+ {
+  "workId": "w067",
+  "artist": "さだまさし",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a0004ab/l056682.html"
+ },
+ {
+  "workId": "w067",
+  "artist": "中森明菜",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000575/l01a31c.html"
+ },
+ {
+  "workId": "w067",
+  "artist": "島倉千代子",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i6p172.html"
+ },
+ {
+  "workId": "w067",
+  "artist": "クミコ",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i6p172.html"
+ },
+ {
+  "workId": "w067",
+  "artist": "石川ひとみ",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i6p172.html"
+ },
+ {
+  "workId": "w085",
+  "artist": "藤田恵美",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a00dbca/l00ec2c.html"
+ },
+ {
+  "workId": "w085",
+  "artist": "島爺",
+  "kind": "net",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a05ccf6/l041e78.html"
+ },
+ {
+  "workId": "w085",
+  "artist": "坂本冬美",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000070/l034400.html"
+ },
+ {
+  "workId": "w085",
+  "artist": "島津亜矢",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000835/l02e4d6.html"
+ },
+ {
+  "workId": "w085",
+  "artist": "五木ひろし",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000605/l01a491.html"
+ },
+ {
+  "workId": "w085",
+  "artist": "パク・ジュニョン",
+  "kind": "foreign",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a0561b4/l03982c.html"
+ },
+ {
+  "workId": "w085",
+  "artist": "BORO",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a001f4b/l0378ef.html"
+ },
+ {
+  "workId": "w085",
+  "artist": "田中あいみ",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.uta-net.com/lyricist/34178/"
+ },
+ {
+  "workId": "w085",
+  "artist": "木村徹二",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.uta-net.com/arranger/20234/"
+ },
+ {
+  "workId": "w085",
+  "artist": "吉幾三&石川さゆり",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/202605/25936_202605012100.html"
+ },
+ {
+  "workId": "w086",
+  "artist": "岩崎宏美",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000487/l016aa9.html"
+ },
+ {
+  "workId": "w086",
+  "artist": "薬師丸ひろ子",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000bb5/l02f489.html"
+ },
+ {
+  "workId": "w086",
+  "artist": "桃井かおり",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000b5d/l01bd8c.html"
+ },
+ {
+  "workId": "w086",
+  "artist": "シリア・ポール",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://ranking.net/items/05b5b3"
+ },
+ {
+  "workId": "w086",
+  "artist": "ラッツ&スター",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://ranking.net/items/05b5b3"
+ },
+ {
+  "workId": "w086",
+  "artist": "原田知世&DEEN",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://ranking.net/items/05b5b3"
+ },
+ {
+  "workId": "w086",
+  "artist": "キンモクセイ",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://king.mineo.jp/reports/278332"
+ },
+ {
+  "workId": "w087",
+  "artist": "宮本浩次",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.billboard-japan.com/d news/detail/33163/2"
+ },
+ {
+  "workId": "w087",
+  "artist": "Bank Band",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i18p85.html"
+ },
+ {
+  "workId": "w087",
+  "artist": "Wトラブル",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.uta-net.com/lyricist/30837/"
+ },
+ {
+  "workId": "w087",
+  "artist": "J-Min",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i18p85.html"
+ },
+ {
+  "workId": "w087",
+  "artist": "渋谷すばる",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.uta-net.com/lyricist/30837/"
+ },
+ {
+  "workId": "w087",
+  "artist": "世良公則",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.uta-net.com/composer/32292/?Aselect=2"
+ },
+ {
+  "workId": "w087",
+  "artist": "鈴木雅之",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.uta-net.com/composer/32292/?Aselect=2"
+ },
+ {
+  "workId": "w087",
+  "artist": "槇原敬之",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.uta-net.com/composer/32292/?Aselect=2"
+ },
+ {
+  "workId": "w087",
+  "artist": "島田歌穂",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.uta-net.com/composer/32292/?Aselect=2"
+ },
+ {
+  "workId": "w087",
+  "artist": "T字路s",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.uta-net.com/composer/32292/?Aselect=2"
+ },
+ {
+  "workId": "w088",
+  "artist": "中森明菜",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000575/l0175a5.html"
+ },
+ {
+  "workId": "w088",
+  "artist": "細川たかし",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://tabi-mag.jp/ch0332/"
+ },
+ {
+  "workId": "w089",
+  "artist": "坂本冬美",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000070/l03c73f.html"
+ },
+ {
+  "workId": "w089",
+  "artist": "矢野顕子",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.uta-net.com/arranger/22742/1/"
+ },
+ {
+  "workId": "w090",
+  "artist": "美空ひばり",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000977/l023daa.html"
+ },
+ {
+  "workId": "w090",
+  "artist": "最上川司",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/artist/a05a17a"
+ },
+ {
+  "workId": "w090",
+  "artist": "みちのく娘!",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/artist/a05f375/"
+ },
+ {
+  "workId": "w090",
+  "artist": "フランク永井",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://keytube.net/song/detail/72521"
+ },
+ {
+  "workId": "w090",
+  "artist": "八代亜紀",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://en.wikipedia.org/wiki/Masao_Sen"
+ },
+ {
+  "workId": "w090",
+  "artist": "テレサ・テン",
+  "kind": "foreign",
+  "via": "summary",
+  "src": "https://en.wikipedia.org/wiki/Masao_Sen"
+ },
+ {
+  "workId": "w091",
+  "artist": "岩崎宏美",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000487/l01088a.html"
+ },
+ {
+  "workId": "w091",
+  "artist": "May J.",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a04cad9/l039f0a.html"
+ },
+ {
+  "workId": "w091",
+  "artist": "河村隆一",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a0006a4/l010b5b.html"
+ },
+ {
+  "workId": "w091",
+  "artist": "奥井雅美",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a001d79/l05441a.html"
+ },
+ {
+  "workId": "w091",
+  "artist": "沢田知可子",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a002455/l01564b.html"
+ },
+ {
+  "workId": "w091",
+  "artist": "中森明菜",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000575/l00fbc6.html"
+ },
+ {
+  "workId": "w091",
+  "artist": "福山雅治",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000671/l00c9c3.html"
+ },
+ {
+  "workId": "w091",
+  "artist": "ケイコ・リー",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a04d950/l00ca8f.html"
+ },
+ {
+  "workId": "w091",
+  "artist": "大西ユカリ",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a0004a8/l03c455.html"
+ },
+ {
+  "workId": "w113",
+  "artist": "中森明菜",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000575/l01a31e.html"
+ },
+ {
+  "workId": "w113",
+  "artist": "畑中葉子",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a01011c/l03275c.html"
+ },
+ {
+  "workId": "w113",
+  "artist": "工藤静香",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000afc/l06525a.html"
+ },
+ {
+  "workId": "w113",
+  "artist": "吉幾三",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/artist/a000457/l05e06a.html"
+ },
+ {
+  "workId": "w113",
+  "artist": "小木曽雪菜(米澤円)",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a058a10/l030dfd.html"
+ },
+ {
+  "workId": "w114",
+  "artist": "徳永英明",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a00055b/l020244.html"
+ },
+ {
+  "workId": "w114",
+  "artist": "畑中葉子",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a01011c/l03275d.html"
+ },
+ {
+  "workId": "w114",
+  "artist": "Janet Kay",
+  "kind": "foreign",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a056718/l02908e.html"
+ },
+ {
+  "workId": "w115",
+  "artist": "沢田知可子",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a002455/l017260.html"
+ },
+ {
+  "workId": "w115",
+  "artist": "中森明菜",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000575/l0667d2.html"
+ },
+ {
+  "workId": "w115",
+  "artist": "徳永英明",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a00055b/l01fcca.html"
+ },
+ {
+  "workId": "w115",
+  "artist": "Janet Kay",
+  "kind": "foreign",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a056718/l02908b.html"
+ },
+ {
+  "workId": "w115",
+  "artist": "氷川きよし",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.oricon.co.jp/news/2385887/full/"
+ },
+ {
+  "workId": "w115",
+  "artist": "綾瀬はるか",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://eiga.com/news/20131206/4/"
+ },
+ {
+  "workId": "w116",
+  "artist": "Ms.OOJA",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://realsound.jp/2026/05/post-2399693.html/amp"
+ },
+ {
+  "workId": "w116",
+  "artist": "五木ひろし",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://renote.net/articles/5413"
+ },
+ {
+  "workId": "w116",
+  "artist": "中村あゆみ",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://renote.net/articles/5413"
+ },
+ {
+  "workId": "w116",
+  "artist": "稲垣潤一",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://renote.net/articles/5413"
+ },
+ {
+  "workId": "w116",
+  "artist": "広瀬香美",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://renote.net/articles/5413"
+ },
+ {
+  "workId": "w116",
+  "artist": "森昌子",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://renote.net/articles/5413"
+ },
+ {
+  "workId": "w116",
+  "artist": "中西圭三",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://renote.net/articles/5413"
+ },
+ {
+  "workId": "w116",
+  "artist": "関ジャニ∞",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://renote.net/articles/5413"
+ },
+ {
+  "workId": "w118",
+  "artist": "徳永英明",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a00055b/l02023f.html"
+ },
+ {
+  "workId": "w118",
+  "artist": "May J.",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a04cad9/l039f06.html"
+ },
+ {
+  "workId": "w118",
+  "artist": "茉奈佳奈",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a04cbef/l015300.html"
+ },
+ {
+  "workId": "w118",
+  "artist": "CHOPSTICKS",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.uta-net.com/lyricist/29805/"
+ },
+ {
+  "workId": "w119",
+  "artist": "細川たかし",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000459/l01e700.html"
+ },
+ {
+  "workId": "w120",
+  "artist": "JUJU",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.sonymusic.co.jp/Music/Arch/AI/JUJU/AICL-3198/index.html"
+ },
+ {
+  "workId": "w120",
+  "artist": "坂本冬美",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://keytube.net/song/lyrics/65305"
+ },
+ {
+  "workId": "w121",
+  "artist": "普天間かおり",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000899/l034437.html"
+ },
+ {
+  "workId": "w121",
+  "artist": "坂本冬美",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000070/l01c06a.html"
+ },
+ {
+  "workId": "w121",
+  "artist": "EXILE ATSUSHI",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a05455b/l027525.html"
+ },
+ {
+  "workId": "w121",
+  "artist": "クリス・ハート",
+  "kind": "foreign",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a0578a4/l03c945.html"
+ },
+ {
+  "workId": "w121",
+  "artist": "Yang Da Il",
+  "kind": "foreign",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a063846/l05774c.html"
+ },
+ {
+  "workId": "w121",
+  "artist": "Bank Band",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a001d1d/l056146.html"
+ },
+ {
+  "workId": "w122",
+  "artist": "庄野真代",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000748/l02556c.html"
+ },
+ {
+  "workId": "w122",
+  "artist": "倖田來未",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a0006b2/l022d3e.html"
+ },
+ {
+  "workId": "w122",
+  "artist": "椎名林檎",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a00450a/l04e850.html"
+ },
+ {
+  "workId": "w122",
+  "artist": "布施明",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000610/l010e3c.html"
+ },
+ {
+  "workId": "w122",
+  "artist": "南佳孝",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000c22/l03a283.html"
+ },
+ {
+  "workId": "w122",
+  "artist": "野口五郎・岩崎宏美",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a06349a/l058c5b.html"
+ },
+ {
+  "workId": "w122",
+  "artist": "パク・ヨンハ",
+  "kind": "foreign",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a001d0a/l01bfe1.html"
+ },
+ {
+  "workId": "w122",
+  "artist": "島津亜矢",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000835/l0380a3.html"
+ },
+ {
+  "workId": "w122",
+  "artist": "天童よしみ",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000033/l047237.html"
+ },
+ {
+  "workId": "w141",
+  "artist": "水森かおり",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000084/l04d81d.html"
+ },
+ {
+  "workId": "w141",
+  "artist": "KU",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.daily.co.jp/gossip/2017/06/18/0010293852.shtml"
+ },
+ {
+  "workId": "w143",
+  "artist": "デーモン小暮",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a001d1a/l01295f.html"
+ },
+ {
+  "workId": "w143",
+  "artist": "FEMM",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a05b069/l042874.html"
+ },
+ {
+  "workId": "w143",
+  "artist": "猿岩石",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://news.livedoor.com/article/detail/8187153/"
+ },
+ {
+  "workId": "w144",
+  "artist": "堀内孝雄",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a00049b/l00d9d1.html"
+ },
+ {
+  "workId": "w144",
+  "artist": "吉幾三",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i22p13.html"
+ },
+ {
+  "workId": "w144",
+  "artist": "岩崎宏美",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i22p13.html"
+ },
+ {
+  "workId": "w144",
+  "artist": "玉置浩二",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i22p13.html"
+ },
+ {
+  "workId": "w144",
+  "artist": "平みち",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i22p13.html"
+ },
+ {
+  "workId": "w144",
+  "artist": "河島亜奈睦",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i22p13.html"
+ },
+ {
+  "workId": "w144",
+  "artist": "レーモンド松屋",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i22p13.html"
+ },
+ {
+  "workId": "w145",
+  "artist": "稲垣潤一",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a054647/l02298b.html"
+ },
+ {
+  "workId": "w146",
+  "artist": "坂本冬美",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000070/l03c743.html"
+ },
+ {
+  "workId": "w146",
+  "artist": "カレン",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a052002/l01dbca.html"
+ },
+ {
+  "workId": "w146",
+  "artist": "吉幾三",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000457/l05e06c.html"
+ },
+ {
+  "workId": "w146",
+  "artist": "テレサ・テン",
+  "kind": "foreign",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i22p61.html"
+ },
+ {
+  "workId": "w146",
+  "artist": "梅谷心愛",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.uta-net.com/lyricist/23958/"
+ },
+ {
+  "workId": "w146",
+  "artist": "市川由紀乃",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.uta-net.com/lyricist/23958/"
+ },
+ {
+  "workId": "w147",
+  "artist": "島津亜矢",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000835/l04d9f0.html"
+ },
+ {
+  "workId": "w147",
+  "artist": "Andrew W.K.",
+  "kind": "foreign",
+  "via": "summary",
+  "src": "https://en.wikipedia.org/wiki/The_Japan_Covers"
+ },
+ {
+  "workId": "w147",
+  "artist": "Me First and the Gimme Gimmes",
+  "kind": "foreign",
+  "via": "summary",
+  "src": "https://en.wikipedia.org/wiki/Linda_Linda"
+ },
+ {
+  "workId": "w147",
+  "artist": "MxPx",
+  "kind": "foreign",
+  "via": "summary",
+  "src": "https://en.wikipedia.org/wiki/Linda_Linda"
+ },
+ {
+  "workId": "w147",
+  "artist": "The Linda Lindas",
+  "kind": "foreign",
+  "via": "summary",
+  "src": "https://en.wikipedia.org/wiki/Linda_Linda"
+ },
+ {
+  "workId": "w147",
+  "artist": "Paranmaum",
+  "kind": "foreign",
+  "via": "summary",
+  "src": "https://www.covermesongs.com/tag/paranmaum"
+ },
+ {
+  "workId": "w147",
+  "artist": "宮尾美也(桐谷蝶々)",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.uta-net.com/composer/36256/"
+ },
+ {
+  "workId": "w147",
+  "artist": "天空橋朋花(小岩井ことり)",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.uta-net.com/composer/36256/"
+ },
+ {
+  "workId": "w147",
+  "artist": "徳川まつり(諏訪彩花)",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.uta-net.com/composer/36256/"
+ },
+ {
+  "workId": "w148",
+  "artist": "氷川きよし",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a0005f8/l046816.html"
+ },
+ {
+  "workId": "w148",
+  "artist": "坂本冬美",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000070/l0432ad.html"
+ },
+ {
+  "workId": "w149",
+  "artist": "ロンドンブーツ1号2号",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://natalie.mu/owarai/news/507244"
+ },
+ {
+  "workId": "w149",
+  "artist": "10-FEET",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://tower.jp/article/feature_item/2025/08/20/0710"
+ },
+ {
+  "workId": "w149",
+  "artist": "平川地一丁目",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000788/l011616.html"
+ },
+ {
+  "workId": "w149",
+  "artist": "青木隆治",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a05366a/l034b4d.html"
+ },
+ {
+  "workId": "w149",
+  "artist": "BOYS AND MEN",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://keytube.net/song/lyrics/61697"
+ },
+ {
+  "workId": "w169",
+  "artist": "和田アキ子",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000576/l022f2d.html"
+ },
+ {
+  "workId": "w169",
+  "artist": "NOKKO",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i96p134.html"
+ },
+ {
+  "workId": "w169",
+  "artist": "Acid Black Cherry",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i96p134.html"
+ },
+ {
+  "workId": "w169",
+  "artist": "HAN-KUN",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i96p134.html"
+ },
+ {
+  "workId": "w170",
+  "artist": "ダイスケ",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a053897/l031134.html"
+ },
+ {
+  "workId": "w170",
+  "artist": "ねごと",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://eiga.com/news/20170627/4/"
+ },
+ {
+  "workId": "w170",
+  "artist": "広瀬香美",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.tokyo-sports.co.jp/articles/-/397508"
+ },
+ {
+  "workId": "w170",
+  "artist": "中島美嘉",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.tokyo-sports.co.jp/articles/-/397508"
+ },
+ {
+  "workId": "w170",
+  "artist": "布施明",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.tokyo-sports.co.jp/articles/-/397508"
+ },
+ {
+  "workId": "w170",
+  "artist": "さよならポニーテール",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://dic.nicovideo.jp/a/%E7%A9%BA%E3%82%82%E9%A3%9B%E3%81%B9%E3%82%8B%E3%81%AF%E3%81%9A"
+ },
+ {
+  "workId": "w171",
+  "artist": "GARNiDELiA",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a058915/l05838d.html"
+ },
+ {
+  "workId": "w171",
+  "artist": "白鳥英美子",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a0026c8/l034c06.html"
+ },
+ {
+  "workId": "w171",
+  "artist": "森山良子",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000439/l00dc39.html"
+ },
+ {
+  "workId": "w171",
+  "artist": "May J.",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a04cad9/l039f08.html"
+ },
+ {
+  "workId": "w171",
+  "artist": "鶫真衣",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a05ea00/l04bf71.html"
+ },
+ {
+  "workId": "w171",
+  "artist": "浜崎あゆみ",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://realsound.jp/2021/03/post-721717.html"
+ },
+ {
+  "workId": "w171",
+  "artist": "秦 基博",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.oricon.co.jp/news/2439728/full/"
+ },
+ {
+  "workId": "w171",
+  "artist": "佐々木恵梨",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.famitsu.com/news/202103/11215785.html"
+ },
+ {
+  "workId": "w172",
+  "artist": "キンモクセイ",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a00515f/l017813.html"
+ },
+ {
+  "workId": "w172",
+  "artist": "中森明菜",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000575/l0175a4.html"
+ },
+ {
+  "workId": "w172",
+  "artist": "前川清",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a00000f/l04c9e7.html"
+ },
+ {
+  "workId": "w172",
+  "artist": "中西りえ",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a057434/l06285e.html"
+ },
+ {
+  "workId": "w173",
+  "artist": "ゴスペラーズ",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000601/l02e111.html"
+ },
+ {
+  "workId": "w173",
+  "artist": "絢香",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.ragnet.co.jp/spitz-cover-songs"
+ },
+ {
+  "workId": "w173",
+  "artist": "朝倉さや",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.ragnet.co.jp/spitz-cover-songs"
+ },
+ {
+  "workId": "w173",
+  "artist": "桑田佳祐",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://blogs.itmedia.co.jp/hiramoto/2020/09/dj_no3.html"
+ },
+ {
+  "workId": "w173",
+  "artist": "Biko's Manna",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://blogs.itmedia.co.jp/hiramoto/2020/09/dj_no3.html"
+ },
+ {
+  "workId": "w174",
+  "artist": "岩男潤子",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000f08/l00d28f.html"
+ },
+ {
+  "workId": "w174",
+  "artist": "緒方恵美",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a0010f2/l01b856.html"
+ },
+ {
+  "workId": "w174",
+  "artist": "きっす。",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a0567ba/l02924a.html"
+ },
+ {
+  "workId": "w174",
+  "artist": "島津亜矢",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000835/l0644a9.html"
+ },
+ {
+  "workId": "w174",
+  "artist": "MAX",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a001c0d/l022639.html"
+ },
+ {
+  "workId": "w174",
+  "artist": "堀川りょう",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a05961b/l033b01.html"
+ },
+ {
+  "workId": "w174",
+  "artist": "Han Roro",
+  "kind": "foreign",
+  "via": "title",
+  "src": "https://sports.khan.co.kr/en/article/202607270838007"
+ },
+ {
+  "workId": "w174",
+  "artist": "Doloris (Ave Mujica)",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://animecorner.me/doloris-from-ave-mujica-covers-a-cruel-angels-thesis/"
+ },
+ {
+  "workId": "w174",
+  "artist": "林原めぐみ",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://en.wikipedia.org/wiki/A_Cruel_Angel%27s_Thesis"
+ },
+ {
+  "workId": "w174",
+  "artist": "奥井雅美",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://manga.fandom.com/wiki/A_Cruel_Angel%27s_Thesis"
+ },
+ {
+  "workId": "w174",
+  "artist": "中川翔子",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://manga.fandom.com/wiki/A_Cruel_Angel%27s_Thesis"
+ },
+ {
+  "workId": "w174",
+  "artist": "三石琴乃",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://otakumode.com/otapedia/anime/neon_genesis_evangelion/cruel_angels_thesis"
+ },
+ {
+  "workId": "w174",
+  "artist": "宮村優子",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://otakumode.com/otapedia/anime/neon_genesis_evangelion/cruel_angels_thesis"
+ },
+ {
+  "workId": "w175",
+  "artist": "華原朋美",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a00047e/l038acd.html"
+ },
+ {
+  "workId": "w175",
+  "artist": "徳永英明",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i88p135.html"
+ },
+ {
+  "workId": "w175",
+  "artist": "中西保志",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i88p135.html"
+ },
+ {
+  "workId": "w175",
+  "artist": "河口恭吾",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://j-lyric.net/lyric/i88p135.html"
+ },
+ {
+  "workId": "w176",
+  "artist": "POLYSICS",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.ragnet.co.jp/cherry-cover-songs"
+ },
+ {
+  "workId": "w176",
+  "artist": "SOTTE BOSSE",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.ragnet.co.jp/cherry-cover-songs"
+ },
+ {
+  "workId": "w197",
+  "artist": "クリス・ハート",
+  "kind": "foreign",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a0578a4/l02d22d.html"
+ },
+ {
+  "workId": "w197",
+  "artist": "伴都美子",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a04b662/l00c952.html"
+ },
+ {
+  "workId": "w197",
+  "artist": "島津亜矢",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000835/l022df9.html"
+ },
+ {
+  "workId": "w197",
+  "artist": "天童よしみ",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000033/l04723c.html"
+ },
+ {
+  "workId": "w197",
+  "artist": "朝倉さや",
+  "kind": "net",
+  "via": "summary",
+  "src": "https://yutura.net/channel/929/popular/"
+ },
+ {
+  "workId": "w198",
+  "artist": "森山良子",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000439/l00dc3a.html"
+ },
+ {
+  "workId": "w198",
+  "artist": "中森明菜",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000575/l034909.html"
+ },
+ {
+  "workId": "w198",
+  "artist": "天童よしみ",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000033/l047235.html"
+ },
+ {
+  "workId": "w198",
+  "artist": "森内寛樹",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a062325/l053732.html"
+ },
+ {
+  "workId": "w198",
+  "artist": "ベイビー・ブー",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a05d940/l04b9ed.html"
+ },
+ {
+  "workId": "w198",
+  "artist": "Cinnabom",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a052dae/l01da7f.html"
+ },
+ {
+  "workId": "w198",
+  "artist": "河口恭吾",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000609/l027e8f.html"
+ },
+ {
+  "workId": "w199",
+  "artist": "柴咲コウ",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a000681/l03b59c.html"
+ },
+ {
+  "workId": "w199",
+  "artist": "Little Glee Monster",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://utaten.com/news/index/37995"
+ },
+ {
+  "workId": "w199",
+  "artist": "MACO",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.billboard-japan.com/d_news/detail/86147/2"
+ },
+ {
+  "workId": "w199",
+  "artist": "Crystal Kay",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://ototoy.jp/_/default/p/515371"
+ },
+ {
+  "workId": "w199",
+  "artist": "高城れい",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://ototoy.jp/_/default/p/1562497"
+ },
+ {
+  "workId": "w201",
+  "artist": "歌心りえ",
+  "kind": "pro",
+  "via": "title",
+  "src": "https://j-lyric.net/artist/a0677ec/l064185.html"
+ },
+ {
+  "workId": "w201",
+  "artist": "Uru",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://realsound.jp/2024/05/post-1675439.html"
+ },
+ {
+  "workId": "w201",
+  "artist": "高橋李依",
+  "kind": "pro",
+  "via": "summary",
+  "src": "https://www.marumaru-x.com/en/japanese-song/play-72r9m0keoz"
+ }
+]

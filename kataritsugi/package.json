@@ -1,0 +1,19 @@
+{
+  "name": "kataritsugi",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Kataritsugi — a PageRank-style ranking of songs worth passing down, built on who covered them, across which generations and genres.",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "rank": "node --experimental-strip-types src/cli.ts rank",
+    "report": "node --experimental-strip-types src/cli.ts report",
+    "explain": "node --experimental-strip-types src/cli.ts explain",
+    "status": "node --experimental-strip-types src/cli.ts status",
+    "youtube": "node --experimental-strip-types src/cli.ts youtube",
+    "quota": "node --experimental-strip-types src/cli.ts quota",
+    "test": "node --experimental-strip-types --test test/*.test.ts"
+  }
+}
