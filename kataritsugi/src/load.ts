@@ -5,20 +5,38 @@
 //   artists.json      歌い手のデビュー年代・畑・国
 //   identities.json   同一の創作主体のグループ（本人・バンド・別名義）
 //   notes.json        監修済みの文脈解説（任意）
+//   curation.json     名寄せ（表記ゆれ）・除外・種別補正。証拠ファイルは書き換えず、ここで明示的に適用する
 
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import type { ArtistMeta, Cover, Dataset, Work } from './types.ts';
 
 export interface Collection {
-  [workId: string]: { searches: number; method: string; flags?: string };
+  // complete=false は手順の途中で止まった作品（調査量が他と揃わないのでランキング対象外）
+  [workId: string]: { searches: number; method: string; flags?: string; complete?: boolean; queries?: string[] };
 }
 
 export interface Loaded {
   ds: Dataset;
   collection: Collection;
   notes: Record<string, string>;
-  eligible: Set<string>; // 証拠収集を終えた作品（ランキング対象）
+  eligible: Set<string>; // 収集手順を最後まで終えた作品（ランキング対象）
+}
+
+export interface Curation {
+  aliases?: Record<string, string>; // 収集時の表記 -> 正規の表記（例: ローマ字表記 -> 日本語表記）
+  exclude?: Array<{ workId: string; artist: string; reason: string }>;
+  kind?: Record<string, Cover['kind']>; // 正規の表記 -> 種別
+}
+
+export function applyCuration(covers: Cover[], cur: Curation): Cover[] {
+  const drop = new Set((cur.exclude ?? []).map((x) => `${x.workId}\u0000${x.artist}`));
+  return covers
+    .filter((c) => !drop.has(`${c.workId}\u0000${c.artist}`))
+    .map((c) => {
+      const artist = cur.aliases?.[c.artist] ?? c.artist;
+      return { ...c, artist, kind: cur.kind?.[artist] ?? c.kind };
+    });
 }
 
 const readJson = <T>(p: string, fallback: T): T => (existsSync(p) ? (JSON.parse(readFileSync(p, 'utf8')) as T) : fallback);
@@ -33,10 +51,15 @@ export function loadSeed(dir: string): Loaded {
   const identities = readJson<string[][]>(join(dir, 'identities.json'), []);
   const collection = readJson<Collection>(join(dir, 'collection.json'), {});
   const notes = readJson<Record<string, string>>(join(dir, 'notes.json'), {});
+  const curation = readJson<Curation>(join(dir, 'curation.json'), {});
+  const curated = applyCuration(covers, curation);
 
   const eligible = new Set<string>();
-  for (const w of works) if ((collection[w.id]?.searches ?? 0) > 0) eligible.add(w.id);
-  for (const c of covers) if (c.via.startsWith('youtube')) eligible.add(c.workId);
+  for (const w of works) {
+    const c = collection[w.id];
+    if (c && c.searches > 0 && c.complete !== false) eligible.add(w.id);
+  }
+  for (const c of curated) if (c.via.startsWith('youtube')) eligible.add(c.workId);
 
-  return { ds: { works, covers, artists, identities }, collection, notes, eligible };
+  return { ds: { works, covers: curated, artists, identities }, collection, notes, eligible };
 }

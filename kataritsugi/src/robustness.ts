@@ -66,11 +66,16 @@ export function parameterGrid(ds: Dataset, eligible?: Set<string>, k = 50) {
   for (const damping of [0.75, 0.85, 0.95])
     for (const performerShare of [0.3, 0.5, 0.7])
       for (const outDegreeExp of [0.5, 1])
-        for (const genBonus of [0.25, 0.5, 1])
-          for (const crossBonus of [0, 0.3, 0.6])
-            runs.push(
-              ranksOf(ds, { ...DEFAULT_PARAMS, damping, performerShare, outDegreeExp, genBonus, crossBonus }, eligible),
-            );
+        for (const minOutDegree of [1, 3, 5])
+          for (const genBonus of [0.25, 0.5, 1])
+            for (const crossBonus of [0, 0.3, 0.6])
+              runs.push(
+                ranksOf(
+                  ds,
+                  { ...DEFAULT_PARAMS, damping, performerShare, outDegreeExp, minOutDegree, genBonus, crossBonus },
+                  eligible,
+                ),
+              );
   const base = ranksOf(ds, DEFAULT_PARAMS, eligible);
   const titles = new Map(ds.works.map((w) => [w.id, w.title]));
   return { configs: runs.length, rows: spread(runs, base, titles, k) };
@@ -127,4 +132,23 @@ export function versusNaiveCount(ds: Dataset, eligible?: Set<string>) {
     .filter((m) => m.count > 0)
     .sort((a, b) => Math.abs(b.delta) - Math.abs(a.delta));
   return { tau, movers };
+}
+
+// 証拠の種類によるアブレーション: 検索要約が根拠の辺（via=summary）を除き、
+// 結果タイトルで直接裏付けられた辺だけで再計算したときに、順位がどれだけ保たれるか。
+export function evidenceAblation(ds: Dataset, eligible?: Set<string>, k = 50) {
+  const full = rankWorks(ds, DEFAULT_PARAMS, eligible).ranked;
+  const strict = new Map(
+    rankWorks({ ...ds, covers: ds.covers.filter((c) => c.via !== 'summary') }, DEFAULT_PARAMS, eligible).ranked.map((r) => [
+      r.work.id,
+      r.rank,
+    ]),
+  );
+  const tau = kendallTauB(
+    full.map((r) => -r.rank),
+    full.map((r) => -strict.get(r.work.id)!),
+  );
+  const topFull = new Set(full.slice(0, k).map((r) => r.work.id));
+  const overlap = [...strict].filter(([id, rank]) => rank <= k && topFull.has(id)).length;
+  return { tau, overlap, k: Math.min(k, full.length), strictEdges: ds.covers.filter((c) => c.via !== 'summary').length };
 }

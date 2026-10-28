@@ -157,3 +157,19 @@ export function rankWorks(ds: Dataset, params: Params, eligible?: Set<string>): 
   const ranked = rows.map((r, i) => ({ ...r, rank: i + 1, score: (100 * r.raw) / top }));
   return { ranked, graph, cr };
 }
+
+// 時代の公平性（docs/01 §4.5）: 発表年が ±halfWindow 年の作品どうしで log(スコア) を標準化する。
+// 古い曲ほど歌い継がれる時間があった、という構造的な有利を外し、同時代の中で突出した曲を拾う。
+// 比較相手が minPeers 未満、またはカバーの証拠が無い曲には z を付けない。
+export function cohortZ(ranked: Ranked[], halfWindow = 5, minPeers = 5): Map<string, number> {
+  const pts = ranked.filter((r) => r.raw > 0).map((r) => ({ id: r.work.id, year: r.work.year, x: Math.log(r.raw) }));
+  const z = new Map<string, number>();
+  for (const p of pts) {
+    const peers = pts.filter((q) => Math.abs(q.year - p.year) <= halfWindow);
+    if (peers.length < minPeers) continue;
+    const mean = peers.reduce((s, q) => s + q.x, 0) / peers.length;
+    const sd = Math.sqrt(peers.reduce((s, q) => s + (q.x - mean) ** 2, 0) / peers.length);
+    if (sd > 0) z.set(p.id, (p.x - mean) / sd);
+  }
+  return z;
+}

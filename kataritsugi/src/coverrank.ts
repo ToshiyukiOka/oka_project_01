@@ -1,12 +1,15 @@
 // CoverRank — 歌い手×作品 二部グラフ上の PageRank。docs/01 §3.2。
 //
-//   R(o) = (1-d)·p(o) + d·D·p(o) + Σ_w S(w)·share(o, w)
-//   S(w) = d · Σ_{a→w} R(a) · q(a,w) / (Σ_v q(a,v))^λ
+//   R(o) = (1-d)·p(o) + d·D·p(o) + U·p(o) + Σ_w S(w)·share(o, w)
+//   S(w) = d · Σ_{a→w} R(a) · q(a,w) / max(Σ_v q(a,v), k)^λ
 //
 //   R: 歌い手（作り手）の権威。「自分の曲が、権威ある歌い手に歌い直されている人」ほど高い。
 //   S: 作品の CoverRank。「権威ある歌い手が、自分の 1 票を割いて歌い直した作品」ほど高い。
 //   p: テレポート事前分布（票を持つ = 1 曲以上カバーしている歌い手のみ。種別で重み付け）
 //   D: カバーを持たない人（作り手のみ）の質量。p に従って再配分する（dangling 処理）
+//   k: 票の分母の下限。候補曲プールは歌い手の全レパートリーの一部しか見ていないため、
+//      プール内で 1 曲しか観測されない歌い手が 1 票を丸ごと注ぐのを防ぐ。
+//      使われなかった分 U は「観測されていないカバー先」とみなし、p に従って再配分する
 //   λ=1 で行確率行列になり、Σ R = 1 が保たれる純 PageRank。λ<1 は毎反復で正規化する。
 
 import type { Params } from './types.ts';
@@ -38,10 +41,10 @@ export function coverRank(g: Graph, params: Params, maxIter = 1000, tol = 1e-12)
   if (pSum === 0) prior.fill(1 / n);
   else for (let i = 0; i < n; i++) prior[i] /= pSum;
 
-  // 歌い手ごとの分母 (Σq)^λ
+  // 歌い手ごとの分母 max(Σq, k)^λ
   const denom = new Map<string, number>();
   for (const [a, edges] of g.coversByArtist) {
-    denom.set(a, Math.pow(edges.reduce((s, e) => s + e.weight, 0), lambda));
+    denom.set(a, Math.pow(Math.max(edges.reduce((s, e) => s + e.weight, 0), params.minOutDegree), lambda));
   }
 
   let R = Float64Array.from(prior);
@@ -62,10 +65,17 @@ export function coverRank(g: Graph, params: Params, maxIter = 1000, tol = 1e-12)
   for (; iterations < maxIter; iterations++) {
     S = flowToWorks(R);
     let dangling = 0;
-    for (let i = 0; i < n; i++) if (!g.coversByArtist.has(ids[i])) dangling += R[i];
+    let voterMass = 0;
+    for (let i = 0; i < n; i++) {
+      if (g.coversByArtist.has(ids[i])) voterMass += R[i];
+      else dangling += R[i];
+    }
+    let spent = 0;
+    for (const sw of S.values()) spent += sw;
+    const unspent = Math.max(0, d * voterMass - spent); // 分母の下限で使われなかった票（λ=1 のとき）
 
     const next = new Float64Array(n);
-    for (let i = 0; i < n; i++) next[i] = ((1 - d) + d * dangling) * prior[i];
+    for (let i = 0; i < n; i++) next[i] = ((1 - d) + d * dangling + unspent) * prior[i];
     for (const [w, sw] of S) {
       const share = g.creatorsShare.get(w);
       if (!share) continue;

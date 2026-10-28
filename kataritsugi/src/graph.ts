@@ -22,7 +22,7 @@ export interface Graph {
   coversByWork: Map<string, CoverEdge[]>;
   creatorsShare: Map<string, Map<string, number>>; // workId -> (creatorId -> 帰属割合, 合計 1)
   artistKind: Map<string, Cover['kind']>;
-  dropped: { self: Cover[]; ai: Cover[]; unknownWork: Cover[]; duplicate: Cover[] };
+  dropped: { self: Cover[]; ai: Cover[]; unknownWork: Cover[]; duplicate: Cover[]; unsourced: Cover[] };
 }
 
 // 1 件のカバーが持つ重み。商業リリース（Art Track）と一般投稿で証拠の強さが違う。
@@ -43,7 +43,7 @@ export function buildGraph(ds: Dataset, params: Params): Graph {
   const coversByArtist = new Map<string, CoverEdge[]>();
   const coversByWork = new Map<string, CoverEdge[]>();
   const artistKind = new Map<string, Cover['kind']>();
-  const dropped: Graph['dropped'] = { self: [], ai: [], unknownWork: [], duplicate: [] };
+  const dropped: Graph['dropped'] = { self: [], ai: [], unknownWork: [], duplicate: [], unsourced: [] };
   const seen = new Set<string>();
 
   const remember = (name: string) => {
@@ -56,6 +56,11 @@ export function buildGraph(ds: Dataset, params: Params): Graph {
     const w = works.get(c.workId);
     if (!w) {
       dropped.unknownWork.push(c);
+      continue;
+    }
+    // 証拠 URL の無い辺はグラフに入れない（docs/01 §2）
+    if (!c.src?.trim()) {
+      dropped.unsourced.push(c);
       continue;
     }
     if (c.aiSuspect) {

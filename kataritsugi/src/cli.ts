@@ -11,9 +11,9 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { loadSeed } from './load.ts';
 import { DEFAULT_PARAMS, type Cover, type Ranked } from './types.ts';
-import { rankWorks } from './legacy.ts';
+import { cohortZ, rankWorks } from './legacy.ts';
 import { credit, explain } from './explain.ts';
-import { edgeBootstrap, parameterGrid, versusNaiveCount, type RankSpread } from './robustness.ts';
+import { edgeBootstrap, evidenceAblation, parameterGrid, versusNaiveCount, type RankSpread } from './robustness.ts';
 import { YouTubeClient, collectWork, estimateQuota } from './ingest/youtube.ts';
 import { getLLM } from '../../src/agents/llm.ts';
 
@@ -48,12 +48,15 @@ async function main() {
 
   if (cmd === 'status') {
     const done = ds.works.filter((w) => eligible.has(w.id));
+    const partial = ds.works.filter((w) => !eligible.has(w.id) && (collection[w.id]?.searches ?? 0) > 0);
+    const pending = ds.works.filter((w) => !eligible.has(w.id) && !partial.includes(w));
     const byVia = new Map<string, number>();
     for (const c of ds.covers) byVia.set(c.via, (byVia.get(c.via) ?? 0) + 1);
-    console.log(`作品: ${ds.works.length} / 証拠収集済み: ${done.length} / 未調査: ${ds.works.length - done.length}`);
+    console.log(`作品: ${ds.works.length} / 収集完了: ${done.length} / 途中: ${partial.length} / 未調査: ${pending.length}`);
     console.log(`カバー証拠: ${ds.covers.length} 件`, Object.fromEntries(byVia));
-    const pending = ds.works.filter((w) => !eligible.has(w.id)).map((w) => `${w.id} ${w.title}`);
-    if (pending.length) console.log(`未調査: ${pending.join(' / ')}`);
+    const list = (ws: typeof ds.works) => ws.map((w) => `${w.id} ${w.title}`).join(' / ');
+    if (partial.length) console.log(`途中（手順の残りを実行する）: ${list(partial)}`);
+    if (pending.length) console.log(`未調査: ${list(pending)}`);
     return;
   }
 
@@ -108,7 +111,9 @@ async function main() {
   if (cmd === 'rank') {
     table(ranked.slice(0, opt('top', 50)));
     console.log(`\n対象 ${ranked.length} 曲（未調査 ${ds.works.length - ranked.length} 曲は除外）/ 反復 ${cr.iterations} 回 収束=${cr.converged}`);
-    console.log(`除外したカバー: セルフ ${graph.dropped.self.length} / AI 疑い ${graph.dropped.ai.length} / 重複 ${graph.dropped.duplicate.length}`);
+    console.log(
+      `除外したカバー: セルフ ${graph.dropped.self.length} / AI 疑い ${graph.dropped.ai.length} / 重複 ${graph.dropped.duplicate.length} / 出典なし ${graph.dropped.unsourced.length}`,
+    );
     return;
   }
 
@@ -117,6 +122,7 @@ async function main() {
     const grid = parameterGrid(ds, eligible, top);
     const boot = edgeBootstrap(ds, eligible, top);
     const naive = versusNaiveCount(ds, eligible);
+    const ablation = evidenceAblation(ds, eligible, top);
     const gridBy = new Map(grid.rows.map((r) => [r.workId, r]));
     const bootBy = new Map(boot.rows.map((r) => [r.workId, r]));
     const llm = getLLM();
@@ -149,9 +155,18 @@ async function main() {
     const fmt = (s?: RankSpread) => (s ? `${Math.round(s.lo)}–${Math.round(s.hi)}` : '-');
     const md: string[] = [];
     md.push('# 語り継ぎランキング（自動生成）', '');
-    md.push(`> 生成: \`npm run report\` / 対象 ${ranked.length} 曲（候補 ${ds.works.length} 曲のうち証拠収集済み）/ カバー証拠 ${ds.covers.length} 件`);
+    const used = [...graph.coversByWork.values()].reduce((s, es) => s + es.length, 0);
+    const d = graph.dropped;
+    md.push(
+      `> 生成: \`npm run report\` / 対象 ${ranked.length} 曲（候補 ${ds.works.length} 曲のうち収集手順を終えた曲）/ ` +
+        `グラフに入ったカバー辺 ${used} 件（除外: 出典なし ${d.unsourced.length}・セルフ ${d.self.length}・AI 疑い ${d.ai.length}・重複 ${d.duplicate.length}）`,
+    );
     md.push(`> 素朴なカバー数順位との Kendall τ = ${naive.tau.toFixed(2)}（1 に近いほど「数えるだけ」と同じ）`);
-    md.push(`> 頑健性: パラメータ ${grid.configs} 通り / 証拠を 30% 間引くブートストラップ ${boot.runs} 回。区間は 10–90 パーセンタイル順位`, '');
+    md.push(`> 頑健性: パラメータ ${grid.configs} 通り / 証拠を 30% 間引くブートストラップ ${boot.runs} 回。区間は 10–90 パーセンタイル順位`);
+    md.push(
+      `> 証拠の種類: 検索結果のタイトルで直接裏付けられた ${ablation.strictEdges} 件だけで再計算しても、上位 ${ablation.k} 曲のうち ${ablation.overlap} 曲が残る（Kendall τ = ${ablation.tau.toFixed(2)}）`,
+      '',
+    );
     if (ranked.length < ds.works.length) {
       md.push(
         `> ⚠ **暫定**: 候補 ${ds.works.length} 曲のうち ${ds.works.length - ranked.length} 曲は証拠未収集のため対象外。` +
@@ -174,6 +189,14 @@ async function main() {
       if (e.context) md.push('', `${e.context}${e.contextSource === 'llm' ? '（LLM 生成）' : ''}`);
       md.push('');
     }
+    const z = cohortZ(ranked);
+    const rising = ranked.filter((r) => r.work.year >= 2000 && z.has(r.work.id)).sort((a, b) => z.get(b.work.id)! - z.get(a.work.id)!);
+    md.push('## 未来の名曲候補（2000 年以降の発表・同時代の中での相対評価）', '');
+    md.push('> 古い曲ほど歌い継がれる時間があった、という有利を外すため、発表年 ±5 年の曲どうしで log(スコア) を標準化した z 値で並べる。', '');
+    md.push('| 曲 | 初出 | 原唱 | 同時代内 z | 全体順位 |', '|---|---|---|---|---|');
+    for (const r of rising.slice(0, 10))
+      md.push(`| ${r.work.title} | ${r.work.year} | ${r.work.original.join('・')} | ${z.get(r.work.id)!.toFixed(2)} | ${r.rank} |`);
+    md.push('');
     md.push('## PageRank 化で大きく動いた曲（素朴なカバー数順位との差）', '');
     md.push('| 曲 | 本ランキング | カバー数順位 | カバー数 |', '|---|---|---|---|');
     for (const m of naive.movers.slice(0, 10)) md.push(`| ${m.title} | ${m.ours} | ${m.naive} | ${m.count} |`);

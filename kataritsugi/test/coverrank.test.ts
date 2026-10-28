@@ -65,8 +65,26 @@ test('多くの曲をカバーする人の 1 票は分割される（選択性�
     artists: {},
     identities: [],
   };
-  const r = coverRank(buildGraph(ds, DEFAULT_PARAMS), DEFAULT_PARAMS);
+  const pure = { ...DEFAULT_PARAMS, minOutDegree: 1 };
+  const r = coverRank(buildGraph(ds, pure), pure);
   assert.ok(Math.abs(r.workRank.get('X')! - 4 * r.workRank.get('Y1')!) < 1e-12);
+  // 分母の下限 k=3: 1 曲しか観測されない人の票は 1/3 に、4 曲の人は 1/4 になる（比は 4/3）
+  const floored = coverRank(buildGraph(ds, DEFAULT_PARAMS), DEFAULT_PARAMS);
+  assert.ok(Math.abs(floored.workRank.get('X')! - (4 / 3) * floored.workRank.get('Y1')!) < 1e-12);
+  const total = [...floored.authority.values()].reduce((a, b) => a + b, 0);
+  assert.ok(Math.abs(total - 1) < 1e-9, `使われなかった票も保存される sum=${total}`);
+});
+
+test('出典 URL の無い証拠はグラフに入れない', () => {
+  const ds: Dataset = {
+    works: [work('W', 'O')],
+    covers: [cover('W', 'a'), cover('W', 'b', { src: '' })],
+    artists: {},
+    identities: [],
+  };
+  const g = buildGraph(ds, DEFAULT_PARAMS);
+  assert.equal(g.coversByWork.get('W')!.length, 1);
+  assert.equal(g.dropped.unsourced.length, 1);
 });
 
 test('セルフカバー（本人・在籍バンド・作家）は伝承として数えない', () => {
@@ -151,4 +169,12 @@ test('歌い手のメタデータは名寄せ後の代表名ではなくクレ�
     identities: [['在籍バンド', 'ソロ歌手']],
   };
   assert.deepEqual(rankWorks(ds, DEFAULT_PARAMS).ranked[0].generations, [1990]);
+});
+
+test('同時代内 z: 同じ年代の中で突出した曲が正、埋もれた曲が負になる', async () => {
+  const { cohortZ } = await import('../src/legacy.ts');
+  const ws = [2001, 2002, 2003, 2004, 2005, 2006].map((y, i) => work(`N${i}`, `o${i}`, y));
+  const covers = ws.flatMap((w, i) => Array.from({ length: i + 1 }, (_, k) => cover(w.id, `${w.id}-c${k}`)));
+  const z = cohortZ(rankWorks({ works: ws, covers, artists: {}, identities: [] }, DEFAULT_PARAMS).ranked);
+  assert.ok(z.get('N5')! > 0 && z.get('N0')! < 0);
 });

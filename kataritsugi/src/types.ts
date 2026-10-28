@@ -68,6 +68,7 @@ export interface Params {
   damping: number; // d: 「カバーの原曲を辿る」確率。1-d でテレポート
   performerShare: number; // π: 作品から原唱者へ戻る流量の割合（残りは作詞・作曲者へ）
   outDegreeExp: number; // λ: 1票の分割指数。1 = 純 PageRank（多数カバーする人の1曲あたりの票は薄まる）
+  minOutDegree: number; // k: 票の分母の下限。観測された候補曲のカバーが k 曲未満の歌い手は、残りを「観測されていないカバー先」に流す
   kindPrior: Record<ArtistKind, number>; // 種別ごとのテレポート事前重み
   genBonus: number; // α: 世代到達ボーナスの強さ
   genCap: number; // 世代到達の飽和点（何世代で満点か）
@@ -79,6 +80,7 @@ export const DEFAULT_PARAMS: Params = {
   damping: 0.85,
   performerShare: 0.5,
   outDegreeExp: 1,
+  minOutDegree: 3,
   kindPrior: { pro: 1, foreign: 1, net: 0.5, choir: 0.3, amateur: 0.05 },
   genBonus: 0.5,
   genCap: 4,
