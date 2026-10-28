@@ -1511,5 +1511,538 @@
  "秦基博": {
   "debutDecade": 2000,
   "genre": "jpop"
- }
+ },
+ "25時、ナイトコードで。": {
+  "debutDecade": 2020,
+  "genre": "anime"
+ },
+ "Alfredo Casero": {
+  "debutDecade": 1980,
+  "genre": "rock",
+  "country": "AR"
+ },
+ "CHEMISTRY": {
+  "debutDecade": 2000,
+  "genre": "jpop"
+ },
+ "Chage": {
+  "debutDecade": 1970,
+  "genre": "jpop"
+ },
+ "Dialogue+ (Nene Hieda & Kyoka Moriya)": {
+  "debutDecade": 2010,
+  "genre": "anime"
+ },
+ "Draft King": {
+  "debutDecade": 2010,
+  "genre": "rock"
+ },
+ "FLOW": {
+  "debutDecade": 2000,
+  "genre": "rock"
+ },
+ "FUKI": {
+  "debutDecade": 2010,
+  "genre": "jpop"
+ },
+ "GACKT": {
+  "debutDecade": 1990,
+  "genre": "rock"
+ },
+ "Hey! Say! JUMP": {
+  "debutDecade": 2000,
+  "genre": "idol"
+ },
+ "Home Grown": {
+  "debutDecade": 1990,
+  "genre": "jpop"
+ },
+ "JIJIM": {},
+ "JOY": {},
+ "Jewel Akens": {
+  "debutDecade": 1960,
+  "genre": "jpop",
+  "country": "US"
+ },
+ "Kina Grannis": {
+  "debutDecade": 2000,
+  "genre": "jpop",
+  "country": "US"
+ },
+ "LOVERS ROCREW": {},
+ "Leyona": {
+  "debutDecade": 2000,
+  "genre": "jpop"
+ },
+ "MOOMIN": {
+  "debutDecade": 1990,
+  "genre": "jpop"
+ },
+ "Mui Zyu": {
+  "debutDecade": 2020,
+  "genre": "jpop",
+  "country": "GB"
+ },
+ "NICO Touches the Walls": {
+  "debutDecade": 2000,
+  "genre": "rock"
+ },
+ "ROLLY": {
+  "debutDecade": 1980,
+  "genre": "rock"
+ },
+ "Rainych": {
+  "debutDecade": 2010,
+  "country": "ID"
+ },
+ "Rouge": {},
+ "Selena": {
+  "debutDecade": 1980,
+  "genre": "jpop",
+  "country": "US"
+ },
+ "Sumire": {},
+ "Summer Soul": {},
+ "Susan Boyle": {
+  "debutDecade": 2000,
+  "genre": "jazz",
+  "country": "GB"
+ },
+ "The Blue Diamonds": {
+  "debutDecade": 1950,
+  "genre": "jpop",
+  "country": "NL"
+ },
+ "Tiara": {
+  "debutDecade": 2000,
+  "genre": "jpop"
+ },
+ "UNCHAIN": {
+  "debutDecade": 2000,
+  "genre": "rock"
+ },
+ "ZERO": {},
+ "anderlust": {
+  "debutDecade": 2010,
+  "genre": "rock"
+ },
+ "miComet": {
+  "debutDecade": 2010
+ },
+ "suis from ヨルシカ": {
+  "debutDecade": 2010,
+  "genre": "jpop"
+ },
+ "いきものがかり": {
+  "debutDecade": 2000,
+  "genre": "jpop"
+ },
+ "つじあやの": {
+  "debutDecade": 1990,
+  "genre": "folk"
+ },
+ "やなわらばー": {
+  "debutDecade": 2000,
+  "genre": "okinawa"
+ },
+ "コトリンゴ": {
+  "debutDecade": 2000,
+  "genre": "jpop"
+ },
+ "ザ・ピーナッツ": {
+  "debutDecade": 1950,
+  "genre": "kayo"
+ },
+ "ザ・ヴィーナス": {
+  "debutDecade": 1980,
+  "genre": "rock"
+ },
+ "シーゲル梶原": {},
+ "ジェニファー": {},
+ "スターダスト☆レビュー": {
+  "debutDecade": 1980,
+  "genre": "jpop"
+ },
+ "ソン・シギョン": {
+  "debutDecade": 2000,
+  "genre": "jpop",
+  "country": "KR"
+ },
+ "ダウト": {
+  "debutDecade": 2000,
+  "genre": "rock"
+ },
+ "ダ・カーポ": {
+  "debutDecade": 1970,
+  "genre": "folk"
+ },
+ "ダークダックス": {
+  "debutDecade": 1950,
+  "genre": "jazz"
+ },
+ "チャラン・ポ・ランタン": {
+  "debutDecade": 2000,
+  "genre": "rock"
+ },
+ "デューク・エイセス": {
+  "debutDecade": 1950,
+  "genre": "jazz"
+ },
+ "デラックス×デラックス": {},
+ "トワ・エ・モワ": {
+  "debutDecade": 1960,
+  "genre": "folk"
+ },
+ "ネーネーズ": {
+  "debutDecade": 1990,
+  "genre": "okinawa"
+ },
+ "ハイ・ファイ・セット": {
+  "debutDecade": 1970,
+  "genre": "folk"
+ },
+ "ビビアン・スー": {
+  "debutDecade": 1990,
+  "genre": "jpop",
+  "country": "TW"
+ },
+ "フランク永井&松尾和子": {
+  "debutDecade": 1950,
+  "genre": "kayo"
+ },
+ "メロン記念日": {
+  "debutDecade": 1990,
+  "genre": "idol"
+ },
+ "ユニコーン": {
+  "debutDecade": 1980,
+  "genre": "rock"
+ },
+ "ユーリ": {},
+ "三浦大知": {
+  "debutDecade": 1990,
+  "genre": "jpop"
+ },
+ "上戸彩": {
+  "debutDecade": 2000,
+  "genre": "jpop"
+ },
+ "上沼恵美子": {
+  "debutDecade": 1970,
+  "genre": "kayo"
+ },
+ "中尾ミエ": {
+  "debutDecade": 1960,
+  "genre": "kayo"
+ },
+ "中島愛": {
+  "debutDecade": 2000,
+  "genre": "anime"
+ },
+ "中谷優心": {},
+ "二宮和也": {
+  "debutDecade": 1990,
+  "genre": "idol"
+ },
+ "井上陽水": {
+  "debutDecade": 1960,
+  "genre": "folk"
+ },
+ "今井美樹": {
+  "debutDecade": 1980,
+  "genre": "jpop"
+ },
+ "伊東ゆかり": {
+  "debutDecade": 1950,
+  "genre": "kayo"
+ },
+ "伊藤咲子": {
+  "debutDecade": 1970,
+  "genre": "idol"
+ },
+ "佐藤竹善 with コブクロ": {
+  "genre": "jpop"
+ },
+ "八神純子": {
+  "debutDecade": 1970,
+  "genre": "newmusic"
+ },
+ "剣幸": {
+  "debutDecade": 1970,
+  "genre": "jazz"
+ },
+ "北川大介": {
+  "debutDecade": 2000,
+  "genre": "enka"
+ },
+ "北川裕二": {
+  "debutDecade": 1990,
+  "genre": "enka"
+ },
+ "古谷 智志": {},
+ "吉田拓郎": {
+  "debutDecade": 1970,
+  "genre": "folk"
+ },
+ "城南海": {
+  "debutDecade": 2000,
+  "genre": "okinawa"
+ },
+ "堂島孝平": {
+  "debutDecade": 1990,
+  "genre": "jpop"
+ },
+ "多部未華子": {
+  "debutDecade": 2000,
+  "genre": "jpop"
+ },
+ "大月みやこ": {
+  "debutDecade": 1960,
+  "genre": "enka"
+ },
+ "大橋トリオ": {
+  "debutDecade": 2000,
+  "genre": "jpop"
+ },
+ "天地真理": {
+  "debutDecade": 1970,
+  "genre": "idol"
+ },
+ "天海春香(CV:中村繪里子)": {
+  "debutDecade": 2000,
+  "genre": "anime"
+ },
+ "奏みつき from Chase×Chase": {},
+ "奥居香": {
+  "debutDecade": 1980,
+  "genre": "rock"
+ },
+ "奥田民生": {
+  "debutDecade": 1980,
+  "genre": "rock"
+ },
+ "寺田恵子": {
+  "debutDecade": 1980,
+  "genre": "rock"
+ },
+ "小山ルミ": {
+  "debutDecade": 1960,
+  "genre": "kayo"
+ },
+ "小山田壮平&イエロートレイン": {
+  "debutDecade": 2010,
+  "genre": "rock"
+ },
+ "嶋野百恵 & SONOMI": {
+  "debutDecade": 2000,
+  "genre": "jpop"
+ },
+ "川崎鷹也": {
+  "debutDecade": 2010,
+  "genre": "jpop"
+ },
+ "川村かおり": {
+  "debutDecade": 1980,
+  "genre": "rock"
+ },
+ "川畑要": {
+  "debutDecade": 2000,
+  "genre": "jpop"
+ },
+ "市川由衣": {
+  "debutDecade": 2000,
+  "genre": "jpop"
+ },
+ "幾田りら": {
+  "debutDecade": 2010,
+  "genre": "jpop"
+ },
+ "後藤真希": {
+  "debutDecade": 1990,
+  "genre": "idol"
+ },
+ "成底ゆう子": {
+  "debutDecade": 2000,
+  "genre": "okinawa"
+ },
+ "手越祐也": {
+  "debutDecade": 2000,
+  "genre": "idol"
+ },
+ "新垣勉": {
+  "genre": "jazz"
+ },
+ "新山詩織": {
+  "debutDecade": 2010,
+  "genre": "jpop"
+ },
+ "日野美歌": {
+  "debutDecade": 1980,
+  "genre": "enka"
+ },
+ "早見優": {
+  "debutDecade": 1980,
+  "genre": "idol"
+ },
+ "星屑スキャット": {
+  "debutDecade": 2010,
+  "genre": "jpop"
+ },
+ "杜このみ": {
+  "debutDecade": 2010,
+  "genre": "enka"
+ },
+ "松平健": {
+  "debutDecade": 1970,
+  "genre": "kayo"
+ },
+ "松本穂香": {
+  "debutDecade": 2010,
+  "genre": "jpop"
+ },
+ "林寛子": {
+  "debutDecade": 1970,
+  "genre": "idol"
+ },
+ "柴田淳": {
+  "debutDecade": 2000,
+  "genre": "jpop"
+ },
+ "森山直太朗": {
+  "debutDecade": 2000,
+  "genre": "jpop"
+ },
+ "水谷千重子": {
+  "debutDecade": 2010,
+  "genre": "enka"
+ },
+ "清春": {
+  "debutDecade": 1990,
+  "genre": "rock"
+ },
+ "清水翔太": {
+  "debutDecade": 2000,
+  "genre": "jpop"
+ },
+ "渡辺美里 & 世良公則": {
+  "debutDecade": 1980,
+  "genre": "rock"
+ },
+ "満島ひかり": {
+  "debutDecade": 1990,
+  "genre": "jpop"
+ },
+ "甄妮": {
+  "debutDecade": 1970,
+  "genre": "kayo",
+  "country": "HK"
+ },
+ "石原詢子": {
+  "debutDecade": 1980,
+  "genre": "enka"
+ },
+ "神部冬馬": {},
+ "神野美伽 with ALL STAR JAZZ BAND": {
+  "debutDecade": 1980,
+  "genre": "enka"
+ },
+ "神野美伽&岩崎宏美": {
+  "debutDecade": 1980,
+  "genre": "enka"
+ },
+ "竹村こずえ": {
+  "debutDecade": 1990,
+  "genre": "enka"
+ },
+ "竹渕慶": {
+  "debutDecade": 2010,
+  "genre": "jpop"
+ },
+ "美輪明宏": {
+  "debutDecade": 1950,
+  "genre": "kayo"
+ },
+ "翠千賀": {
+  "genre": "enka"
+ },
+ "舘ひろし": {
+  "debutDecade": 1970,
+  "genre": "rock"
+ },
+ "花譜": {
+  "debutDecade": 2010
+ },
+ "菅原やすのり": {
+  "debutDecade": 1970,
+  "genre": "folk"
+ },
+ "菅田将暉 & 石崎ひゅーい": {
+  "debutDecade": 2010,
+  "genre": "jpop"
+ },
+ "藤井フミヤ": {
+  "debutDecade": 1980,
+  "genre": "rock"
+ },
+ "藤原さくら": {
+  "debutDecade": 2010,
+  "genre": "jpop"
+ },
+ "藤圭子": {
+  "debutDecade": 1960,
+  "genre": "enka"
+ },
+ "西田あい": {
+  "debutDecade": 2010,
+  "genre": "enka"
+ },
+ "谷村新司": {
+  "debutDecade": 1970,
+  "genre": "newmusic"
+ },
+ "豊崎愛生": {
+  "debutDecade": 2000,
+  "genre": "anime"
+ },
+ "越山元貴": {},
+ "都はるみ": {
+  "debutDecade": 1960,
+  "genre": "enka"
+ },
+ "野口五郎": {
+  "debutDecade": 1970,
+  "genre": "kayo"
+ },
+ "野口五郎・ひとみ": {
+  "genre": "kayo"
+ },
+ "鈴木愛理": {
+  "debutDecade": 2000,
+  "genre": "idol"
+ },
+ "門松みゆき": {
+  "debutDecade": 2010,
+  "genre": "enka"
+ },
+ "雨宮天": {
+  "debutDecade": 2010,
+  "genre": "anime"
+ },
+ "青葉市子": {
+  "debutDecade": 2010,
+  "genre": "folk"
+ },
+ "高畑充希": {
+  "debutDecade": 2000,
+  "genre": "jpop"
+ },
+ "鳥羽一郎": {
+  "debutDecade": 1980,
+  "genre": "enka"
+ },
+ "麻倉未稀": {
+  "debutDecade": 1980,
+  "genre": "jpop"
+ },
+ "黒木姉妹": {}
 }

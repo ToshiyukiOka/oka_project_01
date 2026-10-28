@@ -42,10 +42,14 @@
   "complete": true
  },
  "w008": {
-  "searches": 2,
+  "searches": 4,
   "method": "websearch",
-  "flags": "Q3 not run: WebSearch per-turn budget exhausted. Q1/Q2 returned no cover evidence.",
-  "complete": false
+  "flags": "Q3 not run: WebSearch per-turn budget exhausted. Q1/Q2 returned no cover evidence. | Resume song (done_queries empty so Q1+Q2 run). Last 4 artists (渡辺美里 & 世良公則, 東京ガールズキッズ, 秋元順子, ザ・ヴィーナス) come only from the search summary of uta-net lyricist(鈴木勝)-page results, not from a title naming artist+song; lower confidence. Q3 skipped because >=6 artists recorded (only 5 if those 4 were dropped).",
+  "complete": true,
+  "queries": [
+   "j-lyric 東京ブギウギ 歌詞",
+   "東京ブギウギ 笠置シヅ子 カバー"
+  ]
  },
  "w009": {
   "searches": 2,
@@ -217,34 +221,47 @@
   ]
  },
  "w025": {
-  "searches": 2,
+  "searches": 3,
   "method": "websearch",
-  "flags": "Q3 NOT RUN - WebSearch budget exhausted. Q1/Q2 found no cover evidence (Q2 only an omnibus CD titled 王将 listing many singers, which does not show they sang 王将).",
-  "complete": false,
+  "flags": "Q3 NOT RUN - WebSearch budget exhausted. Q1/Q2 found no cover evidence (Q2 only an omnibus CD titled 王将 listing many singers, which does not show they sang 王将). | resume: Q3 run, no evidence found",
+  "complete": true,
   "queries": [
    "j-lyric 王将 歌詞",
+   "歌ネット 王将 歌詞 カバー",
    "王将 村田英雄 カバー"
   ]
  },
  "w026": {
-  "searches": 2,
+  "searches": 3,
   "method": "websearch",
-  "flags": "Q4 (English 'Sukiyaki' query) NOT RUN - WebSearch budget exhausted. Credits 永六輔/中村八大 stated for the j-lyric listing. j-lyric names (クミコ..吉幾三) are from a summary of a j-lyric listing (src approximate: う-index page). For RCサクセション, Taste of Honey ('Sukiyaki 81'), 4 P.M. the summary quoted an article but did not name the URL - src is a guessed top Q2 result (approximate); 千葉雄喜 and さかいゆう URLs are the matching Q2 results.",
-  "complete": false,
+  "flags": "Q4 (English 'Sukiyaki' query) NOT RUN - WebSearch budget exhausted. Credits 永六輔/中村八大 stated for the j-lyric listing. j-lyric names (クミコ..吉幾三) are from a summary of a j-lyric listing (src approximate: う-index page). For RCサクセション, Taste of Honey ('Sukiyaki 81'), 4 P.M. the summary quoted an article but did not name the URL - src is a guessed top Q2 result (approximate); 千葉雄喜 and さかいゆう URLs are the matching Q2 results. | RESUME: ran Q4 only (Q3 not needed, 13 artists already). Excluded instrumental-only versions (Kenny Ball and His Jazzmen, Johnny Pearson). Selena/Jewel Akens/Blue Diamonds are English/Spanish-lyric versions of the melody.",
+  "complete": true,
   "queries": [
+   "\"Sukiyaki\" cover version",
    "j-lyric 上を向いて歩こう 歌詞",
    "上を向いて歩こう 坂本九 カバー"
   ]
  },
  "w027": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200) exhausted before this song."
+  "flags": "Uta-net composer list (鏑木創) summary-attributed versions; 野口五郎・ひとみ name as written (ひとみ presumably a duet partner, full name not shown).",
+  "complete": true,
+  "queries": [
+   "j-lyric 銀座の恋の物語 歌詞",
+   "歌ネット 銀座の恋の物語 歌詞 カバー",
+   "銀座の恋の物語 石原裕次郎 カバー"
+  ]
  },
  "w028": {
-  "searches": 0,
+  "searches": 2,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200) exhausted before this song."
+  "flags": "artists from summary of j-lyric title-index page (i30p35); ダ・カーポ/小野リサ from Q2 summary referencing the same lyric-list site",
+  "complete": true,
+  "queries": [
+   "j-lyric 遠くへ行きたい 歌詞",
+   "遠くへ行きたい ジェリー藤尾 カバー"
+  ]
  },
  "w029": {
   "searches": 3,
@@ -289,15 +306,26 @@
   "complete": true
  },
  "w036": {
-  "searches": 2,
+  "searches": 5,
   "method": "websearch",
-  "flags": "Q3 NOT RUN: WebSearch per-turn budget exhausted. Q1/Q2 found no j-lyric page or cover artist for '柔' (title is short/generic).",
-  "complete": false
+  "flags": "Q3 NOT RUN: WebSearch per-turn budget exhausted. Q1/Q2 found no j-lyric page or cover artist for '柔' (title is short/generic). | resume; done_queries was empty so all run; no cover evidence found",
+  "complete": true,
+  "queries": [
+   "j-lyric 柔 歌詞",
+   "柔 美空ひばり カバー",
+   "歌ネット 柔 歌詞 カバー"
+  ]
  },
  "w037": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+  "flags": "Skipped ECD×DJ Mitsu The Beats (Together forever Mix: rap rework sampling the original, not a straight cover), ゴールデンボンバー (unverified same song), KG feat.MAY'S 'With You~君といつまでも~' (different title/song), MONGOL800 キヨサク 'いつまでも君を' (homage, different song).",
+  "complete": true,
+  "queries": [
+   "j-lyric 君といつまでも 歌詞",
+   "君といつまでも 加山雄三 カバー",
+   "歌ネット 君といつまでも 歌詞 カバー"
+  ]
  },
  "w038": {
   "searches": 3,
@@ -364,74 +392,142 @@
   ]
  },
  "w044": {
-  "searches": 2,
+  "searches": 3,
   "method": "websearch",
-  "flags": "INCOMPLETE: Q3 was required (only 3 artists) but WebSearch budget exhausted (error returned, query not run). Edges are from J-Lyric index page summary (credited 岩谷時子/いずみたく).",
-  "complete": false,
+  "flags": "INCOMPLETE: Q3 was required (only 3 artists) but WebSearch budget exhausted (error returned, query not run). Edges are from J-Lyric index page summary (credited 岩谷時子/いずみたく). | resume: Q3 only; Rouge from summary (uta-net Rouge list page has 恋の季節, credits 岩谷時子/いずみたく match). 西城秀樹 恋する季節 and BABY BAND 恋する季節 are different songs",
+  "complete": true,
   "queries": [
    "j-lyric 恋の季節 歌詞",
-   "恋の季節 ピンキーとキラーズ カバー"
+   "恋の季節 ピンキーとキラーズ カバー",
+   "歌ネット 恋の季節 歌詞 カバー"
   ]
  },
  "w045": {
-  "searches": 0,
+  "searches": 2,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+  "flags": "Q3 not needed (10 artists). 加藤登紀子/石川ひとみ/森山良子/矢野顕子 appear in the Q1 summary as romanized names citing J-Lyric index Page.104 (kanji forms are transliterations, not shown in result titles). コトリンゴ summary statement not tied to a specific result; src is best-guess (ranking.net).",
+  "complete": true,
+  "queries": [
+   "j-lyric 悲しくてやりきれない 歌詞",
+   "悲しくてやりきれない ザ・フォーク・クルセダーズ カバー"
+  ]
  },
  "w046": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+  "flags": "フランク永井: summary gave only 'Frank Nagai' (uta-net lyricist list), kana form is a transliteration. シーゲル梶原 = English-lyric version (LP) per Nagasaki city page; src page among nagazine/uta pages approximate. Excluded parody '長崎の今日は晴れだった' (後川清) as a different song.",
+  "complete": true,
+  "queries": [
+   "j-lyric 長崎は今日も雨だった 歌詞",
+   "歌ネット 長崎は今日も雨だった 歌詞 カバー",
+   "長崎は今日も雨だった 内山田洋とクール・ファイブ カバー"
+  ]
  },
  "w047": {
-  "searches": 0,
+  "searches": 2,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+  "flags": "5 of 6 from search summary citing a wiki-style site (pedia.3rd-in); Q3 skipped (6 artists)",
+  "complete": true,
+  "queries": [
+   "j-lyric 港町ブルース 歌詞",
+   "港町ブルース 森進一 カバー"
+  ]
  },
  "w048": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+  "flags": "No solid evidence. Left out: 夜明けのキャッツ (band backing original singer Yuki Saori; summary only says album track, no result tied) and 関ジャニ∞ (TV jam-session performance, source result unclear). Pink Martini not stated as covering it.",
+  "complete": true,
+  "queries": [
+   "j-lyric 夜明けのスキャット 歌詞",
+   "夜明けのスキャット 由紀さおり カバー",
+   "歌ネット 夜明けのスキャット 歌詞 カバー"
+  ]
  },
  "w049": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+  "flags": "no cover evidence found in any query",
+  "complete": true,
+  "queries": [
+   "j-lyric 時には母のない子のように 歌詞",
+   "時には母のない子のように カルメン・マキ カバー",
+   "歌ネット 時には母のない子のように 歌詞 カバー"
+  ]
  },
  "w050": {
-  "searches": 0,
+  "searches": 2,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+  "flags": "Q3 skipped (6 distinct cover artists). 4 artists from J-Lyric index page summary (北山修 version excluded as lyricist). 由紀さおり/安田祥子 as written in summary.",
+  "complete": true,
+  "queries": [
+   "j-lyric 白い色は恋人の色 歌詞",
+   "白い色は恋人の色 ベッツィ&クリス カバー"
+  ]
  },
  "w051": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+  "flags": "畠山美由紀 src URL is inferred (summary did not name the result; top result was the natalie article); skipped ちゆきの夢は夜ひらく/あさみちゆき (different title)",
+  "complete": true,
+  "queries": [
+   "j-lyric 圭子の夢は夜ひらく 歌詞",
+   "圭子の夢は夜ひらく 藤圭子 カバー",
+   "歌ネット 圭子の夢は夜ひらく 歌詞 カバー"
+  ]
  },
  "w052": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+  "flags": "小山ルミ evidenced only by last.fm URL (search summary said content unverified). 坂本冬美/矢野顕子 from summary (src is best-guess result; summary did not name the exact URL). Original composer The Ventures excluded.",
+  "complete": true,
+  "queries": [
+   "j-lyric 京都慕情 歌詞",
+   "京都慕情 渚ゆう子 カバー",
+   "歌ネット 京都慕情 歌詞 カバー"
+  ]
  },
  "w053": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+  "flags": "Generic-ish title (C&K and 平井 大 have different songs, excluded). 氷川きよし/加山雄三/スターダスト☆レビュー accepted: summary says same credits 阿久悠/筒美京平. 野口五郎/庄野真代 (Q1 summary) and クレイジーケンバンド (Q3 summary) from J-Lyric index listing per summary only.",
+  "complete": true,
+  "queries": [
+   "j-lyric また逢う日まで 歌詞",
+   "また逢う日まで 尾崎紀世彦 カバー",
+   "歌ネット また逢う日まで 歌詞 カバー"
+  ]
  },
  "w054": {
-  "searches": 0,
+  "searches": 2,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+  "flags": "Excluded 山本潤子 (former 赤い鳥 member = self-cover). Q2 summary list (川村かおり…ゆず) not tied to one URL; nicovideo-dic result used as src (approximate). Susan Boyle page title is 翼をください ~Wings To Fly.",
+  "complete": true,
+  "queries": [
+   "j-lyric 翼をください 歌詞",
+   "翼をください 赤い鳥 カバー"
+  ]
  },
  "w055": {
-  "searches": 0,
+  "searches": 2,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+  "flags": "Skipped ビリケン (J-Lyric title spelled 素晴らしい; summary warned lyrics may differ/new lyrics), Team Tonoban (film tribute band incl. original member 北山修), 高野寛 (arranger of 2024Ver, singer unclear). Q3 skipped (7 artists).",
+  "complete": true,
+  "queries": [
+   "j-lyric あの素晴しい愛をもう一度 歌詞",
+   "あの素晴しい愛をもう一度 加藤和彦 カバー"
+  ]
  },
  "w056": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls shared) was exhausted before this song; needs a re-run."
+  "flags": "神部冬馬/豊崎愛生/Little Glee Monster: summary says j-lyric lists them with same credits (松本隆/細野晴臣); exact listing page (i6p79 vs i6p57) not verified. スフィア 風をあつめて (rino credit) is a different song, excluded.",
+  "complete": true,
+  "queries": [
+   "j-lyric 風をあつめて 歌詞",
+   "歌ネット 風をあつめて 歌詞 カバー",
+   "風をあつめて はっぴいえんど カバー"
+  ]
  },
  "w057": {
   "searches": 3,
@@ -500,9 +596,15 @@
   "complete": true
  },
  "w068": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch budget (200/turn, shared across agents) was exhausted before this song; needs re-run"
+  "flags": "槇原敬之 src is one of the Q2 result pages (Billboard JAPAN goods/news) - summary attributed tribute album 2019-11-27 without naming exact URL; Home Grown (feat. PJ) and Janet Kay accepted via J-Lyric credit 井上陽水 as lyricist/composer (Janet Kay = English version, translation credit)",
+  "complete": true,
+  "queries": [
+   "j-lyric 夢の中へ 歌詞",
+   "夢の中へ 井上陽水 カバー",
+   "歌ネット 夢の中へ 歌詞 カバー"
+  ]
  },
  "w069": {
   "searches": 3,
@@ -610,34 +712,66 @@
   ]
  },
  "w079": {
-  "searches": 0,
+  "searches": 2,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch budget (200/turn, shared across agents) was exhausted before this song; needs re-run"
+  "flags": "Q3 skipped (>=6 artists). Q2 gave no new cover evidence. 3 artists from J-Lyric index page summary.",
+  "complete": true,
+  "queries": [
+   "j-lyric 時の過ぎゆくままに 歌詞",
+   "時の過ぎゆくままに 沢田研二 カバー"
+  ]
  },
  "w080": {
-  "searches": 0,
+  "searches": 2,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch budget (200/turn, shared across agents) was exhausted before this song; needs re-run"
+  "flags": "src for 今井美樹/後藤真希/青葉市子/柴田淳 (ragnet), ハイ・ファイ・セット (moegirl), 天海春香 (sonymusic) inferred - Q2 summary did not name the result; 生物股长 taken from moegirl result title (summary said unverified); ハイ・ファイ・セット = earlier release of the song per summary (not the input original 荒井由実); 天海春香 is an idol-game character (CV 中村繪里子); 松任谷由実 excluded (self)",
+  "complete": true,
+  "queries": [
+   "j-lyric 卒業写真 歌詞",
+   "卒業写真 荒井由実 カバー"
+  ]
  },
  "w081": {
-  "searches": 0,
+  "searches": 2,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch budget (200/turn, shared across agents) was exhausted before this song; needs re-run"
+  "flags": "Q3 skipped (6 artists). 徳永英明 from summary (COVERS album); src is best-guess result. Excluded 松任谷由実 (lyricist/composer) and ばんばひろふみ (original group); 小川彩 TV performance with ばんばひろふみ not recorded.",
+  "complete": true,
+  "queries": [
+   "j-lyric 「いちご白書」をもう一度 歌詞",
+   "「いちご白書」をもう一度 バンバン カバー"
+  ]
  },
  "w082": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch budget (200/turn, shared across agents) was exhausted before this song; needs re-run"
+  "flags": "谷村新司×小椋佳 is a duet credit that includes the composer 小椋佳 (kept as credited; effectively a 谷村新司 cover with the composer as guest).",
+  "complete": true,
+  "queries": [
+   "j-lyric シクラメンのかほり 歌詞",
+   "シクラメンのかほり 布施明 カバー",
+   "歌ネット シクラメンのかほり 歌詞 カバー"
+  ]
  },
  "w083": {
-  "searches": 0,
+  "searches": 2,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch budget (200/turn, shared across agents) was exhausted before this song; needs re-run"
+  "flags": "GENERIC TITLE. All 7 are listed by the search summary under 'Main song' (credit 中島みゆき作詞作曲; 'nearly all' pages carry that credit) while THE イナズマ戦隊 and SUPER BEAVER 時代 were separated as different songs and excluded. Credit per page not individually seen; 浜崎あゆみ is the least certain. Q2 gave no covers (only 中島みゆき self-cover). Q3 skipped (7>=6).",
+  "complete": true,
+  "queries": [
+   "j-lyric 時代 歌詞",
+   "時代 中島みゆき カバー"
+  ]
  },
  "w084": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch budget (200/turn, shared across agents) was exhausted before this song; needs re-run"
+  "flags": "鄧麗君 = テレサ・テン (alias); evidence is a Korean fan-cafe post whose credits matched (阿久悠/小林亜星), via search summary. Tribute album 都はるみを好きになった人 exists but artists not named in results.",
+  "complete": true,
+  "queries": [
+   "j-lyric 北の宿から 歌詞",
+   "北の宿から 都はるみ カバー",
+   "歌ネット 北の宿から 歌詞 カバー"
+  ]
  },
  "w085": {
   "searches": 2,
@@ -682,24 +816,47 @@
   "complete": true
  },
  "w092": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+  "flags": "Generic title. 甄妮: 1977 cover under title 心曲 per academic paper table (summary). Left out 山崎育三郎/福山雅治/天童よしみ (j-lyric pages titled 勝手にしやがれ but credits not confirmed same song); 中島みゆき/majiko/HOUND DOG are different songs.",
+  "complete": true,
+  "queries": [
+   "j-lyric 勝手にしやがれ 歌詞",
+   "勝手にしやがれ 沢田研二 カバー",
+   "歌ネット 勝手にしやがれ 歌詞 カバー"
+  ]
  },
  "w093": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+  "flags": "no cover evidence; only self-covers by 渡辺真知子",
+  "complete": true,
+  "queries": [
+   "j-lyric 迷い道 歌詞",
+   "歌ネット 迷い道 歌詞 カバー",
+   "迷い道 渡辺真知子 カバー"
+  ]
  },
  "w094": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+  "flags": "Only 1 cover artist found. A uta-net page for 堂本光一・屋良朝幸・森公美子... (1 song) appeared in Q3 but no song title shown; not recorded.",
+  "complete": true,
+  "queries": [
+   "j-lyric 大空と大地の中で 歌詞",
+   "大空と大地の中で 松山千春 カバー",
+   "歌ネット 大空と大地の中で 歌詞 カバー"
+  ]
  },
  "w095": {
-  "searches": 0,
+  "searches": 2,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+  "flags": "generic title; summary says J-Lyric pages are credited とまりれん (lyric+music) - same credit explicitly shown only for 市川由紀乃 (uta-net lyricist list), others accepted as listed versions in that summary; Q3 skipped (6 artists)",
+  "complete": true,
+  "queries": [
+   "j-lyric 氷雨 歌詞",
+   "氷雨 佳山明生 カバー"
+  ]
  },
  "w096": {
   "searches": 3,
@@ -756,69 +913,137 @@
   ]
  },
  "w101": {
-  "searches": 2,
+  "searches": 3,
   "method": "websearch",
-  "flags": "INCOMPLETE: Q3 (歌ネット 大阪で生まれた女 歌詞 カバー) was required (<6 covers) but WebSearch budget exhausted. Q2 returned only textile 'boro' noise. '大阪で生まれた女 19' is BORO's own sequel (excluded).",
-  "complete": false,
+  "flags": "INCOMPLETE: Q3 (歌ネット 大阪で生まれた女 歌詞 カバー) was required (<6 covers) but WebSearch budget exhausted. Q2 returned only textile 'boro' noise. '大阪で生まれた女 19' is BORO's own sequel (excluded). | resume: Q3 only; no new artists found",
+  "complete": true,
   "queries": [
    "j-lyric 大阪で生まれた女 歌詞",
-   "大阪で生まれた女 BORO カバー"
+   "大阪で生まれた女 BORO カバー",
+   "歌ネット 大阪で生まれた女 歌詞 カバー"
   ]
  },
  "w102": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+  "flags": "Credits 阿久悠/浜圭介 confirmed in summary for all three. 黒の舟唄 / 最上川舟唄 are different songs (excluded).",
+  "complete": true,
+  "queries": [
+   "j-lyric 舟唄 歌詞",
+   "歌ネット 舟唄 歌詞 カバー",
+   "舟唄 八代亜紀 カバー"
+  ]
  },
  "w103": {
-  "searches": 0,
+  "searches": 2,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+  "flags": "Generic title: GReeeeN 贈る言葉 excluded (different song, own lyrics). 上戸彩/水森かおり/FLOW confirmed by summary as 武田鉄矢/千葉和臣 credits. Q2-summary artists cite cover-introduction pages (ragnet okurukotoba-cover-songs is best-guess src). Q3 not needed (6 artists).",
+  "complete": true,
+  "queries": [
+   "j-lyric 贈る言葉 歌詞",
+   "贈る言葉 海援隊 カバー"
+  ]
  },
  "w104": {
-  "searches": 0,
+  "searches": 4,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+  "flags": "岩崎宏美 page title: '真夜中のドア with 八神純子、花田千草(松千) and DA BUBBLE GUM BROTHERS BAND'. Ms.OOJA = performance on NHK うたコン (src page approximate). DEEN/UNCHAIN from Q1 summary. Q4 (English) yielded nothing usable: Ed Sheeran/Sam Smith hits are the different song 'Stay With Me'; Night Tempo = remix; skipped Chris Andrian Yang ukulele-tab page (ukutabs) as weak.",
+  "complete": true,
+  "queries": [
+   "\"Stay With Me\" Miki Matsubara cover version",
+   "j-lyric 真夜中のドア stay with me 歌詞",
+   "歌ネット 真夜中のドア stay with me 歌詞 カバー",
+   "真夜中のドア〜stay with me 松原みき カバー"
+  ]
  },
  "w105": {
-  "searches": 0,
+  "searches": 4,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+  "flags": "generic title; 美空ひばり accepted since J-Lyric credits 作詞・作曲 谷村新司 (same song). Unlabelled j-lyric.net/artist/a002148/l004aa4.html result not attributable, skipped.",
+  "complete": true,
+  "queries": [
+   "\"Subaru\" Tanimura Shinji cover version",
+   "j-lyric 昴 歌詞",
+   "昴 谷村新司 カバー",
+   "歌ネット 昴 歌詞 カバー"
+  ]
  },
  "w106": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+  "flags": "Generic title. Toshl: summary says same songwriter credit as Nagabuchi; 八代亜紀: summary says Nagabuchi-written song. ユーリ: CD track listed as 乾杯 (original artist 長渕剛) per summary. DISH//, 加藤登紀子 etc. are different songs.",
+  "complete": true,
+  "queries": [
+   "j-lyric 乾杯 歌詞",
+   "乾杯 長渕剛 カバー",
+   "歌ネット 乾杯 歌詞 カバー"
+  ]
  },
  "w107": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+  "flags": "official spelling is 雨あがりの夜空に; 忌野清志郎 featuring RHYMESTER (uta-net) excluded as original performer's own version",
+  "complete": true,
+  "queries": [
+   "j-lyric 雨上がりの夜空に 歌詞",
+   "歌ネット 雨上がりの夜空に 歌詞 カバー",
+   "雨上がりの夜空に RCサクセション カバー"
+  ]
  },
  "w108": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+  "flags": "Only 2 cover artists found. Unlabelled uta-net/awa results not recorded.",
+  "complete": true,
+  "queries": [
+   "j-lyric 恋人がサンタクロース 歌詞",
+   "恋人がサンタクロース 松任谷由実 カバー",
+   "歌ネット 恋人がサンタクロース 歌詞 カバー"
+  ]
  },
  "w109": {
-  "searches": 0,
+  "searches": 4,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+  "flags": "普天間かおり/加藤登紀子/城南海 src=j-lyric index page inferred from Q3 summary. Q2 summary listed romanized names from a UtaTen songwriter page (Teresa Teng, Shimazu Aya, Kim Yong-ja, Kozai Kaori, Sawada Chikako, Peggy Hayama, Goro Hiroshi, Ikuruma) and Ōtaka Shizuru (Billboard 1993 single) but said unverified/romanized - NOT recorded; Q4 returned no vocal covers; 喜納昌吉 solo excluded (original performer); generic title 花 but titles carry the すべての人の心に花を subtitle",
+  "complete": true,
+  "queries": [
+   "\"Hana (Subete no Hito no Kokoro ni Hana wo)\" Shoukichi Kina cover version",
+   "j-lyric 花 すべての人の心に花を 歌詞",
+   "歌ネット 花 すべての人の心に花を 歌詞 カバー",
+   "花 すべての人の心に花を 喜納昌吉&チャンプルーズ カバー"
+  ]
  },
  "w110": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+  "flags": "雨宮天 from COVERSIII album (original artist 八代亜紀 stated). Skipped names listed on j-lyric 'あ' index (永井龍雲, なかの綾, 上沼恵美子, Ms.OOJA) - not tied to this song. 八代亜紀 live re-recording is a self-version.",
+  "complete": true,
+  "queries": [
+   "j-lyric 雨の慕情 歌詞",
+   "歌ネット 雨の慕情 歌詞 カバー",
+   "雨の慕情 八代亜紀 カバー"
+  ]
  },
  "w111": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+  "flags": "Generic title (ゆず / PLATINA LYLIC feat. JUJU 守ってあげたい are different songs; 原田知世 and 新垣里沙・亀井絵里 j-lyric pages skipped, same-song not shown). JUJU accepted via Q2 summary (cover album ユーミンをめぐる物語, explicit cover of 松任谷由実). 松本穂香: Billboard headline (src is one of two Billboard URLs returned, exact one unclear). 薬師丸ひろ子: Q3 summary citing NHK SONGS 2020.",
+  "complete": true,
+  "queries": [
+   "j-lyric 守ってあげたい 歌詞",
+   "守ってあげたい 松任谷由実 カバー",
+   "歌ネット 守ってあげたい 歌詞 カバー"
+  ]
  },
  "w112": {
-  "searches": 0,
+  "searches": 2,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200 calls, shared by all agents) was exhausted before this song; covers unknown, not zero."
+  "flags": "No j-lyric page surfaced in Q1. All artists come from search summaries; exact evidencing URL per artist not identifiable (src values are best-guess among Q1/Q2 results). 新山詩織 = live cover (2015). Q3 skipped (6 artists).",
+  "complete": true,
+  "queries": [
+   "j-lyric 君は天然色 歌詞",
+   "君は天然色 大滝詠一 カバー"
+  ]
  },
  "w113": {
   "searches": 3,
@@ -881,19 +1106,36 @@
   "complete": true
  },
  "w123": {
-  "searches": 0,
+  "searches": 2,
   "method": "websearch",
-  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+  "flags": "generic title but J-Lyric summary states all pages share credits 松本隆/大村雅朗. Skipped unnamed 初音ミク cover (ototoy). Q3 skipped (9 artists).",
+  "complete": true,
+  "queries": [
+   "SWEET MEMORIES 松田聖子 カバー",
+   "j-lyric SWEET MEMORIES 歌詞"
+  ]
  },
  "w124": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+  "flags": "Generic title. First three: summary confirms j-lyric pages credit 中島みゆき as lyricist/composer; 福山雅治 from j-lyric listing index 10-4 per summary. 満島ひかり: summary (カロリーメイト CM cover), src is likely j-cast article but exact result not certain. Left out YUKI and 山下達郎 (named in summary without a tied result). F-BLOOD, キマグレン etc. are different songs.",
+  "complete": true,
+  "queries": [
+   "j-lyric ファイト! 歌詞",
+   "ファイト! 中島みゆき カバー",
+   "歌ネット ファイト! 歌詞 カバー"
+  ]
  },
  "w125": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+  "flags": "generic title; both accepted since J-Lyric summary states 作詞・作曲 山下達郎. Q3 summary also mentioned 草尾毅・林延年, 天海春香, Harajuku Jenne but they came from a different-song page (恋人たちのクリスマス) - skipped. クリス・ハート kind=foreign inferred from name only",
+  "complete": true,
+  "queries": [
+   "j-lyric クリスマス・イブ 歌詞",
+   "クリスマス・イブ 山下達郎 カバー",
+   "歌ネット クリスマス・イブ 歌詞 カバー"
+  ]
  },
  "w126": {
   "searches": 2,
@@ -952,54 +1194,99 @@
   ]
  },
  "w131": {
-  "searches": 2,
+  "searches": 3,
   "method": "websearch",
-  "flags": "INCOMPLETE: WebSearch budget exhausted before Q4 (intl English query not run); Q3 not needed (>=6 artists). Only さかいゆう (feat. Kan Sano stripped) and Juice=Juice are title-evidenced. All others are summary-only with src not identifiable among the Q1/Q2 results (src empty; Re:inc. src is its j-lyric artist page, DEEN/Ms.OOJA come from a j-lyric 'ぷ' listing page summary) - treat as WEAK. 山下達郎 = live cover per summary (Takeuchi's husband; not a lyricist/composer of the song). HYEIN = NewJeans member (name as in summary). NHK The Covers guests (クレイジーケンバンド, Night Tempo, 土岐麻子, Rei) not recorded: sources say they covered Takeuchi songs, not this one.",
-  "complete": false,
+  "flags": "INCOMPLETE: WebSearch budget exhausted before Q4 (intl English query not run); Q3 not needed (>=6 artists). Only さかいゆう (feat. Kan Sano stripped) and Juice=Juice are title-evidenced. All others are summary-only with src not identifiable among the Q1/Q2 results (src empty; Re:inc. src is its j-lyric artist page, DEEN/Ms.OOJA come from a j-lyric 'ぷ' listing page summary) - treat as WEAK. 山下達郎 = live cover per summary (Takeuchi's husband; not a lyricist/composer of the song). HYEIN = NewJeans member (name as in summary). NHK The Covers guests (クレイジーケンバンド, Night Tempo, 土岐麻子, Rei) not recorded: sources say they covered Takeuchi songs, not this one. | RESUME: only Q4 run (Q1+Q2 done earlier, artists_found>=6 so Q3 n/a). Summary also mentioned Kaori Kuno digital single on Ototoy (not recorded: unsure if vocal/instrumental); Little Honda piano, Healing Energy, Atlantic Five Jazz Band excluded as instrumental/generic. CHAI and Friday Night Plans already in artists_found.",
+  "complete": true,
   "queries": [
+   "\"Plastic Love\" cover version",
    "j-lyric プラスティック・ラブ 歌詞",
    "プラスティック・ラブ 竹内まりや カバー"
   ]
  },
  "w132": {
-  "searches": 0,
+  "searches": 2,
   "method": "websearch",
-  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+  "flags": "Q3 required (3 artists) but search budget exhausted. 井上陽水 (lyricist) and 玉置浩二 (composer/original member) excluded. 中森明菜 J-Lyric page shown without credits (generic title), but summary lists it as a version of the song. 坂本冬美/嶋野百恵 & SONOMI src attribution to pia/HMV result inferred from summary.",
+  "complete": false,
+  "queries": [
+   "j-lyric 恋の予感 歌詞",
+   "恋の予感 安全地帯 カバー"
+  ]
  },
  "w133": {
-  "searches": 0,
+  "searches": 2,
   "method": "websearch",
-  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+  "flags": "Q3 (歌ネット ...) refused: WebSearch budget used up. 平井堅 kanji from romanized 'Ken Hirai' in summary (src URL path KenHirai). Skipped 西寺郷太 (Nona Reeves 'Go Nishidera', romanized, summary garbled: 'single from his album Human')",
+  "complete": false,
+  "queries": [
+   "Woman Wの悲劇より 薬師丸ひろ子 カバー",
+   "j-lyric Woman Wの悲劇より 歌詞"
+  ]
  },
  "w134": {
-  "searches": 0,
+  "searches": 2,
   "method": "websearch",
-  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+  "flags": "Q3 skipped (7 artists). Excluded as uncertain: 超特急 (summary said they performed it on NHK The Covers; source was a broadcast-announcement article, song not in title), anonymous 初音ミク cover, 雨宮天 (sonymusic URL only, no title evidence). 小林明子 English version = self.",
+  "complete": true,
+  "queries": [
+   "j-lyric 恋におちて -Fall in love- 歌詞",
+   "恋におちて Fall in love 小林明子 カバー"
+  ]
  },
  "w135": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+  "flags": "Semi-generic title (アンダーグラフ 心の瞳 is a different song, excluded). 3 artists accepted because Q3 summary labels these J-Lyric pages as covers of the 荒木とよひさ/三木たかし song; their own page credits were not shown. Only 3 distinct artists found.",
+  "complete": true,
+  "queries": [
+   "j-lyric 心の瞳 歌詞",
+   "心の瞳 坂本九 カバー",
+   "歌ネット 心の瞳 歌詞 カバー"
+  ]
  },
  "w136": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+  "flags": "Q1 pages credit 荒木とよひさ/三木たかし. 西田あい = 鹿児島弁ver. エンレイ = Teresa Teng tribute album (song listed on tribute). Mui Zyu = 'Give Yourself to the Flow of Time' reimagining (kind foreign assumed from English-language listing; low-moderate confidence). Excluded テレサ・テン (original). Q3 skipped.",
+  "complete": true,
+  "queries": [
+   "\"我只在乎你\" \"Toki no Nagare ni Mi o Makase\" cover version",
+   "j-lyric 時の流れに身をまかせ 歌詞",
+   "時の流れに身をまかせ テレサ・テン カバー"
+  ]
  },
  "w137": {
-  "searches": 0,
+  "searches": 2,
   "method": "websearch",
-  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+  "flags": "PENICILLIN/竹村こずえ/市川由紀乃/上沼恵美子/北川裕二 from search summary of J-Lyric title index page; 中森明菜/石原詢子 from tabi-mag summary. Q3 skipped (12 artists).",
+  "complete": true,
+  "queries": [
+   "j-lyric 天城越え 歌詞",
+   "天城越え 石川さゆり カバー"
+  ]
  },
  "w138": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+  "flags": "j-lyric pages for さだまさし/天童よしみ credit 小椋佳. Ms.OOJA/歌心りえ: summary says Uta-Net lists covers (src = uta-net 小椋佳 composer page, exact match unverified). キム・ヨンジャ: summary says her Hibari cover album vol.2 (2016-02-03) includes 愛燦燦; src is one of Q2 result URLs, exact one not identified. 小林幸子/城田優 NHK うたコン not stated to have sung this song, excluded.",
+  "complete": true,
+  "queries": [
+   "j-lyric 愛燦燦 歌詞",
+   "愛燦燦 美空ひばり カバー",
+   "歌ネット 愛燦燦 歌詞 カバー"
+  ]
  },
  "w139": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+  "flags": "generic title. 麻倉未稀/雨宮天/ZERO: summary says J-Lyric pages credit 竹内まりや as lyricist/composer; src URLs mapped by result order (titles were not shown). 星屑スキャット (駅/TATTOO CD 2022-12) from summary of Q2, src URL is a best guess among Q2 results. GILLE 駅 page skipped (credit not shown)",
+  "complete": true,
+  "queries": [
+   "j-lyric 駅 歌詞",
+   "歌ネット 駅 歌詞 カバー",
+   "駅 中森明菜 カバー"
+  ]
  },
  "w140": {
   "searches": 0,
@@ -1061,10 +1348,15 @@
   "complete": true
  },
  "w150": {
-  "searches": 2,
+  "searches": 5,
   "method": "websearch",
-  "flags": "PARTIAL: Q3 not run because the shared WebSearch budget ran out. Q1/Q2 found no cover artists. Generic title (とんぼ).",
-  "complete": false
+  "flags": "PARTIAL: Q3 not run because the shared WebSearch budget ran out. Q1/Q2 found no cover artists. Generic title (とんぼ). | no cover evidence found; title generic (results were other とんぼ songs)",
+  "complete": true,
+  "queries": [
+   "j-lyric とんぼ 歌詞",
+   "とんぼ 長渕剛 カバー",
+   "歌ネット とんぼ 歌詞 カバー"
+  ]
  },
  "w151": {
   "searches": 0,
@@ -1072,9 +1364,15 @@
   "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
  },
  "w152": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
+  "flags": "Last 5 artists (Acid Black Cherry, 三浦大知, 岩佐美咲, 中西保志, ダウト) from summary of j-lyric 'み' index page; いきものがかり from 私とドリカム tribute album (explicit). 未来予想図/徳永英明 (without II) is a different song, not used (徳永英明 recorded via 未来予想図Ⅱ page). クリス・ハート marked foreign (non-Japanese, active in Japan).",
+  "complete": true,
+  "queries": [
+   "j-lyric 未来予想図II 歌詞",
+   "未来予想図II DREAMS COME TRUE カバー",
+   "歌ネット 未来予想図II 歌詞 カバー"
+  ]
  },
  "w153": {
   "searches": 0,
@@ -1082,14 +1380,26 @@
   "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
  },
  "w154": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
+  "flags": "GENERIC TITLE. Only 2 accepted. Skipped 加山雄三 (j-lyric page title seen, but no same-credit evidence) and cutman-booche (different song, 林周作/cutman-booche). 井上芳雄 = NHK うたコン performance (src approximate). Piano arrangement (Abe Miho) excluded as instrumental. Low yield even after Q3.",
+  "complete": true,
+  "queries": [
+   "j-lyric 少年時代 歌詞",
+   "少年時代 井上陽水 カバー",
+   "歌ネット 少年時代 歌詞 カバー"
+  ]
  },
  "w155": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
+  "flags": "市川由衣 credit confirmed 作詞作曲 KAN. Skipped 福山潤 (appears under KAN UtaTen writer list but summary could not confirm it is a performance).",
+  "complete": true,
+  "queries": [
+   "j-lyric 愛は勝つ 歌詞",
+   "愛は勝つ KAN カバー",
+   "歌ネット 愛は勝つ 歌詞 カバー"
+  ]
  },
  "w156": {
   "searches": 3,
@@ -1176,14 +1486,27 @@
   ]
  },
  "w164": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
+  "flags": "Generic title. Q3 skipped (7 artists >= 6). j-lyric summary says 一青窈/福山雅治/天童よしみ pages carry 中島みゆき credit. 森山直太郎/JUJU/平原綾香 from Q2 summary; src URL for these is a best-guess among Q2 results (exact result not identified). Q4 gave only unverified items (Aimer version lyric video; Kobasolo & Akane YouTube description via a scraper site) - left out. modern times Bloom 糸 not confirmed same song - left out.",
+  "complete": true,
+  "queries": [
+   "\"Ito\" Miyuki Nakajima cover version",
+   "j-lyric 糸 歌詞",
+   "糸 中島みゆき カバー"
+  ]
  },
  "w165": {
-  "searches": 0,
+  "searches": 4,
   "method": "websearch",
-  "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
+  "flags": "J-Lyric summary labelled the 5 Japanese artists as cover versions of the THE BOOM song (credit 宮沢和史 shown for original only). Wikipedia summary mentions 57 covers in total",
+  "complete": true,
+  "queries": [
+   "\"Shima Uta\" Shimauta The Boom cover version",
+   "j-lyric 島唄 歌詞",
+   "島唄 THE BOOM カバー",
+   "歌ネット 島唄 歌詞 カバー"
+  ]
  },
  "w166": {
   "searches": 0,
@@ -1196,9 +1519,14 @@
   "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
  },
  "w168": {
-  "searches": 0,
+  "searches": 2,
   "method": "websearch",
-  "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
+  "flags": "Q3 skipped (8 artists). Summary confirmed 山田ひろし/柿沼清史 credits on the j-lyric pages. 佐藤竹善 with コブクロ from summary (src best-guess uta-net result). スターダスト☆レビュー self-covers/THE COVERS appearance excluded. kevin/ZERO kind assumed pro (no net evidence).",
+  "complete": true,
+  "queries": [
+   "j-lyric 木蘭の涙 歌詞",
+   "木蘭の涙 スターダスト☆レビュー カバー"
+  ]
  },
  "w169": {
   "searches": 3,
@@ -1237,16 +1565,24 @@
   "complete": true
  },
  "w175": {
-  "searches": 2,
+  "searches": 5,
   "method": "websearch",
-  "flags": "Generic title. Accepted only pages with Yoshida Miwa / Nakamura Masato credit. Excluded 加藤登紀子, 織田裕二, 平井堅, 絢香 (cover of Hirai), chihiro (all different songs). Q3 was blocked (search budget exhausted).",
-  "complete": false
+  "flags": "Generic title. Accepted only pages with Yoshida Miwa / Nakamura Masato credit. Excluded 加藤登紀子, 織田裕二, 平井堅, 絢香 (cover of Hirai), chihiro (all different songs). Q3 was blocked (search budget exhausted). | Resume song: only NEW artists listed (artists_found had 中西保志,徳永英明,河口恭吾,華原朋美). Generic title: summary stated 布施明/大橋純子 covered the 吉田美和/中村正人 song (credit matched). Skipped DJ SASA with THE ISLANDERS (credit unknown). 加藤登紀子/平井堅/織田裕二/絢香 are different songs.",
+  "complete": true,
+  "queries": [
+   "LOVE LOVE LOVE DREAMS COME TRUE カバー",
+   "j-lyric LOVE LOVE LOVE 歌詞",
+   "歌ネット LOVE LOVE LOVE 歌詞 カバー"
+  ]
  },
  "w176": {
-  "searches": 2,
+  "searches": 3,
   "method": "websearch",
-  "flags": "Generic title. j-lyric also lists チェリー pages for 世良公則, 福山雅治, つじあやの, クリス・ハート, グッバイフジヤマ, ANCHANG, PUFFY (search summary calls them covers) but credit not verifiable from results, so EXCLUDED; verification search was blocked (budget exhausted) - candidates for re-check.",
-  "complete": false
+  "flags": "Generic title. j-lyric also lists チェリー pages for 世良公則, 福山雅治, つじあやの, クリス・ハート, グッバイフジヤマ, ANCHANG, PUFFY (search summary calls them covers) but credit not verifiable from results, so EXCLUDED; verification search was blocked (budget exhausted) - candidates for re-check. | resume: done_queries was empty but searches_so_far=2 with 2 artists already found, so Q1/Q2 assumed done; ran Q3 only (hard cap 4). No new artists.",
+  "complete": true,
+  "queries": [
+   "歌ネット チェリー 歌詞 カバー"
+  ]
  },
  "w177": {
   "searches": 0,
@@ -1254,24 +1590,47 @@
   "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
  },
  "w178": {
-  "searches": 0,
+  "searches": 2,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
+  "flags": "Q1 pages credit 斉藤和義 作詞作曲. Bank Band: UtaTen summary says song is on cover album 『沿志奏逢2』. Excluded 斉藤和義 self re-recording (THE FIRST TAKE). Q3 skipped.",
+  "complete": true,
+  "queries": [
+   "j-lyric 歌うたいのバラッド 歌詞",
+   "歌うたいのバラッド 斉藤和義 カバー"
+  ]
  },
  "w179": {
-  "searches": 0,
+  "searches": 2,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
+  "flags": "BUDGET EXHAUSTED before Q3 and Q4 (intl=true; fewer than 6 artists so both were due). Summary also named Hiroshi Itsuki and Yoshiaki Tokunaga in English romanization only - skipped (no Japanese-name evidence). BEGIN (composer) excluded. src URLs for 三山ひろし/夏川りみ are best-guess result URLs from the summary.",
+  "complete": false,
+  "queries": [
+   "j-lyric 涙そうそう 歌詞",
+   "涙そうそう 森山良子 カバー"
+  ]
  },
  "w180": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
+  "flags": "杏里: j-lyric summary confirms lyric credit スガシカオ/川村結花. 川畑要: YouTube cover video 2024-11-11. 三浦大知 (2024 音楽の日) and Hey! Say! JUMP (ベストアーティスト STARTO medley) are live TV performances; src URLs are best-guess among Q2 results. Excluded 福耳 (unit of lyricist スガシカオ), Eurobeat Lovers Over The Time (no named singer), IMY (山崎育三郎/尾上松也/城田優; summary unclear it covers this song).",
+  "complete": true,
+  "queries": [
+   "j-lyric 夜空ノムコウ 歌詞",
+   "夜空ノムコウ SMAP カバー",
+   "歌ネット 夜空ノムコウ 歌詞 カバー"
+  ]
  },
  "w181": {
-  "searches": 0,
+  "searches": 4,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
+  "flags": "all four J-Lyric pages credit 玉城千春 as lyricist/composer; Q3/Q4 found nothing new",
+  "complete": true,
+  "queries": [
+   "\"Nagai Aida\" Kiroro cover version",
+   "j-lyric 長い間 歌詞",
+   "歌ネット 長い間 歌詞 カバー",
+   "長い間 Kiroro カバー"
+  ]
  },
  "w182": {
   "searches": 0,
@@ -1382,13 +1741,14 @@
   ]
  },
  "w193": {
-  "searches": 2,
+  "searches": 3,
   "method": "websearch",
-  "flags": "INCOMPLETE: Q3 (歌ネット 千の風になって 歌詞 カバー) not run - WebSearch budget exhausted; only 5 artists found (<6 so Q3 applied). src for 秋川雅史 approximate (summary: sang it at 2006 Kouhaku, no exact result named). JASRAC says 92 artists have recorded it, so many more exist.",
-  "complete": false,
+  "flags": "INCOMPLETE: Q3 (歌ネット 千の風になって 歌詞 カバー) not run - WebSearch budget exhausted; only 5 artists found (<6 so Q3 applied). src for 秋川雅史 approximate (summary: sang it at 2006 Kouhaku, no exact result named). JASRAC says 92 artists have recorded it, so many more exist. | RESUME: ran Q3 only. Evidence is from search summary (uta-net composer/lyricist lists; allabout article), attribution to exact page is loose.",
+  "complete": true,
   "queries": [
    "j-lyric 千の風になって 歌詞",
-   "千の風になって 新井満 カバー"
+   "千の風になって 新井満 カバー",
+   "歌ネット 千の風になって 歌詞 カバー"
   ]
  },
  "w194": {
@@ -1402,9 +1762,15 @@
   ]
  },
  "w195": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
+  "flags": "All 3 searches returned no result naming a non-original performer (only SMAP info, news, and 槇原敬之 self-cover which is excluded as lyricist/composer). Zero edges does not mean zero covers; search results simply did not surface any.",
+  "complete": true,
+  "queries": [
+   "j-lyric 世界に一つだけの花 歌詞",
+   "世界に一つだけの花 SMAP カバー",
+   "歌ネット 世界に一つだけの花 歌詞 カバー"
+  ]
  },
  "w196": {
   "searches": 0,
@@ -1436,15 +1802,24 @@
   "complete": true
  },
  "w201": {
-  "searches": 2,
+  "searches": 4,
   "method": "websearch",
-  "flags": "Q3 not run (web search budget exhausted). 奏 is a generic title; JUJU/高橋真梨子/JOY/LOVERS ROCREW/丸本莉子 appeared only in a j-lyric letter-index summary with no credit confirmation, so omitted. Uru and 高橋李依 srcs are best-guess among returned results (tribute album 'みんなのスキマスイッチ'; Takagi-san S2 ED).",
-  "complete": false
+  "flags": "Q3 not run (web search budget exhausted). 奏 is a generic title; JUJU/高橋真梨子/JOY/LOVERS ROCREW/丸本莉子 appeared only in a j-lyric letter-index summary with no credit confirmation, so omitted. Uru and 高橋李依 srcs are best-guess among returned results (tribute album 'みんなのスキマスイッチ'; Takagi-san S2 ED). | resume; new artists only (Uru/歌心りえ/高橋李依 already found). JUJU confirmed by tribute-album article summary; 高橋真梨子/JOY/LOVERS ROCREW come only from the search summary of J-Lyric index page (Page.114) listing cover versions - moderate confidence. Q3 skipped (>=6 artists).",
+  "complete": true,
+  "queries": [
+   "j-lyric 奏 かなで 歌詞",
+   "奏(かなで) スキマスイッチ カバー"
+  ]
  },
  "w202": {
-  "searches": 0,
+  "searches": 2,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+  "flags": "GENERIC TITLE. Q1 summary labelled 竹渕慶/ソン・シギョン/島津亜矢 as cover versions of the 藤巻亮太 song (INSPi, ビバラッシュ 粉雪 and others were separated as different songs, excluded; 藤巻亮太 = lyricist/composer/band member, excluded). 竹渕慶 title not shown (summary only). 花譜 = virtual singer in Dunlop anime MV (src approximate). 中島美嘉 = NHK performance 2024 (src approximate). 高橋李依 = voice of character 高木 in からかい上手の高木さん2 cover collection (hedged '情報もあります' via moegirl; lower confidence). Q3 skipped (6 artists).",
+  "complete": true,
+  "queries": [
+   "j-lyric 粉雪 歌詞",
+   "粉雪 レミオロメン カバー"
+  ]
  },
  "w203": {
   "searches": 0,
@@ -1452,14 +1827,24 @@
   "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
  },
  "w204": {
-  "searches": 0,
+  "searches": 1,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+  "flags": "Search budget exhausted after Q1; Q2 (蕾 コブクロ カバー) and Q3 not run. Generic title: 島津亜矢 accepted because summary states j-lyric page credits 小渕健太郎 as lyricist/composer. Tiara and Suara 蕾 pages are different songs/unconfirmed - excluded.",
+  "complete": false,
+  "queries": [
+   "j-lyric 蕾 歌詞"
+  ]
  },
  "w205": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+  "flags": "柴咲コウ credit 志村正彦 shown on J-Lyric; 藤井フミヤ/anderlust/Bank Band/チャラン・ポ・ランタン come from search summaries of the ragnet cover-list page (src URL is the ragnet list, best guess for exact page)",
+  "complete": true,
+  "queries": [
+   "j-lyric 若者のすべて 歌詞",
+   "歌ネット 若者のすべて 歌詞 カバー",
+   "若者のすべて フジファブリック カバー"
+  ]
  },
  "w206": {
   "searches": 0,
@@ -1472,9 +1857,15 @@
   "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
  },
  "w208": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+  "flags": "Generic title; summary confirmed 仲宗根泉 credit for the May J./クリス・ハート/島津亜矢 pages. 清水翔太 and ネーネーズ from summary (summary used romanized names; Japanese forms written here; src for ネーネーズ is a best-guess result). Skipped HY collaboration versions (優里 / MONGOL800 キヨサク x HY) as they involve the original artist. クリス・ハート marked foreign.",
+  "complete": true,
+  "queries": [
+   "366日 HY カバー",
+   "j-lyric 366日 歌詞",
+   "歌ネット 366日 歌詞 カバー"
+  ]
  },
  "w209": {
   "searches": 2,
@@ -1563,22 +1954,24 @@
   ]
  },
  "w217": {
-  "searches": 2,
+  "searches": 3,
   "method": "websearch",
-  "flags": "INCOMPLETE: search budget exhausted before Q3 (<6 artists so Q3 was required). PENTATONIX wording in summary was 'was set to cover ... in Japanese' (2019) - moderate confidence; src URL is the likely mdpr article. Unnamed street singers skipped.",
-  "complete": false,
+  "flags": "INCOMPLETE: search budget exhausted before Q3 (<6 artists so Q3 was required). PENTATONIX wording in summary was 'was set to cover ... in Japanese' (2019) - moderate confidence; src URL is the likely mdpr article. Unnamed street singers skipped. | resume: Q3 only; no new covers (other Pretender songs are different)",
+  "complete": true,
   "queries": [
    "Pretender Official髭男dism カバー",
-   "j-lyric Pretender 歌詞"
+   "j-lyric Pretender 歌詞",
+   "歌ネット Pretender 歌詞 カバー"
   ]
  },
  "w218": {
-  "searches": 2,
+  "searches": 3,
   "method": "websearch",
-  "flags": "INCOMPLETE: search budget exhausted before Q3 (<6 artists so Q3 was required). Generic title; the three artists come from the J-Lyric 'は' index page whose summary says their versions share 常田大希 lyric/composer credits. RIP SLYME 白日 and 椎名林檎 白日のもと are different songs (skipped).",
-  "complete": false,
+  "flags": "INCOMPLETE: search budget exhausted before Q3 (<6 artists so Q3 was required). Generic title; the three artists come from the J-Lyric 'は' index page whose summary says their versions share 常田大希 lyric/composer credits. RIP SLYME 白日 and 椎名林檎 白日のもと are different songs (skipped). | resume: Q3 only; no new artists found (RIP SLYME/GRAPEVINE etc. 白日 are different songs)",
+  "complete": true,
   "queries": [
    "j-lyric 白日 歌詞",
+   "歌ネット 白日 歌詞 カバー",
    "白日 King Gnu カバー"
   ]
  },
@@ -1588,9 +1981,16 @@
   "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
  },
  "w220": {
-  "searches": 0,
+  "searches": 4,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+  "flags": "25時、ナイトコードで。 = Project SEKAI game cover (j-lyric main page). Lisa Halim: UtaTen lyric page per summary (2020-12-16 release), nationality/kind not evident. 初音ミク from Wikipedia summary (snippet truncated; moderate confidence). Skipped 'rachie' English cover (Audiomack playlist listing only, unverified fan upload) and the official English version 'Into the Night' (YOASOBI itself). Excluded different song はしる、夜 (カネヨリマサル).",
+  "complete": true,
+  "queries": [
+   "\"Yoru ni Kakeru\" \"Racing into the Night\" cover version",
+   "j-lyric 夜に駆ける 歌詞",
+   "夜に駆ける YOASOBI カバー",
+   "歌ネット 夜に駆ける 歌詞 カバー"
+  ]
  },
  "w221": {
   "searches": 0,
@@ -1603,8 +2003,15 @@
   "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
  },
  "w223": {
-  "searches": 0,
+  "searches": 4,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+  "flags": "generic title: Q1 j-lyric results were all different songs, Q2 onward used YOASOBI in query/summary. Q4 summary also named Hololive talents Kazama Iroha & AZKi duet, Astel Leda, Kanade Izuru but attributed to the miComet article (inconsistent) - skipped. 17-language AI mashup skipped. 手越祐也 evidenced by allabout 62455 per Q3 summary",
+  "complete": true,
+  "queries": [
+   "\"Idol\" YOASOBI cover version",
+   "j-lyric アイドル 歌詞",
+   "アイドル YOASOBI カバー",
+   "歌ネット アイドル 歌詞 カバー"
+  ]
  }
 }
