@@ -174,6 +174,17 @@ async function main() {
         '',
       );
     }
+    const thin = ranked.filter((r) => r.coverCount < 3);
+    if (thin.length > 0) {
+      md.push(
+        `> ⚠ **評価保留**: 証拠が 3 件未満の曲が ${thin.length} 曲ある（例: ${thin
+          .slice(-6)
+          .map((r) => `「${r.work.title}」${r.coverCount}件`)
+          .join('、')}）。` +
+          '抜き取り調査で見つからなかっただけの可能性が高く、これらの順位は「語り継ぐ価値が低い」ことを意味しない（一覧は末尾）。',
+        '',
+      );
+    }
     md.push('| # | 曲 | 初出 | 原唱 | スコア | カバー | 世代 | 実効ジャンル | 欠損耐性 | パラメータ感度 |');
     md.push('|---|---|---|---|---|---|---|---|---|---|');
     for (const r of ranked.slice(0, top)) {
@@ -200,6 +211,11 @@ async function main() {
     md.push('## PageRank 化で大きく動いた曲（素朴なカバー数順位との差）', '');
     md.push('| 曲 | 本ランキング | カバー数順位 | カバー数 |', '|---|---|---|---|');
     for (const m of naive.movers.slice(0, 10)) md.push(`| ${m.title} | ${m.ours} | ${m.naive} | ${m.count} |`);
+    if (thin.length > 0) {
+      md.push('', '## 評価保留（証拠が 3 件未満）', '');
+      md.push('> 検索による抜き取りで証拠が集まらなかった曲。網羅的なデータ（YouTube Art Track・カタログ API）で再評価する。', '');
+      md.push(thin.map((r) => `${r.work.title}（${r.work.year}・${r.coverCount}件）`).join(' / '));
+    }
     writeFileSync(join(OUT, 'RANKING.md'), md.join('\n') + '\n');
     console.log(`out/RANKING.md と out/ranking.json を書き出しました（対象 ${ranked.length} 曲, τ=${naive.tau.toFixed(2)}）`);
     return;

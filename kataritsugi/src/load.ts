@@ -27,15 +27,20 @@ export interface Curation {
   aliases?: Record<string, string>; // 収集時の表記 -> 正規の表記（例: ローマ字表記 -> 日本語表記）
   exclude?: Array<{ workId: string; artist: string; reason: string }>;
   kind?: Record<string, Cover['kind']>; // 正規の表記 -> 種別
+  // 収集時の出典が公開年を明記している場合に限り、年を補う（持続＝単発バズ補正に使う）
+  years?: Array<{ workId: string; artist: string; year: number; reason: string }>;
 }
 
 export function applyCuration(covers: Cover[], cur: Curation): Cover[] {
-  const drop = new Set((cur.exclude ?? []).map((x) => `${x.workId}\u0000${x.artist}`));
+  const key = (workId: string, artist: string) => `${workId}\u0000${artist}`;
+  const drop = new Set((cur.exclude ?? []).map((x) => key(x.workId, x.artist)));
+  const years = new Map((cur.years ?? []).map((x) => [key(x.workId, x.artist), x.year]));
   return covers
-    .filter((c) => !drop.has(`${c.workId}\u0000${c.artist}`))
+    .filter((c) => !drop.has(key(c.workId, c.artist)))
     .map((c) => {
       const artist = cur.aliases?.[c.artist] ?? c.artist;
-      return { ...c, artist, kind: cur.kind?.[artist] ?? c.kind };
+      const year = c.year ?? years.get(key(c.workId, c.artist));
+      return { ...c, artist, kind: cur.kind?.[artist] ?? c.kind, ...(year !== undefined ? { year } : {}) };
     });
 }
 

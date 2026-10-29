@@ -1205,23 +1205,25 @@
   ]
  },
  "w132": {
-  "searches": 2,
+  "searches": 3,
   "method": "websearch",
-  "flags": "Q3 required (3 artists) but search budget exhausted. 井上陽水 (lyricist) and 玉置浩二 (composer/original member) excluded. 中森明菜 J-Lyric page shown without credits (generic title), but summary lists it as a version of the song. 坂本冬美/嶋野百恵 & SONOMI src attribution to pia/HMV result inferred from summary.",
-  "complete": false,
+  "flags": "Q3 required (3 artists) but search budget exhausted. 井上陽水 (lyricist) and 玉置浩二 (composer/original member) excluded. 中森明菜 J-Lyric page shown without credits (generic title), but summary lists it as a version of the song. 坂本冬美/嶋野百恵 & SONOMI src attribution to pia/HMV result inferred from summary. | resume: only Q3 run; no new artists (J-Lyric pages for 井上陽水=lyricist and 玉置浩二=composer/member excluded; 中森明菜 already in artists_found)",
+  "complete": true,
   "queries": [
    "j-lyric 恋の予感 歌詞",
-   "恋の予感 安全地帯 カバー"
+   "恋の予感 安全地帯 カバー",
+   "歌ネット 恋の予感 歌詞 カバー"
   ]
  },
  "w133": {
-  "searches": 2,
+  "searches": 3,
   "method": "websearch",
-  "flags": "Q3 (歌ネット ...) refused: WebSearch budget used up. 平井堅 kanji from romanized 'Ken Hirai' in summary (src URL path KenHirai). Skipped 西寺郷太 (Nona Reeves 'Go Nishidera', romanized, summary garbled: 'single from his album Human')",
-  "complete": false,
+  "flags": "Q3 (歌ネット ...) refused: WebSearch budget used up. 平井堅 kanji from romanized 'Ken Hirai' in summary (src URL path KenHirai). Skipped 西寺郷太 (Nona Reeves 'Go Nishidera', romanized, summary garbled: 'single from his album Human') | resume: ran Q3 only; src URLs for Ms.OOJA/西寺郷太 are best-guess among the result URLs the summary attributed to",
+  "complete": true,
   "queries": [
    "Woman Wの悲劇より 薬師丸ひろ子 カバー",
-   "j-lyric Woman Wの悲劇より 歌詞"
+   "j-lyric Woman Wの悲劇より 歌詞",
+   "歌ネット Woman Wの悲劇より 歌詞 カバー"
   ]
  },
  "w134": {
@@ -1289,9 +1291,14 @@
   ]
  },
  "w140": {
-  "searches": 0,
+  "searches": 2,
   "method": "websearch",
-  "flags": "NOT SEARCHED: shared WebSearch budget (200/turn) was exhausted before this song; needs re-run in a follow-up."
+  "flags": "Q3 skipped (7 artists). GRe4N BOYZ/歌心りえ/海蔵亮太 via Q1 summary citing Uta-Net composer list. Skipped unattributed Q2-summary items (梶裕貴ら声優5人 version, Newtro wotaku/梓川/SHIKI, KOBE_TV citizen choir).",
+  "complete": true,
+  "queries": [
+   "j-lyric 瑠璃色の地球 歌詞",
+   "瑠璃色の地球 松田聖子 カバー"
+  ]
  },
  "w141": {
   "searches": 3,
@@ -1359,9 +1366,15 @@
   ]
  },
  "w151": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
+  "flags": "Q3 skipped (>=6 artists). Masumi Ormandy = English version 'Like a River Flowing'. Skipped as ambiguous/non-vocal: Los Panchos (guitar tribute), 12 Girls Band (instrumental), Hiroshi Watanabe (remix). 秋川雅史/Masumi Ormandy src is the J-Lyric result page whose summary listed them",
+  "complete": true,
+  "queries": [
+   "\"Kawa no Nagare no Yo ni\" cover version",
+   "j-lyric 川の流れのように 歌詞",
+   "川の流れのように 美空ひばり カバー"
+  ]
  },
  "w152": {
   "searches": 3,
@@ -1375,9 +1388,15 @@
   ]
  },
  "w153": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
+  "flags": "Generic title; accepted only items explicitly tied to X JAPAN's 紅. Little Glee Monster from summary (カラオケ行こ! theme), src URL approximate (pia vs billboard result not distinguishable). Esprit D'Air is UK-based Japanese metal band; kind pro vs foreign ambiguous.",
+  "complete": true,
+  "queries": [
+   "j-lyric 紅 歌詞",
+   "歌ネット 紅 歌詞 カバー",
+   "紅 X JAPAN カバー"
+  ]
  },
  "w154": {
   "searches": 3,
@@ -1509,14 +1528,26 @@
   ]
  },
  "w166": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
+  "flags": "",
+  "complete": true,
+  "queries": [
+   "j-lyric 渡良瀬橋 歌詞",
+   "歌ネット 渡良瀬橋 歌詞 カバー",
+   "渡良瀬橋 森高千里 カバー"
+  ]
  },
  "w167": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT_SEARCHED: web search budget exhausted (200 WebSearch calls per turn shared by all agents). Zero covers here means unsearched, not none found."
+  "flags": "Q1 and Q3 returned only different same-titled songs; very generic title",
+  "complete": true,
+  "queries": [
+   "j-lyric 負けないで 歌詞",
+   "歌ネット 負けないで 歌詞 カバー",
+   "負けないで ZARD カバー"
+  ]
  },
  "w168": {
   "searches": 2,
@@ -1585,9 +1616,15 @@
   ]
  },
  "w177": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
+  "flags": "Generic title: 涼風真世 accepted via YOSHIKI credit in summary, 島津亜矢 via summary 'cover of YOSHIKI-written song'. 関ジャニ∞ = TV-show performance (EIGHT-JAM 2015) per summary, src is a best-guess result URL; lower confidence. Skipped Josh Groban (YOSHIKI feat. Groban live release). Skipped 東方神起/ゴスペラーズ/unistyle (different songs)",
+  "complete": true,
+  "queries": [
+   "Forever Love X JAPAN カバー",
+   "j-lyric Forever Love 歌詞",
+   "歌ネット Forever Love 歌詞 カバー"
+  ]
  },
  "w178": {
   "searches": 2,
@@ -1600,12 +1637,14 @@
   ]
  },
  "w179": {
-  "searches": 2,
+  "searches": 4,
   "method": "websearch",
-  "flags": "BUDGET EXHAUSTED before Q3 and Q4 (intl=true; fewer than 6 artists so both were due). Summary also named Hiroshi Itsuki and Yoshiaki Tokunaga in English romanization only - skipped (no Japanese-name evidence). BEGIN (composer) excluded. src URLs for 三山ひろし/夏川りみ are best-guess result URLs from the summary.",
-  "complete": false,
+  "flags": "BUDGET EXHAUSTED before Q3 and Q4 (intl=true; fewer than 6 artists so both were due). Summary also named Hiroshi Itsuki and Yoshiaki Tokunaga in English romanization only - skipped (no Japanese-name evidence). BEGIN (composer) excluded. src URLs for 三山ひろし/夏川りみ are best-guess result URLs from the summary. | Q3/Q4 run on resume; no new evidenced artists. Q3 summary generically claims 五木ひろし and 徳永英明 covered it but attributes to no specific result - left out.",
+  "complete": true,
   "queries": [
+   "\"Nada Sou Sou\" cover version",
    "j-lyric 涙そうそう 歌詞",
+   "歌ネット 涙そうそう 歌詞 カバー",
    "涙そうそう 森山良子 カバー"
   ]
  },
@@ -1633,14 +1672,26 @@
   ]
  },
  "w182": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
+  "flags": "Generic title; accepted only artists whose j-lyric page summary shows same 玉城千春 lyricist/composer credit. Excluded NEWS/岡本真夜/たまゆら/NOA/SHU-I/T.N.T (different credits = different songs). Q2 summary mentions a 2021 'news' cover but NEWS's j-lyric page is credited ヒロイズム, so not accepted. Chris Hart kind=foreign from nationality (not stated in results).",
+  "complete": true,
+  "queries": [
+   "j-lyric 未来へ 歌詞",
+   "未来へ Kiroro カバー",
+   "歌ネット 未来へ 歌詞 カバー"
+  ]
  },
  "w183": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
+  "flags": "generic title; Q1/Q3 returned only different 夏色* songs; Q2 summary mentions Deresute (idol game) use but names no artist; no evidence found",
+  "complete": true,
+  "queries": [
+   "j-lyric 夏色 歌詞",
+   "夏色 ゆず カバー",
+   "歌ネット 夏色 歌詞 カバー"
+  ]
  },
  "w184": {
   "searches": 3,
@@ -1773,9 +1824,15 @@
   ]
  },
  "w196": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch per-turn budget (200, shared across agents) was exhausted; needs re-run."
+  "flags": "Q3 skipped (9 artists after Q1+Q2). Q1 summary confirmed same credits 作詞Satomi/作曲松本良喜. Q4 summary-based artists (Eric Martin, Maktub, Hayley Westenra, Ms.OOJA, KG, Gackt [live performance only], Sakura Nogawa [name as written in English]) -- summary cited 'fan wikis and cover-listing sites' without per-artist URL; src is the likely Wikipedia result, not pinned. Skipped: Marty Friedman (guitar instrumental), Kra and Ohba Yui (garbled/uncertain in summary).",
+  "complete": true,
+  "queries": [
+   "\"Yuki no Hana\" cover version",
+   "j-lyric 雪の華 歌詞",
+   "雪の華 中島美嘉 カバー"
+  ]
  },
  "w197": {
   "searches": 4,
@@ -1822,17 +1879,24 @@
   ]
  },
  "w203": {
-  "searches": 0,
+  "searches": 2,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+  "flags": "Generic title; Q3 skipped (6 artists). KG/華原朋美/岩佐美咲/高橋克典/森山良子 accepted because the search summary explicitly called them versions of Ayaka's song (J-Lyric page titles alone show only artist+title); JAMOSA src is best-guess Billboard URL (article title 'JAMOSA ... 絢香「三日月」のカバーを配信'). Skipped 嵐/坂本真綾/月光グリーン (different songs) and Mrs. GREEN APPLE (collab with original)",
+  "complete": true,
+  "queries": [
+   "j-lyric 三日月 歌詞",
+   "三日月 絢香 カバー"
+  ]
  },
  "w204": {
-  "searches": 1,
+  "searches": 3,
   "method": "websearch",
-  "flags": "Search budget exhausted after Q1; Q2 (蕾 コブクロ カバー) and Q3 not run. Generic title: 島津亜矢 accepted because summary states j-lyric page credits 小渕健太郎 as lyricist/composer. Tiara and Suara 蕾 pages are different songs/unconfirmed - excluded.",
-  "complete": false,
+  "flags": "Search budget exhausted after Q1; Q2 (蕾 コブクロ カバー) and Q3 not run. Generic title: 島津亜矢 accepted because summary states j-lyric page credits 小渕健太郎 as lyricist/composer. Tiara and Suara 蕾 pages are different songs/unconfirmed - excluded. | resume: only new artists recorded (none new; 島津亜矢 was already found). Q2/Q3 returned no usable results.",
+  "complete": true,
   "queries": [
-   "j-lyric 蕾 歌詞"
+   "j-lyric 蕾 歌詞",
+   "歌ネット 蕾 歌詞 カバー",
+   "蕾 コブクロ カバー"
   ]
  },
  "w205": {
@@ -1847,14 +1911,26 @@
   ]
  },
  "w206": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+  "flags": "GILLE spelled as in j-lyric title (Q3 summary wrote JILLE); GILLE version has English lyrics. DJ SASA with THE ISLANDERS is a j-lyric 'cover version' page per summary.",
+  "complete": true,
+  "queries": [
+   "j-lyric また君に恋してる 歌詞",
+   "また君に恋してる ビリー・バンバン カバー",
+   "歌ネット また君に恋してる 歌詞 カバー"
+  ]
  },
  "w207": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+  "flags": "歌心りえ from Uta-Net composer-list entry (same 越智志帆・多保孝一・いしわたり淳治 credits) quoted in search summary; AWA orgel and 12人のヴァイオリニスト versions excluded as non-vocal",
+  "complete": true,
+  "queries": [
+   "j-lyric 愛をこめて花束を 歌詞",
+   "愛をこめて花束を Superfly カバー",
+   "歌ネット 愛をこめて花束を 歌詞 カバー"
+  ]
  },
  "w208": {
   "searches": 3,
@@ -1976,9 +2052,14 @@
   ]
  },
  "w219": {
-  "searches": 0,
+  "searches": 2,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+  "flags": "Generic title; Q1 returned only メロン記念日 '香水' (different song, excluded). All covers are 2020 celebrity/viral 歌ってみた videos (talents/comedians, not singers) from Q2 summary; summary did not pin per-artist URLs so src is a likely result among the Q2 set (daily.co.jp date matches チョコレートプラネット item). Names as written (ノンスタ井上, アンジャッシュ児嶋 abbreviated). Q3 skipped (9 artists).",
+  "complete": true,
+  "queries": [
+   "j-lyric 香水 歌詞",
+   "香水 瑛人 カバー"
+  ]
  },
  "w220": {
   "searches": 4,
@@ -1993,14 +2074,27 @@
   ]
  },
  "w221": {
-  "searches": 0,
+  "searches": 4,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+  "flags": "J-Lyric had no LiSA page in results. src URLs for 宇野実彩子/岡野昭仁/MAY are best-guess among result URLs the summary attributed to. AmaLee (English cover) from summary mentioning Audiomack listings only, src is a guess playlist URL; lower confidence. GARNiDELiA summary called it a 'self cover' (odd; they are not the original) - kept as cover. Skipped as instrumental/remix: Marty Friedman (guitar cover), PianoDeuss (piano), yeano (hip-hop remix)",
+  "complete": true,
+  "queries": [
+   "\"Gurenge\" cover version",
+   "j-lyric 紅蓮華 歌詞",
+   "歌ネット 紅蓮華 歌詞 カバー",
+   "紅蓮華 LiSA カバー"
+  ]
  },
  "w222": {
-  "searches": 0,
+  "searches": 3,
   "method": "websearch",
-  "flags": "NOT SEARCHED: WebSearch budget (200 per turn, shared across agents) was exhausted before this song; covers unknown, not 'zero covers'."
+  "flags": "Generic title; Q2 summary explicitly ties covers to 優里's song. src URLs are best-guess among Q2 results (summary did not cite per-item). Taka = ONE OK ROCK vocalist (Instagram cover video). IVE (Korean group) members Rei and Leeseo, credited as 'IVEのレイとイソ'; kind foreign (group is Korean). Q3 results were all different songs (須澤紀信, 藤谷美和子, シナリオアート etc.), skipped. Q1 summary also said Uru cover appeared on single 'Break' (inconsistent with Q2's ファーストラヴ); artist unaffected.",
+  "complete": true,
+  "queries": [
+   "j-lyric ドライフラワー 歌詞",
+   "ドライフラワー 優里 カバー",
+   "歌ネット ドライフラワー 歌詞 カバー"
+  ]
  },
  "w223": {
   "searches": 4,

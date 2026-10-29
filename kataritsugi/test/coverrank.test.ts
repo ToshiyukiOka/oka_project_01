@@ -178,3 +178,13 @@ test('同時代内 z: 同じ年代の中で突出した曲が正、埋もれた�
   const z = cohortZ(rankWorks({ works: ws, covers, artists: {}, identities: [] }, DEFAULT_PARAMS).ranked);
   assert.ok(z.get('N5')! > 0 && z.get('N0')! < 0);
 });
+
+test('キュレーションで補った公開年により、単発バズ補正が効く', async () => {
+  const { applyCuration } = await import('../src/load.ts');
+  const covers = ['a', 'b', 'c', 'd', 'e'].map((x) => cover('W', x));
+  const curated = applyCuration(covers, {
+    years: ['a', 'b', 'c', 'd', 'e'].map((artist) => ({ workId: 'W', artist, year: 2020, reason: 'test' })),
+  });
+  const ds: Dataset = { works: [work('W', 'O', 2019)], covers: curated, artists: {}, identities: [] };
+  assert.equal(rankWorks(ds, DEFAULT_PARAMS).ranked[0].burstMultiplier, DEFAULT_PARAMS.burstFloor);
+});
